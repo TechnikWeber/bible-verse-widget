@@ -28,13 +28,26 @@ KCM.SimpleKCM {
         Controls.ComboBox {
             id: sourceBox
             Kirigami.FormData.label: i18n("Source:")
-            model: [
+            readonly property var options: [
                 { value: "curated",  label: i18n("Curated verse list (offline)") },
                 { value: "losungen", label: i18n("Herrnhuter Losungen") }
             ]
+            model: options
             textRole: "label"
             valueRole: "value"
-            currentIndex: Math.max(0, indexOfValue(cfg_source))
+            /* indexOfValue() reads the model from C++, so a binding on it is
+             * never re-evaluated once the model exists. Plasma can supply the
+             * config value before that, which left the box showing the first
+             * entry while the setting itself was something else. Matching
+             * against a declared property keeps the binding honest. */
+            currentIndex: {
+                for (var index = 0; index < options.length; index++) {
+                    if (options[index].value === cfg_source) {
+                        return index;
+                    }
+                }
+                return 0;
+            }
             onActivated: cfg_source = currentValue
         }
 
@@ -83,15 +96,23 @@ KCM.SimpleKCM {
         Controls.ComboBox {
             Kirigami.FormData.label: i18n("Translation:")
             enabled: cfg_source === "curated"
-            model: [
+            readonly property var options: [
                 { value: "auto", label: i18n("Follow system language") },
                 { value: "de",   label: i18n("German — Lutherbibel 1912") },
                 { value: "en",   label: i18n("English — World English Bible") },
                 { value: "es",   label: i18n("Spanish — Reina-Valera 1909") }
             ]
+            model: options
             textRole: "label"
             valueRole: "value"
-            currentIndex: Math.max(0, indexOfValue(cfg_language))
+            currentIndex: {
+                for (var index = 0; index < options.length; index++) {
+                    if (options[index].value === cfg_language) {
+                        return index;
+                    }
+                }
+                return 0;
+            }
             onActivated: cfg_language = currentValue
         }
 
@@ -106,13 +127,21 @@ KCM.SimpleKCM {
 
         Controls.ComboBox {
             Kirigami.FormData.label: i18n("Text size:")
-            model: [
+            readonly property var options: [
                 { value: "fit",   label: i18n("Scale to the widget") },
                 { value: "fixed", label: i18n("Fixed size") }
             ]
+            model: options
             textRole: "label"
             valueRole: "value"
-            currentIndex: Math.max(0, indexOfValue(cfg_fontSizeMode))
+            currentIndex: {
+                for (var index = 0; index < options.length; index++) {
+                    if (options[index].value === cfg_fontSizeMode) {
+                        return index;
+                    }
+                }
+                return 0;
+            }
             onActivated: cfg_fontSizeMode = currentValue
         }
 
@@ -130,13 +159,11 @@ KCM.SimpleKCM {
 
             Controls.ComboBox {
                 Layout.fillWidth: true
-                model: [""].concat(Qt.fontFamilies())
+                readonly property var families: [""].concat(Qt.fontFamilies())
+                model: families
                 displayText: currentIndex === 0 ? i18n("Desktop default") : currentText
+                currentIndex: Math.max(0, families.indexOf(cfg_fontFamily))
                 onActivated: cfg_fontFamily = currentIndex === 0 ? "" : currentText
-                Component.onCompleted: {
-                    var index = model.indexOf(cfg_fontFamily);
-                    currentIndex = index > 0 ? index : 0;
-                }
             }
 
             Controls.CheckBox {
@@ -150,26 +177,42 @@ KCM.SimpleKCM {
 
         Controls.ComboBox {
             Kirigami.FormData.label: i18n("Alignment:")
-            model: [
+            readonly property var options: [
                 { value: "center", label: i18n("Centred") },
                 { value: "left",   label: i18n("Left") }
             ]
+            model: options
             textRole: "label"
             valueRole: "value"
-            currentIndex: Math.max(0, indexOfValue(cfg_alignment))
+            currentIndex: {
+                for (var index = 0; index < options.length; index++) {
+                    if (options[index].value === cfg_alignment) {
+                        return index;
+                    }
+                }
+                return 0;
+            }
             onActivated: cfg_alignment = currentValue
         }
 
         Controls.ComboBox {
             Kirigami.FormData.label: i18n("Background:")
-            model: [
+            readonly property var options: [
                 { value: "panel",  label: i18n("Plasma panel background") },
                 { value: "shadow", label: i18n("None, with a shadow behind the text") },
                 { value: "none",   label: i18n("None") }
             ]
+            model: options
             textRole: "label"
             valueRole: "value"
-            currentIndex: Math.max(0, indexOfValue(cfg_backgroundMode))
+            currentIndex: {
+                for (var index = 0; index < options.length; index++) {
+                    if (options[index].value === cfg_backgroundMode) {
+                        return index;
+                    }
+                }
+                return 0;
+            }
             onActivated: cfg_backgroundMode = currentValue
         }
 
