@@ -104,9 +104,9 @@ KCM.SimpleKCM {
         Controls.ComboBox {
             Kirigami.FormData.label: i18n("Background:")
             model: [
+                { value: "panel",  label: i18n("Plasma panel background") },
                 { value: "shadow", label: i18n("None, with a shadow behind the text") },
-                { value: "none",   label: i18n("None") },
-                { value: "panel",  label: i18n("Plasma panel background") }
+                { value: "none",   label: i18n("None") }
             ]
             textRole: "label"
             valueRole: "value"

@@ -5,6 +5,8 @@
 Jeden Tag ein Bibelvers, direkt auf dem Schreibtisch — kein Fenster zum Öffnen,
 kein Konto, kein Internet.
 
+<img src="docs/screenshot-de.png" alt="Das Widget zeigt Hosea 6,3" width="340">
+
 Zwei native Widgets, eine gemeinsame Versliste:
 
 | Desktop | Widget | Wo es liegt |
@@ -64,7 +66,8 @@ Beide Widgets bieten dieselben Optionen:
 - **Stelle anzeigen** — Buch, Kapitel und Vers unter dem Text
 - **Textgröße** — feste Punktgröße oder an das Widget angepasst (Plasma)
 - **Schriftart, kursiv, Ausrichtung, Farbe**
-- **Schatten hinter dem Text**, damit er auch auf hellem Hintergrundbild lesbar
+- **Hintergrund** — der Plasma-Hintergrund (Standard) oder keiner, wahlweise
+  mit Schatten hinter dem Text, damit er auch auf hellem Hintergrundbild lesbar
   bleibt
 
 **Ein Klick auf das Widget kopiert** Vers, Stelle und Übersetzung in die

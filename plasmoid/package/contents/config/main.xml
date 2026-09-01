@@ -32,8 +32,8 @@
             <default>#ffffff</default>
         </entry>
         <entry name="backgroundMode" type="String">
-            <label>"none", "shadow" or "panel".</label>
-            <default>shadow</default>
+            <label>"panel", "shadow" or "none".</label>
+            <default>panel</default>
         </entry>
         <entry name="alignment" type="String">
             <label>"left" or "center".</label>

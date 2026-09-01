@@ -5,6 +5,8 @@
 A Bible verse for every day, sitting directly on your desktop — no window to
 open, no account, no network.
 
+<img src="docs/screenshot.png" alt="The widget showing Hosea 6:3" width="340">
+
 Two native widgets, one shared verse list:
 
 | Desktop | Widget | Where it lives |
@@ -60,7 +62,8 @@ Both widgets offer the same settings:
 - **Show reference** — book, chapter and verse under the text
 - **Text size** — a fixed point size, or scaled to the widget (Plasma)
 - **Font, italic, alignment, colour**
-- **Shadow behind the text**, so it stays readable on a bright wallpaper
+- **Background** — the Plasma panel background (default), or none, optionally
+  with a shadow behind the text so it stays readable on a bright wallpaper
 
 **Click the widget to copy** the verse, its reference and the translation to the
 clipboard.
