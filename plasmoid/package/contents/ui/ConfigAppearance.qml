@@ -173,6 +173,32 @@ KCM.SimpleKCM {
             onActivated: cfg_backgroundMode = currentValue
         }
 
+        Item { Kirigami.FormData.isSection: true }
+
+        ColumnLayout {
+            Kirigami.FormData.label: i18n("After an update:")
+            Layout.maximumWidth: Kirigami.Units.gridUnit * 24
+            spacing: Kirigami.Units.smallSpacing
+
+            Controls.Label {
+                Layout.fillWidth: true
+                wrapMode: Text.WordWrap
+                font: Kirigami.Theme.smallFont
+                text: i18n("Plasma keeps running widgets on the code they started "
+                         + "with, so a newly installed version only appears after "
+                         + "the desktop shell restarts. Panels and the desktop "
+                         + "blink; windows and applications are not affected.")
+            }
+
+            Controls.Button {
+                icon.name: "system-reboot"
+                text: i18n("Restart Plasma now")
+                onClicked: shellRestarter.restart()
+            }
+        }
+
+        Item { Kirigami.FormData.isSection: true }
+
         RowLayout {
             Kirigami.FormData.label: i18n("Text colour:")
 
@@ -240,6 +266,29 @@ KCM.SimpleKCM {
             message = failed
                 ? i18n("Import failed: %1", output.split("\n").pop())
                 : i18n("Imported. %1", output.split("\n")[0].trim());
+        }
+    }
+
+    /* Restarting the shell kills this dialog and the process that launched the
+     * command, so the command is detached with setsid first. systemd owns
+     * plasmashell on a normal Plasma 6 session; the kquitapp fallback covers a
+     * session started some other way. */
+    P5Support.DataSource {
+        id: shellRestarter
+
+        engine: "executable"
+        connectedSources: []
+
+        function restart() {
+            connectSource(
+                "setsid --fork sh -c '"
+                + "systemctl --user restart plasma-plasmashell.service "
+                + "|| { kquitapp6 plasmashell; sleep 2; kstart plasmashell; }"
+                + "' >/dev/null 2>&1");
+        }
+
+        onNewData: function (name) {
+            disconnectSource(name);
         }
     }
 

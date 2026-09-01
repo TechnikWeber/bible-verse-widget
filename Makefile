@@ -4,7 +4,7 @@ PLASMOID_ID  := com.technikweber.bibleverse
 DESKLET_TARGET  := $(HOME)/.local/share/cinnamon/desklets/$(DESKLET_UUID)
 DIST            := dist
 
-.PHONY: help data sync check test dist clean losungen \
+.PHONY: help data sync check test dist clean losungen reload \
         install-plasmoid uninstall-plasmoid install-desklet uninstall-desklet
 
 help:
@@ -15,6 +15,7 @@ help:
 	@echo "install-desklet      install the Cinnamon desklet for the current user"
 	@echo "dist                 build the store packages into $(DIST)/"
 	@echo "losungen FILE=…      import a Herrnhuter Losungen year file you downloaded"
+	@echo "reload               restart plasmashell so a reinstalled plasmoid takes effect"
 
 data:
 	python3 tools/build_verses.py
@@ -33,6 +34,12 @@ check:
 install-plasmoid: sync
 	kpackagetool6 --type Plasma/Applet --install plasmoid/package \
 		|| kpackagetool6 --type Plasma/Applet --upgrade plasmoid/package
+
+# Plasma keeps running widgets on the code they started with, so a reinstalled
+# plasmoid only takes effect once the shell restarts.
+reload:
+	systemctl --user restart plasma-plasmashell.service \
+		|| { kquitapp6 plasmashell; sleep 2; kstart plasmashell; }
 
 uninstall-plasmoid:
 	kpackagetool6 --type Plasma/Applet --remove $(PLASMOID_ID)

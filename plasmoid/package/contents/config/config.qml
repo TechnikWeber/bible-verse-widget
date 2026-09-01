@@ -3,8 +3,8 @@ import org.kde.plasma.configuration
 
 ConfigModel {
     ConfigCategory {
-        name: i18n("Appearance")
-        icon: "preferences-desktop-color"
+        name: i18n("Settings")
+        icon: "preferences-desktop"
         source: "ConfigAppearance.qml"
     }
 }
