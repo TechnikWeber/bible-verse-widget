@@ -62,6 +62,7 @@ hinzufügen*.
 
 Beide Widgets bieten dieselben Optionen:
 
+- **Quelle** — die kuratierte Liste oder die Herrnhuter Losungen
 - **Übersetzung** — der Systemsprache folgen oder fest auswählen
 - **Stelle anzeigen** — Buch, Kapitel und Vers unter dem Text
 - **Textgröße** — feste Punktgröße oder an das Widget angepasst (Plasma)
@@ -87,9 +88,23 @@ implementiert, das beide Frontends wörtlich verwenden.
 [`tests/test_selection.py`](tests/test_selection.py) enthält eine
 Referenzimplementierung und prüft das JavaScript dagegen.
 
-## Der Text
+## Woher die Verse kommen
 
-1000 kuratierte Stellen, aufgelöst gegen gemeinfreie Texte:
+Das Widget hat zwei Quellen, umschaltbar in den Einstellungen.
+
+### Kuratierte Liste (Standard)
+
+1000 Stellen, von Hand gepflegt in
+[`data/references.txt`](data/references.txt) und gegen gemeinfreie Texte
+aufgelöst. 600 aus dem Alten, 400 aus dem Neuen Testament, alle 66 Bücher
+vertreten.
+
+Damit klar ist, was das ist: **meine eigene Auswahl**, nicht die einer Kirche.
+Sie neigt zu bekannten und ermutigenden Versen. Wem das wichtig ist, der
+bearbeitet die Datei — sie enthält nichts als Stellenangaben, eine pro Zeile,
+und `make data` prüft jede Änderung.
+
+Der Wortlaut stammt aus gemeinfreien Texten:
 
 | Sprache | Übersetzung | Lizenz |
 |---|---|---|
@@ -97,21 +112,47 @@ Referenzimplementierung und prüft das JavaScript dagegen.
 | Englisch | World English Bible | gemeinfrei |
 | Spanisch | Reina-Valera 1909 | gemeinfrei |
 
-Zur Laufzeit wird nichts nachgeladen — die Verse liegen in jedem Paket, beide
-Widgets laufen also vollständig offline und brauchen keine Netzwerkrechte.
-
-Von Hand gepflegt werden nur die Stellenangaben in
-[`data/references.txt`](data/references.txt); der Wortlaut stammt immer aus den
+Zur Laufzeit wird nichts nachgeladen — die Verse liegen in jedem Paket, diese
+Quelle läuft also vollständig offline und braucht keine Netzwerkrechte. Von Hand
+gepflegt werden nur die Stellenangaben; der Wortlaut kommt immer aus den
 Quelltexten und wird von `tools/build_verses.py` eingesetzt.
 
-### Zur Verszählung
+#### Zur Verszählung
 
 Deutsche, englische und spanische Bibeln zählen einige Kapitel unterschiedlich,
 dieselbe Stellenangabe kann also auf verschiedene Passagen zeigen. Der Build
 weist Stellen aus bekannten Problemkapiteln zurück und vergleicht zusätzlich die
 Länge der drei Fassungen jeder Stelle. Diese zweite Prüfung hat Johannes 10
-aufgedeckt: alle drei Ausgaben haben dort 42 Verse, aber Luther 1912 teilt
-Vers 10 in zwei.
+aufgedeckt — alle drei Ausgaben haben dort 42 Verse, aber Luther 1912 teilt
+Vers 10 in zwei — und Jona 2, wo die Verszahlen ebenfalls übereinstimmen und
+Reina-Valera trotzdem um eins verschoben ist.
+
+### Herrnhuter Losungen
+
+Die [Losungen](https://www.losungen.de/) erscheinen bei der Evangelischen
+Brüder-Unität (Herrnhuter Brüdergemeine) seit **1731** jährlich — das am
+längsten durchgehend publizierte Andachtsbuch der Welt, rund eine Million
+Exemplare pro Jahr in über 50 Sprachen.
+
+Jeder Tag hat zwei Texte. Die **Losung** ist ein Vers aus dem Alten Testament,
+Jahre im Voraus **durch das Los gezogen** aus einem Vorrat von etwa 1800
+vorausgewählten Versen — niemand entscheidet also, welcher Vers auf welchen Tag
+fällt. Der **Lehrtext** ist ein Vers aus dem Neuen Testament, den die Redaktion
+als Antwort darauf auswählt.
+
+Die Losungen sind für nicht-kommerzielle Nutzung kostenfrei, aber **kein freier
+Inhalt** — kostenpflichtige Software und kommerzielle Seiten sind ausgeschlossen,
+was mit der GPL dieses Programms unvereinbar ist. Die Daten liegen deshalb nicht
+hier. Lade die Jahresdatei selbst unter <https://www.losungen.de/digital/>
+herunter, wo du die Nutzungsbedingungen akzeptierst, und importiere sie:
+
+```sh
+make losungen FILE=~/Downloads/Losungen_2026.zip
+```
+
+Das schreibt `~/.local/share/bible-verse-widget/losungen-<Jahr>.json`, das beide
+Widgets lesen. Das muss jedes Jahr wiederholt werden, weil immer nur das
+laufende und das kommende Jahr veröffentlicht sind.
 
 ## Mitarbeiten
 

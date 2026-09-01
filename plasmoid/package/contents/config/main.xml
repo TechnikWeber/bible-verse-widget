@@ -5,6 +5,10 @@
                           http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
     <kcfgfile name=""/>
     <group name="General">
+        <entry name="source" type="String">
+            <label>"curated" or "losungen".</label>
+            <default>curated</default>
+        </entry>
         <entry name="language" type="String">
             <label>Translation to display, or "auto" to follow the system language.</label>
             <default>auto</default>

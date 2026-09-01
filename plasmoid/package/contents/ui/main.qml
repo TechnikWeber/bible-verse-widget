@@ -35,11 +35,12 @@ PlasmoidItem {
 
     VerseSource {
         id: verse
+        mode: Plasmoid.configuration.source
         language: Plasmoid.configuration.language
     }
 
-    toolTipMainText: verse.reference
-    toolTipSubText: i18n("%1 — click to copy", verse.translationName)
+    toolTipMainText: verse.entries.length > 0 ? verse.entries[0].ref : ""
+    toolTipSubText: i18n("%1 — click to copy", verse.attribution)
 
     fullRepresentation: MouseArea {
         Layout.minimumWidth: Kirigami.Units.gridUnit * 8
@@ -73,44 +74,88 @@ PlasmoidItem {
             anchors.margins: Kirigami.Units.smallSpacing
             spacing: Kirigami.Units.smallSpacing
 
-            PlasmaComponents.Label {
-                Layout.fillWidth: true
-                Layout.fillHeight: true
+            Repeater {
+                model: verse.problem ? [] : verse.entries
 
-                text: verse.text
-                color: root.textColor
-                wrapMode: Text.WordWrap
-                horizontalAlignment: root.horizontalAlignment
-                verticalAlignment: Text.AlignVCenter
-                elide: Text.ElideRight
+                ColumnLayout {
+                    required property var modelData
 
-                font.family: root.fontFamily
-                font.italic: Plasmoid.configuration.italic
-                font.pointSize: root.scaleToWidget
-                    ? root.upperPointSize
-                    : Plasmoid.configuration.fontSize
-                fontSizeMode: root.scaleToWidget ? Text.Fit : Text.FixedSize
-                minimumPointSize: 6
+                    Layout.fillWidth: true
+                    Layout.fillHeight: true
+                    spacing: 0
 
-                style: root.shadowed ? Text.Raised : Text.Normal
-                styleColor: root.shadowed ? Qt.rgba(0, 0, 0, 0.7) : "transparent"
+                    PlasmaComponents.Label {
+                        Layout.fillWidth: true
+                        Layout.fillHeight: true
+
+                        text: modelData.text
+                        color: root.textColor
+                        wrapMode: Text.WordWrap
+                        horizontalAlignment: root.horizontalAlignment
+                        verticalAlignment: Text.AlignVCenter
+                        elide: Text.ElideRight
+
+                        font.family: root.fontFamily
+                        font.italic: Plasmoid.configuration.italic
+                        font.pointSize: root.scaleToWidget
+                            ? root.upperPointSize
+                            : Plasmoid.configuration.fontSize
+                        fontSizeMode: root.scaleToWidget ? Text.Fit : Text.FixedSize
+                        minimumPointSize: 6
+
+                        style: root.shadowed ? Text.Raised : Text.Normal
+                        styleColor: root.shadowed ? Qt.rgba(0, 0, 0, 0.7) : "transparent"
+                    }
+
+                    PlasmaComponents.Label {
+                        Layout.fillWidth: true
+                        Layout.topMargin: Kirigami.Units.smallSpacing
+                        visible: Plasmoid.configuration.showReference
+
+                        text: modelData.ref
+                        color: root.textColor
+                        opacity: 0.75
+                        wrapMode: Text.WordWrap
+                        horizontalAlignment: root.horizontalAlignment
+
+                        font.family: root.fontFamily
+                        font.bold: true
+                        font.pointSize: root.scaleToWidget
+                            ? Kirigami.Theme.defaultFont.pointSize
+                            : Math.max(6, Plasmoid.configuration.fontSize - 2)
+
+                        style: root.shadowed ? Text.Raised : Text.Normal
+                        styleColor: root.shadowed ? Qt.rgba(0, 0, 0, 0.7) : "transparent"
+                    }
+                }
             }
 
             PlasmaComponents.Label {
                 Layout.fillWidth: true
-                visible: Plasmoid.configuration.showReference
+                Layout.fillHeight: true
+                visible: verse.problem !== ""
 
-                text: verse.reference
+                text: verse.problem
                 color: root.textColor
-                opacity: 0.75
+                wrapMode: Text.WordWrap
+                horizontalAlignment: Text.AlignHCenter
+                verticalAlignment: Text.AlignVCenter
+                font.family: root.fontFamily
+            }
+
+            /* The Losungen are used by permission; the notice stays visible. */
+            PlasmaComponents.Label {
+                Layout.fillWidth: true
+                visible: Plasmoid.configuration.source === "losungen"
+                    && verse.problem === ""
+
+                text: verse.attribution
+                color: root.textColor
+                opacity: 0.5
                 wrapMode: Text.WordWrap
                 horizontalAlignment: root.horizontalAlignment
-
                 font.family: root.fontFamily
-                font.bold: true
-                font.pointSize: root.scaleToWidget
-                    ? Kirigami.Theme.defaultFont.pointSize
-                    : Math.max(6, Plasmoid.configuration.fontSize - 2)
+                font.pointSize: Kirigami.Theme.smallFont.pointSize
 
                 style: root.shadowed ? Text.Raised : Text.Normal
                 styleColor: root.shadowed ? Qt.rgba(0, 0, 0, 0.7) : "transparent"

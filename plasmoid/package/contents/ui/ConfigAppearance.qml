@@ -8,6 +8,7 @@ import org.kde.kcmutils as KCM
 KCM.SimpleKCM {
     id: page
 
+    property string cfg_source
     property string cfg_language
     property bool cfg_showReference
     property string cfg_fontSizeMode
@@ -23,7 +24,33 @@ KCM.SimpleKCM {
         anchors.fill: parent
 
         Controls.ComboBox {
+            id: sourceBox
+            Kirigami.FormData.label: i18n("Source:")
+            model: [
+                { value: "curated",  label: i18n("Curated verse list (offline)") },
+                { value: "losungen", label: i18n("Herrnhuter Losungen") }
+            ]
+            textRole: "label"
+            valueRole: "value"
+            onActivated: cfg_source = currentValue
+            Component.onCompleted: currentIndex = indexOfValue(cfg_source)
+        }
+
+        Controls.Label {
+            Kirigami.FormData.label: ""
+            visible: cfg_source === "losungen"
+            Layout.maximumWidth: Kirigami.Units.gridUnit * 20
+            wrapMode: Text.WordWrap
+            font: Kirigami.Theme.smallFont
+            text: i18n("The Losungen are free for non-commercial use only, so they "
+                     + "are not shipped with this widget. Download the year file "
+                     + "from losungen.de and import it with "
+                     + "tools/import_losungen.py.")
+        }
+
+        Controls.ComboBox {
             Kirigami.FormData.label: i18n("Translation:")
+            enabled: cfg_source === "curated"
             model: [
                 { value: "auto", label: i18n("Follow system language") },
                 { value: "de",   label: i18n("German — Lutherbibel 1912") },

@@ -1,9 +1,18 @@
 /*
- * Bible Verse — a Cinnamon desklet showing one verse per day.
+ * Bible Verse — a Cinnamon desklet showing one passage per day.
  *
- * The verse lists live in data/*.json and the day-to-verse mapping in
- * selection.js; both are generated from the repository root and shared verbatim
- * with the KDE Plasmoid, so both widgets show the same verse on the same day.
+ * Two sources:
+ *
+ *   "curated"  — the bundled lists in data/*.json, mapped to the day by
+ *                selection.js. Both files are generated from the repository
+ *                root and shared verbatim with the KDE Plasmoid, so both
+ *                widgets show the same verse on the same day.
+ *
+ *   "losungen" — the Herrnhuter Losungen, imported onto this machine by
+ *                tools/import_losungen.py. That data is free for
+ *                non-commercial use only, so it is never shipped with the
+ *                desklet and is read from the user's data directory instead.
+ *                A day then has two passages, the Losung and the Lehrtext.
  *
  * Everything is local — the desklet never touches the network.
  */
@@ -72,12 +81,15 @@ BibleVerseDesklet.prototype = {
 
         this._data = null;
         this._loadedLanguage = null;
+        this._losungen = null;
+        this._losungenYear = 0;
         this._dateKey = null;
         this._plainText = "";
         this._timeoutId = 0;
 
         this.settings = new Settings.DeskletSettings(this, UUID, deskletId);
         const redraw = {
+            "source": "source",
             "language": "language",
             "show-reference": "show_reference",
             "width": "desklet_width",
@@ -100,15 +112,8 @@ BibleVerseDesklet.prototype = {
     },
 
     _buildUI: function () {
-        this._verseLabel = new St.Label({ style_class: "bible-verse-text" });
-        this._referenceLabel = new St.Label({ style_class: "bible-verse-reference" });
-
-        [this._verseLabel, this._referenceLabel].forEach((label) => {
-            const text = label.get_clutter_text();
-            text.set_line_wrap(true);
-            text.set_line_wrap_mode(Pango.WrapMode.WORD_CHAR);
-            text.set_ellipsize(Pango.EllipsizeMode.NONE);
-        });
+        this._passages = new St.BoxLayout({ vertical: true });
+        this._attributionLabel = this._makeLabel();
 
         this._container = new St.BoxLayout({
             vertical: true,
@@ -116,12 +121,43 @@ BibleVerseDesklet.prototype = {
             track_hover: true,
             style_class: "bible-verse-container"
         });
-        this._container.add(this._verseLabel, { expand: true, x_fill: true });
-        this._container.add(this._referenceLabel, { x_fill: true });
+        this._container.add(this._passages, { expand: true, x_fill: true });
+        this._container.add(this._attributionLabel, { x_fill: true });
         this._container.connect("button-release-event", () => this._onClicked());
 
         this.setContent(this._container);
-        this._applyStyle();
+    },
+
+    _makeLabel: function () {
+        const label = new St.Label();
+        const text = label.get_clutter_text();
+        text.set_line_wrap(true);
+        text.set_line_wrap_mode(Pango.WrapMode.WORD_CHAR);
+        text.set_ellipsize(Pango.EllipsizeMode.NONE);
+        return label;
+    },
+
+    /* One text label plus one reference label per passage. */
+    _renderPassages: function (entries) {
+        this._passages.destroy_all_children();
+        this._textLabels = [];
+        this._referenceLabels = [];
+
+        entries.forEach((entry, index) => {
+            const text = this._makeLabel();
+            text.set_text(entry.text);
+            if (index > 0) {
+                text.set_style("padding-top: 10px;");
+            }
+            this._passages.add(text, { x_fill: true });
+            this._textLabels.push(text);
+
+            const reference = this._makeLabel();
+            reference.set_text(entry.ref);
+            reference.visible = this.show_reference;
+            this._passages.add(reference, { x_fill: true });
+            this._referenceLabels.push(reference);
+        });
     },
 
     /* --- data ------------------------------------------------------------ */
@@ -158,25 +194,94 @@ BibleVerseDesklet.prototype = {
         }
     },
 
+    _losungenPath: function (year) {
+        return GLib.get_user_data_dir() + "/bible-verse-widget/losungen-" + year + ".json";
+    },
+
+    _loadLosungen: function (year) {
+        if (this._losungen && this._losungenYear === year) {
+            return true;
+        }
+        const path = this._losungenPath(year);
+        const file = Gio.file_new_for_path(path);
+        if (!file.query_exists(null)) {
+            this._losungen = null;
+            return false;
+        }
+        try {
+            const [ok, contents] = file.load_contents(null);
+            if (!ok) {
+                throw new Error("could not read " + path);
+            }
+            this._losungen = JSON.parse(decode(contents));
+            this._losungenYear = year;
+            return true;
+        } catch (error) {
+            global.logError("[" + UUID + "] " + error);
+            this._losungen = null;
+            return false;
+        }
+    },
+
     _refresh: function () {
         const now = new Date();
         this._dateKey = localDateKey(now);
 
-        if (!this._load(this._language())) {
-            this._verseLabel.set_text(_("The verses could not be loaded."));
-            this._referenceLabel.set_text("");
-            this._plainText = "";
-            return;
-        }
+        const result = this.source === "losungen"
+            ? this._losungenFor(now)
+            : this._curatedFor(now);
 
+        this._renderPassages(result.entries);
+        this._attributionLabel.set_text(result.attribution);
+        this._attributionLabel.visible = result.attribution !== "";
+        this._plainText = result.entries.length
+            ? result.entries.map((e) => e.text + " — " + e.ref).join("\n\n")
+              + (result.attribution ? "\n(" + result.attribution + ")" : "")
+            : "";
+        this._applyStyle();
+    },
+
+    _curatedFor: function (now) {
+        if (!this._load(this._language())) {
+            return { entries: [{ text: _("The verses could not be loaded."), ref: "" }],
+                     attribution: "" };
+        }
         const verses = this._data.verses;
         const verse = verses[Selection.verseIndexForDate(now, verses.length)];
+        return { entries: [{ text: verse.text, ref: verse.ref }], attribution: "" };
+    },
 
-        this._verseLabel.set_text(verse.text);
-        this._referenceLabel.set_text(verse.ref);
-        this._referenceLabel.visible = this.show_reference;
-        this._plainText = verse.text + " — " + verse.ref +
-            " (" + this._data.translation.shortName + ")";
+    _losungenFor: function (now) {
+        const year = now.getFullYear();
+        if (!this._loadLosungen(year)) {
+            return {
+                entries: [{
+                    text: _("No Losungen for %s on this machine. Import the year " +
+                            "file from losungen.de with tools/import_losungen.py.")
+                          .replace("%s", String(year)),
+                    ref: ""
+                }],
+                attribution: ""
+            };
+        }
+        const key = now.getFullYear() + "-"
+            + String(now.getMonth() + 1).padStart(2, "0") + "-"
+            + String(now.getDate()).padStart(2, "0");
+        const day = this._losungen.days.find((d) => d.date === key);
+        if (!day) {
+            return {
+                entries: [{ text: _("No Losung for today in the imported file."), ref: "" }],
+                attribution: ""
+            };
+        }
+        return {
+            entries: [
+                { text: day.losung.text, ref: day.losung.ref },
+                { text: day.lehrtext.text, ref: day.lehrtext.ref }
+            ],
+            /* Used by permission; the notice stays visible. */
+            attribution: this._losungen.copyright
+        };
     },
 
     _onTick: function () {
@@ -196,24 +301,35 @@ BibleVerseDesklet.prototype = {
 
         this._container.set_style("width: " + this.desklet_width + "px; padding: 8px;");
 
-        this._verseLabel.set_style(
-            family + style + shadow +
-            "color: " + this.text_color + "; " +
-            "font-size: " + this.font_size + "pt; " +
-            "text-align: " + align + ";");
+        (this._textLabels || []).forEach((label, index) => {
+            label.set_style(
+                family + style + shadow +
+                (index > 0 ? "padding-top: 10px; " : "") +
+                "color: " + this.text_color + "; " +
+                "font-size: " + this.font_size + "pt; " +
+                "text-align: " + align + ";");
+        });
 
-        this._referenceLabel.set_style(
+        (this._referenceLabels || []).forEach((label) => {
+            label.set_style(
+                family + shadow +
+                "color: " + this.text_color + "; " +
+                "font-size: " + Math.max(6, this.font_size - 2) + "pt; " +
+                "font-weight: bold; " +
+                "padding-top: 6px; " +
+                "text-align: " + align + ";");
+        });
+
+        this._attributionLabel.set_style(
             family + shadow +
             "color: " + this.text_color + "; " +
-            "font-size: " + Math.max(6, this.font_size - 2) + "pt; " +
-            "font-weight: bold; " +
-            "padding-top: 6px; " +
+            "font-size: " + Math.max(6, this.font_size - 5) + "pt; " +
+            "padding-top: 8px; " +
             "text-align: " + align + ";");
     },
 
     _onSettingsChanged: function () {
-        this._refresh();
-        this._applyStyle();
+        this._refresh();   /* re-renders the labels, then re-applies the style */
     },
 
     _onClicked: function () {

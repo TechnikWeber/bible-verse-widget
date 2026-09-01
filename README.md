@@ -58,6 +58,7 @@ Then *System Settings* → *Desklets* → **Bible Verse** → *Add to desktop*.
 
 Both widgets offer the same settings:
 
+- **Source** — the curated list or the Herrnhuter Losungen
 - **Translation** — follow the system language, or pick one explicitly
 - **Show reference** — book, chapter and verse under the text
 - **Text size** — a fixed point size, or scaled to the widget (Plasma)
@@ -80,9 +81,22 @@ implemented once in [`shared/selection.js`](shared/selection.js), which both
 frontends use verbatim. [`tests/test_selection.py`](tests/test_selection.py)
 holds a reference implementation and checks the JavaScript against it.
 
-## The text
+## Where the verses come from
 
-1000 curated references, resolved against public-domain texts:
+The widget has two sources, switchable in its settings.
+
+### Curated list (default)
+
+1000 references, maintained by hand in
+[`data/references.txt`](data/references.txt) and resolved against public-domain
+texts. 600 Old Testament, 400 New Testament, all 66 books represented.
+
+Be clear about what this is: **my own selection**, not a church's. It leans
+toward well-known and encouraging verses. If that matters to you, edit the file
+— it holds nothing but references, one per line, and `make data` validates every
+change.
+
+The wording comes from public-domain texts:
 
 | Language | Translation | Licence |
 |---|---|---|
@@ -90,21 +104,46 @@ holds a reference implementation and checks the JavaScript against it.
 | English | World English Bible | public domain |
 | Spanish | Reina-Valera 1909 | public domain |
 
-Nothing is fetched at runtime — the verses ship inside each package, so both
-widgets work fully offline and need no network permission.
+Nothing is fetched at runtime — the verses ship inside each package, so this
+source works fully offline and needs no network permission. Only the references
+are maintained by hand; the wording always comes from the source texts via
+`tools/build_verses.py`.
 
-Only the references are maintained by hand, in
-[`data/references.txt`](data/references.txt); the wording always comes from the
-source texts via `tools/build_verses.py`.
-
-### A note on versification
+#### A note on versification
 
 German, English and Spanish Bibles disagree about the numbering of some
 chapters, so the same reference can point at different passages. The build
 rejects references from known-divergent chapters, and additionally compares the
-length of the three renderings of every reference — that second check is what
+length of the three renderings of every reference. That second check is what
 caught John 10, where all three editions have 42 verses but Luther 1912 splits
-verse 10 in two.
+verse 10 in two — and Jonah 2, where the verse counts also match but
+Reina-Valera is still shifted by one.
+
+### Herrnhuter Losungen
+
+The [Losungen](https://www.losungen.de/) have been published by the Moravian
+Church (Evangelische Brüder-Unität) every year since **1731** — the longest
+continuously published devotional book in the world, around a million copies a
+year in over 50 languages.
+
+Each day has two passages. The **Losung** is an Old Testament verse **drawn by
+lot** years in advance from a pool of some 1800 pre-selected verses, so nobody
+decides which verse falls on which day. The **Lehrtext** is a New Testament
+verse chosen by the editors in answer to it.
+
+The Losungen are free of charge for non-commercial use, but they are **not free
+content** — paid software and commercial sites are excluded, which is
+incompatible with this program's GPL licence. So the data is never shipped here.
+Download the year file yourself from <https://www.losungen.de/digital/>, where
+you accept the terms, and import it:
+
+```sh
+make losungen FILE=~/Downloads/Losungen_2026.zip
+```
+
+That writes `~/.local/share/bible-verse-widget/losungen-<year>.json`, which both
+widgets read. It has to be repeated each year, since only the current and the
+coming year are published.
 
 ## Working on it
 

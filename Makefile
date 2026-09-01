@@ -4,7 +4,7 @@ PLASMOID_ID  := com.technikweber.bibleverse
 DESKLET_TARGET  := $(HOME)/.local/share/cinnamon/desklets/$(DESKLET_UUID)
 DIST            := dist
 
-.PHONY: help data sync check test dist clean \
+.PHONY: help data sync check test dist clean losungen \
         install-plasmoid uninstall-plasmoid install-desklet uninstall-desklet
 
 help:
@@ -14,6 +14,7 @@ help:
 	@echo "install-plasmoid     install the KDE plasmoid for the current user"
 	@echo "install-desklet      install the Cinnamon desklet for the current user"
 	@echo "dist                 build the store packages into $(DIST)/"
+	@echo "losungen FILE=…      import a Herrnhuter Losungen year file you downloaded"
 
 data:
 	python3 tools/build_verses.py
@@ -44,6 +45,13 @@ install-desklet: sync
 
 uninstall-desklet:
 	rm -rf $(DESKLET_TARGET)
+
+# The Losungen are free for non-commercial use only, so they cannot ship with a
+# GPL program. Download the year file yourself at https://www.losungen.de/digital/
+# — that is also where you accept the terms — then:  make losungen FILE=…
+losungen:
+	@test -n "$(FILE)" || { echo "usage: make losungen FILE=~/Downloads/Losungen_2026.zip"; exit 1; }
+	python3 tools/import_losungen.py "$(FILE)"
 
 dist: sync
 	rm -rf $(DIST)
