@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="language" type="String">
+            <label>Translation to display, or "auto" to follow the system language.</label>
+            <default>auto</default>
+        </entry>
+        <entry name="showReference" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="fontSizeMode" type="String">
+            <label>"fit" scales the text to the widget, "fixed" uses fontSize.</label>
+            <default>fit</default>
+        </entry>
+        <entry name="fontSize" type="Int">
+            <default>16</default>
+        </entry>
+        <entry name="fontFamily" type="String">
+            <default></default>
+        </entry>
+        <entry name="italic" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="useCustomTextColor" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="textColor" type="Color">
+            <default>#ffffff</default>
+        </entry>
+        <entry name="backgroundMode" type="String">
+            <label>"none", "shadow" or "panel".</label>
+            <default>shadow</default>
+        </entry>
+        <entry name="alignment" type="String">
+            <label>"left" or "center".</label>
+            <default>center</default>
+        </entry>
+    </group>
+</kcfg>

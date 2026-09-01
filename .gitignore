@@ -1,0 +1,10 @@
+# Downloaded source Bibles; regenerate with tools/build_verses.py
+.cache/
+
+# Store packages
+dist/
+*.plasmoid
+
+# Python
+__pycache__/
+*.pyc

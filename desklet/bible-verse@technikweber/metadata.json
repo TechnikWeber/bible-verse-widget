@@ -1,0 +1,11 @@
+{
+    "uuid": "bible-verse@technikweber",
+    "name": "Bible Verse",
+    "description": "A Bible verse for every day, on your desktop. Works offline.",
+    "icon": "accessories-dictionary",
+    "version": "1.0.0",
+    "max-instances": 3,
+    "prevent-decorations": false,
+    "author": "Philipp Weber",
+    "website": "https://github.com/TechnikWeber/bible-verse-widget"
+}

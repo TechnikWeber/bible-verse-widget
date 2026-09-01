@@ -1,0 +1,77 @@
+{
+    "head-content": {
+        "type": "header",
+        "description": "Content"
+    },
+    "language": {
+        "type": "combobox",
+        "default": "auto",
+        "description": "Translation",
+        "options": {
+            "Follow system language": "auto",
+            "German — Lutherbibel 1912": "de",
+            "English — World English Bible": "en",
+            "Spanish — Reina-Valera 1909": "es"
+        }
+    },
+    "show-reference": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Show book, chapter and verse"
+    },
+
+    "head-size": {
+        "type": "header",
+        "description": "Size"
+    },
+    "width": {
+        "type": "spinbutton",
+        "default": 380,
+        "min": 160,
+        "max": 1600,
+        "step": 10,
+        "units": "pixels",
+        "description": "Width"
+    },
+    "font-size": {
+        "type": "spinbutton",
+        "default": 16,
+        "min": 6,
+        "max": 96,
+        "step": 1,
+        "units": "points",
+        "description": "Text size"
+    },
+
+    "head-appearance": {
+        "type": "header",
+        "description": "Appearance"
+    },
+    "font-family": {
+        "type": "entry",
+        "default": "",
+        "description": "Font family",
+        "tooltip": "Leave empty to use the desktop font."
+    },
+    "italic": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Italic"
+    },
+    "centered": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Centre the text"
+    },
+    "text-color": {
+        "type": "colorchooser",
+        "default": "rgb(255,255,255)",
+        "description": "Text colour"
+    },
+    "shadow": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Shadow behind the text",
+        "tooltip": "Keeps the text readable on a bright wallpaper."
+    }
+}

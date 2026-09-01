@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # tests/test_selection.py runs shared/selection.js under node and compares
+      # it against the Python reference implementation.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Re-resolves every reference against the upstream public-domain texts and
+      # fails if the committed data or the frontend copies are out of date.
+      - name: Verify generated files and run the tests
+        run: make check

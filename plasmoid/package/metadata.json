@@ -1,0 +1,24 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "philipp@online-weber.de",
+                "Name": "Philipp Weber"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "A Bible verse for every day, on your desktop.",
+        "Description[de]": "Jeden Tag ein Bibelvers, direkt auf dem Schreibtisch.",
+        "Description[es]": "Un versículo bíblico cada día, en tu escritorio.",
+        "Icon": "accessories-dictionary",
+        "Id": "com.technikweber.bibleverse",
+        "License": "GPL-3.0-or-later",
+        "Name": "Bible Verse",
+        "Name[de]": "Bibelvers",
+        "Name[es]": "Versículo bíblico",
+        "Version": "1.0.0",
+        "Website": "https://github.com/TechnikWeber/bible-verse-widget"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

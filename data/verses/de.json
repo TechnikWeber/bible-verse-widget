@@ -1,0 +1,2203 @@
+{
+  "language": "de",
+  "translation": {
+    "name": "Lutherbibel 1912",
+    "shortName": "LUT1912",
+    "year": 1912,
+    "license": "public-domain",
+    "sourceUrl": "https://github.com/midvash/bible-data"
+  },
+  "count": 438,
+  "verses": [
+    {
+      "id": "1.1.1",
+      "ref": "1. Mose 1,1",
+      "text": "Am Anfang schuf Gott Himmel und Erde."
+    },
+    {
+      "id": "1.1.27",
+      "ref": "1. Mose 1,27",
+      "text": "Und Gott schuf den Menschen ihm zum Bilde, zum Bilde Gottes schuf er ihn; und schuf sie einen Mann und ein Weib."
+    },
+    {
+      "id": "1.9.13",
+      "ref": "1. Mose 9,13",
+      "text": "Meinen Bogen habe ich gesetzt in die Wolken; der soll das Zeichen sein des Bundes zwischen mir und der Erde."
+    },
+    {
+      "id": "1.28.15",
+      "ref": "1. Mose 28,15",
+      "text": "Und siehe, ich bin mit dir und will dich behüten, wo du hin ziehst, und will dich wieder herbringen in dies Land. Denn ich will dich nicht lassen, bis daß ich tue alles, was ich dir geredet habe."
+    },
+    {
+      "id": "1.50.20",
+      "ref": "1. Mose 50,20",
+      "text": "Ihr gedachtet's böse mit mir zu machen; aber Gott gedachte es gut zu machen, daß er täte, wie es jetzt am Tage ist, zu erhalten viel Volks."
+    },
+    {
+      "id": "2.14.14",
+      "ref": "2. Mose 14,14",
+      "text": "Der HERR wird für euch streiten, und ihr werdet still sein."
+    },
+    {
+      "id": "2.15.2",
+      "ref": "2. Mose 15,2",
+      "text": "Der HERR ist meine Stärke und mein Lobgesang und ist mein Heil. Das ist mein Gott, ich will ihn preisen; er ist meines Vaters Gott, ich will ihn erheben."
+    },
+    {
+      "id": "2.20.12",
+      "ref": "2. Mose 20,12",
+      "text": "Du sollst deinen Vater und deine Mutter ehren, auf daß du lange lebest in dem Lande, daß dir der HERR, dein Gott, gibt."
+    },
+    {
+      "id": "2.33.14",
+      "ref": "2. Mose 33,14",
+      "text": "Er sprach: Mein Angesicht soll vorangehen; damit will ich dich leiten."
+    },
+    {
+      "id": "2.34.6",
+      "ref": "2. Mose 34,6",
+      "text": "Und der HERR ging vor seinem Angesicht vorüber und rief: HERR, HERR, GOTT, barmherzig und gnädig und geduldig und von großer Gnade und Treue!"
+    },
+    {
+      "id": "3.19.18",
+      "ref": "3. Mose 19,18",
+      "text": "Du sollst nicht rachgierig sein noch Zorn halten gegen die Kinder deines Volks. Du sollst deinen Nächsten lieben wie dich selbst; denn ich bin der HERR."
+    },
+    {
+      "id": "4.6.24-26",
+      "ref": "4. Mose 6,24-26",
+      "text": "Der HERR segne dich und behüte dich; der HERR lasse sein Angesicht leuchten über dir und sei dir gnädig; der HERR hebe sein Angesicht über dich und gebe dir Frieden."
+    },
+    {
+      "id": "4.23.19",
+      "ref": "4. Mose 23,19",
+      "text": "Gott ist nicht ein Mensch, daß er lüge, noch ein Menschenkind, daß ihn etwas gereue. Sollte er etwas sagen und nicht tun? Sollte er etwas reden und nicht halten?"
+    },
+    {
+      "id": "5.4.29",
+      "ref": "5. Mose 4,29",
+      "text": "Wenn du aber daselbst den HERRN, deinen Gott, suchen wirst, so wirst du ihn finden, wenn du ihn wirst von ganzem Herzen und von ganzer Seele suchen."
+    },
+    {
+      "id": "5.6.5",
+      "ref": "5. Mose 6,5",
+      "text": "Und du sollst den HERRN, deinen Gott, liebhaben von ganzem Herzen, von ganzer Seele, von allem Vermögen."
+    },
+    {
+      "id": "5.7.9",
+      "ref": "5. Mose 7,9",
+      "text": "So sollst du nun wissen, daß der HERR, dein Gott, ein Gott ist, ein treuer Gott, der den Bund und die Barmherzigkeit hält denen, die ihn lieben und seine Gebote halten, in tausend Glieder,"
+    },
+    {
+      "id": "5.30.19",
+      "ref": "5. Mose 30,19",
+      "text": "Ich nehme Himmel und Erde heute über euch zu Zeugen: ich habe euch Leben und Tod, Segen und Fluch vorgelegt, daß du das Leben erwählest und du und dein Same leben mögt,"
+    },
+    {
+      "id": "5.31.6",
+      "ref": "5. Mose 31,6",
+      "text": "Seid getrost und unverzagt, fürchtet euch nicht und laßt euch nicht vor ihnen grauen; denn der HERR, dein Gott, wird selber mit dir wandeln und wird die Hand nicht abtun noch dich verlassen."
+    },
+    {
+      "id": "5.31.8",
+      "ref": "5. Mose 31,8",
+      "text": "Der HERR aber, der selber vor euch her geht, der wird mit dir sein und wird die Hand nicht abtun noch dich verlassen. Fürchte dich nicht und erschrick nicht."
+    },
+    {
+      "id": "5.33.27",
+      "ref": "5. Mose 33,27",
+      "text": "Zuflucht ist bei dem alten Gott und unter den ewigen Armen. Und er wird vor dir her deinen Feind austreiben und sagen: Sei vertilgt!"
+    },
+    {
+      "id": "6.1.5",
+      "ref": "Josua 1,5",
+      "text": "Es soll dir niemand widerstehen dein Leben lang. Wie ich mit Mose gewesen bin, also will ich auch mit dir sein. Ich will dich nicht verlassen noch von dir weichen."
+    },
+    {
+      "id": "6.1.8",
+      "ref": "Josua 1,8",
+      "text": "Und laß dieses Buch des Gesetzes nicht von deinem Munde kommen, sondern betrachte es Tag und Nacht, auf daß du haltest und tust allerdinge nach dem, was darin geschrieben steht. Alsdann wird es dir gelingen in allem, was du tust, und wirst weise handeln können."
+    },
+    {
+      "id": "6.1.9",
+      "ref": "Josua 1,9",
+      "text": "Siehe, ich habe dir geboten, daß du getrost und freudig seist. Laß dir nicht grauen und entsetze dich nicht; denn der HERR, dein Gott, ist mit dir in allem, was du tun wirst."
+    },
+    {
+      "id": "6.24.15",
+      "ref": "Josua 24,15",
+      "text": "Gefällt es euch aber nicht, daß ihr dem HERRN dient, so erwählt euch heute, wem ihr dienen wollt: den Göttern, denen eure Väter gedient haben jenseit des Stroms, oder den Göttern der Amoriter, in deren Land ihr wohnt. Ich aber und mein Haus wollen dem HERRN dienen."
+    },
+    {
+      "id": "7.6.12",
+      "ref": "Richter 6,12",
+      "text": "Da erschien ihm der Engel des HERRN und sprach zu ihm: Der HERR mit dir, du streitbarer Held!"
+    },
+    {
+      "id": "8.1.16",
+      "ref": "Rut 1,16",
+      "text": "Ruth antwortete: Rede mir nicht ein, daß ich dich verlassen sollte und von dir umkehren. Wo du hin gehst, da will ich auch hin gehen; wo du bleibst, da bleibe ich auch. Dein Volk ist mein Volk, und dein Gott ist mein Gott."
+    },
+    {
+      "id": "9.12.24",
+      "ref": "1. Samuel 12,24",
+      "text": "Fürchtet nur den HERRN und dient ihm treulich von ganzem Herzen; denn ihr habt gesehen wie große Dinge er an euch tut."
+    },
+    {
+      "id": "9.16.7",
+      "ref": "1. Samuel 16,7",
+      "text": "Aber der HERR sprach zu Samuel: Sieh nicht an seine Gestalt noch seine große Person; ich habe ihn verworfen. Denn es geht nicht, wie ein Mensch sieht: ein Mensch sieht, was vor Augen ist; der HERR aber sieht das Herz an."
+    },
+    {
+      "id": "10.22.2-3",
+      "ref": "2. Samuel 22,2-3",
+      "text": "Der HERR ist mein Fels und meine Burg und mein Erretter. Gott ist mein Hort, auf den ich traue, mein Schild und Horn meines Heils, mein Schutz und meine Zuflucht, mein Heiland, der du mir hilfst vor dem Frevel."
+    },
+    {
+      "id": "10.22.31",
+      "ref": "2. Samuel 22,31",
+      "text": "Gottes Wege sind vollkommen; des HERRN Reden sind durchläutert. Er ist ein Schild allen, die ihm vertrauen."
+    },
+    {
+      "id": "11.8.23",
+      "ref": "1. Könige 8,23",
+      "text": "und sprach: HERR, Gott Israels, es ist kein Gott, weder droben im Himmel noch unten auf der Erden, dir gleich, der du hältst den Bund und die Barmherzigkeit deinen Knechten, die vor dir wandeln von ganzem Herzen;"
+    },
+    {
+      "id": "12.6.16",
+      "ref": "2. Könige 6,16",
+      "text": "Er sprach: Fürchte dich nicht! denn derer ist mehr, die bei uns sind, als derer, die bei ihnen sind."
+    },
+    {
+      "id": "13.16.11",
+      "ref": "1. Chronik 16,11",
+      "text": "Fraget nach dem HERRN und nach seiner Macht; suchet sein Angesicht allezeit!"
+    },
+    {
+      "id": "13.16.34",
+      "ref": "1. Chronik 16,34",
+      "text": "Danket dem HERRN; denn er ist freundlich, und seine Güte währet ewiglich."
+    },
+    {
+      "id": "13.28.20",
+      "ref": "1. Chronik 28,20",
+      "text": "Und David sprach zu seinem Sohn Salomo: Sei getrost und unverzagt und mache es; fürchte dich nicht und zage nicht! Gott der HERR, mein Gott, wird mit dir sein und wird die Hand nicht abziehen noch dich verlassen, bis du alle Werke zum Amt im Hause des HERRN vollendest."
+    },
+    {
+      "id": "13.29.11",
+      "ref": "1. Chronik 29,11",
+      "text": "Dir, HERR, gebührt die Majestät und Gewalt, Herrlichkeit, Sieg und Dank. Denn alles, was im Himmel und auf Erden ist. das ist dein. Dein, HERR, ist das Reich, und du bist erhöht über alles zum Obersten."
+    },
+    {
+      "id": "14.7.14",
+      "ref": "2. Chronik 7,14",
+      "text": "und mein Volk sich demütigt, das nach meinem Namen genannt ist, daß sie beten und mein Angesicht suchen und sich von ihren bösen Wegen bekehren werden: so will ich vom Himmel hören und ihre Sünde vergeben und ihr Land heilen."
+    },
+    {
+      "id": "14.15.7",
+      "ref": "2. Chronik 15,7",
+      "text": "Ihr aber seid getrost und tut eure Hände nicht ab; denn euer Werk hat seinen Lohn."
+    },
+    {
+      "id": "14.16.9",
+      "ref": "2. Chronik 16,9",
+      "text": "Denn des HERRN Augen schauen alle Lande, daß er stärke die, so von ganzem Herzen an ihm sind. Du hast töricht getan; darum wirst du auch von nun an Kriege haben."
+    },
+    {
+      "id": "14.20.15",
+      "ref": "2. Chronik 20,15",
+      "text": "und er sprach: Merkt auf, ganz Juda und ihr Einwohner zu Jerusalem und du, König Josaphat! So spricht der HERR zu euch: Ihr sollt euch nicht fürchten noch zagen vor diesem großen Haufen; denn ihr streitet nicht, sondern Gott."
+    },
+    {
+      "id": "15.8.22",
+      "ref": "Esra 8,22",
+      "text": "Denn ich schämte mich vom König Geleit und Reiter zu fordern, uns wider die Feinde zu helfen auf dem Wege. Denn wir hatten dem König gesagt: Die Hand unsres Gottes ist zum Besten über alle, die ihn suchen, und seine Stärke und Zorn über alle, die ihn verlassen."
+    },
+    {
+      "id": "16.8.10",
+      "ref": "Nehemia 8,10",
+      "text": "Darum sprach er zu ihnen: Geht hin und eßt das Fette und trinkt das Süße und sendet denen auch Teile, die nichts für sich bereitet haben; denn dieser Tag ist heilig unserm HERRN. Und bekümmert euch nicht; denn die Freude am HERRN ist eure Stärke."
+    },
+    {
+      "id": "16.9.6",
+      "ref": "Nehemia 9,6",
+      "text": "HERR, du bist's allein, du hast gemacht den Himmel und aller Himmel Himmel mit allem ihrem Heer, die Erde und alles, was darauf ist, die Meere und alles, was darin ist; du machst alles lebendig, und das himmlische Heer betet dich an."
+    },
+    {
+      "id": "17.4.14",
+      "ref": "Ester 4,14",
+      "text": "denn wo du wirst zu dieser Zeit schweigen, so wird eine Hilfe und Errettung von einem andern Ort her den Juden entstehen, und du und deines Vaters Haus werdet umkommen. Und wer weiß, ob du nicht um dieser Zeit willen zur königlichen Würde gekommen bist?"
+    },
+    {
+      "id": "18.19.25",
+      "ref": "Hiob 19,25",
+      "text": "Aber ich weiß, daß mein Erlöser lebt; und als der letzte wird er über dem Staube sich erheben."
+    },
+    {
+      "id": "18.23.10",
+      "ref": "Hiob 23,10",
+      "text": "Er aber kennt meinen Weg wohl. Er versuche mich, so will ich erfunden werden wie das Gold."
+    },
+    {
+      "id": "18.42.2",
+      "ref": "Hiob 42,2",
+      "text": "Ich erkenne, daß du alles vermagst, und nichts, das du dir vorgenommen, ist dir zu schwer."
+    },
+    {
+      "id": "19.1.1-2",
+      "ref": "Psalmen 1,1-2",
+      "text": "Wohl dem, der nicht wandelt im Rat der Gottlosen noch tritt auf den Weg Sünder noch sitzt, da die Spötter sitzen, sondern hat Lust zum Gesetz des HERRN und redet von seinem Gesetz Tag und Nacht!"
+    },
+    {
+      "id": "19.4.8",
+      "ref": "Psalmen 4,8",
+      "text": "Ich liege und schlafe ganz mit Frieden; denn allein du, HERR, hilfst mir, daß ich sicher wohne."
+    },
+    {
+      "id": "19.5.3",
+      "ref": "Psalmen 5,3",
+      "text": "HERR, frühe wollest du meine Stimme hören; frühe will ich mich zu dir schicken und aufmerken."
+    },
+    {
+      "id": "19.8.3-4",
+      "ref": "Psalmen 8,3-4",
+      "text": "Wenn ich sehe die Himmel, deiner Finger Werk, den Mond und die Sterne, die du bereitet hast: was ist der Mensch, daß du seiner gedenkst, und des Menschenkind, daß du sich seiner annimmst?"
+    },
+    {
+      "id": "19.9.9",
+      "ref": "Psalmen 9,9",
+      "text": "Und der HERR ist des Armen Schutz, ein Schutz in der Not."
+    },
+    {
+      "id": "19.16.8",
+      "ref": "Psalmen 16,8",
+      "text": "Ich habe den HERRN allezeit vor Augen; denn er ist mir zur Rechten, so werde ich fest bleiben."
+    },
+    {
+      "id": "19.16.11",
+      "ref": "Psalmen 16,11",
+      "text": "Du tust mir kund den Weg zum Leben; vor dir ist Freude die Fülle und liebliches Wesen zu deiner Rechten ewiglich."
+    },
+    {
+      "id": "19.18.2",
+      "ref": "Psalmen 18,2",
+      "text": "HERR, mein Fels, meine Burg, mein Erretter, mein Gott, mein Hort, auf den ich traue, mein Schild und Horn meines Heils und mein Schutz!"
+    },
+    {
+      "id": "19.19.1",
+      "ref": "Psalmen 19,1",
+      "text": "Die Himmel erzählen die Ehre Gottes, und die Feste verkündigt seiner Hände Werk."
+    },
+    {
+      "id": "19.19.14",
+      "ref": "Psalmen 19,14",
+      "text": "Laß dir wohl gefallen die Rede meines Mundes und das Gespräch meines Herzens vor dir, HERR, mein Hort und mein Erlöser."
+    },
+    {
+      "id": "19.20.7",
+      "ref": "Psalmen 20,7",
+      "text": "Jene verlassen sich auf Wagen und Rosse; wir aber denken an den Namen des HERRN, unsers Gottes."
+    },
+    {
+      "id": "19.23.1",
+      "ref": "Psalmen 23,1",
+      "text": "Der HERR ist mein Hirte; mir wird nichts mangeln."
+    },
+    {
+      "id": "19.23.4",
+      "ref": "Psalmen 23,4",
+      "text": "Und ob ich schon wanderte im finstern Tal, fürchte ich kein Unglück; denn du bist bei mir, dein Stecken und dein Stab trösten mich."
+    },
+    {
+      "id": "19.23.6",
+      "ref": "Psalmen 23,6",
+      "text": "Gutes und Barmherzigkeit werden mir folgen mein Leben lang, und ich werde bleiben im Hause des HERRN immerdar."
+    },
+    {
+      "id": "19.25.4-5",
+      "ref": "Psalmen 25,4-5",
+      "text": "HERR, zeige mir deine Wege und lehre mich deine Steige; leite mich in deiner Wahrheit und lehre mich! Denn du bist der Gott, der mir hilft; täglich harre ich dein."
+    },
+    {
+      "id": "19.27.1",
+      "ref": "Psalmen 27,1",
+      "text": "Der HERR ist mein Licht und mein Heil; vor wem sollte ich mich fürchten! Der HERR ist meines Lebens Kraft; vor wem sollte mir grauen!"
+    },
+    {
+      "id": "19.27.14",
+      "ref": "Psalmen 27,14",
+      "text": "Harre des HERRN! Sei getrost und unverzagt und harre des HERRN!"
+    },
+    {
+      "id": "19.28.7",
+      "ref": "Psalmen 28,7",
+      "text": "Der HERR ist meine Stärke und mein Schild; auf ihn hofft mein Herz, und mir ist geholfen. Und mein Herz ist fröhlich, und ich will ihm danken mit meinem Lied."
+    },
+    {
+      "id": "19.30.5",
+      "ref": "Psalmen 30,5",
+      "text": "Denn sein Zorn währt einen Augenblick, und lebenslang seine Gnade; den Abend lang währt das Weinen, aber des Morgens ist Freude."
+    },
+    {
+      "id": "19.31.24",
+      "ref": "Psalmen 31,24",
+      "text": "Seid getrost und unverzagt, alle, die ihr des HERRN harret!"
+    },
+    {
+      "id": "19.32.8",
+      "ref": "Psalmen 32,8",
+      "text": "“Ich will dich unterweisen und dir den Weg zeigen, den du wandeln sollst; ich will dich mit meinen Augen leiten.”"
+    },
+    {
+      "id": "19.33.4",
+      "ref": "Psalmen 33,4",
+      "text": "Denn des HERRN Wort ist wahrhaftig; und was er zusagt, das hält er gewiß."
+    },
+    {
+      "id": "19.34.8",
+      "ref": "Psalmen 34,8",
+      "text": "Schmecket und sehet, wie freundlich der HERR ist. Wohl dem, der auf ihn traut!"
+    },
+    {
+      "id": "19.34.18",
+      "ref": "Psalmen 34,18",
+      "text": "Der HERR ist nahe bei denen, die zerbrochnes Herzens sind, und hilft denen, die ein zerschlagen Gemüt haben."
+    },
+    {
+      "id": "19.36.5",
+      "ref": "Psalmen 36,5",
+      "text": "HERR, deine Güte reicht, soweit der Himmel ist, und deine Wahrheit, soweit die Wolken gehen."
+    },
+    {
+      "id": "19.37.4",
+      "ref": "Psalmen 37,4",
+      "text": "Habe Deine Lust am HERRN; der wird dir geben, was dein Herz wünschet."
+    },
+    {
+      "id": "19.37.5",
+      "ref": "Psalmen 37,5",
+      "text": "Befiehl dem HERRN deine Wege und hoffe auf ihn; er wird's wohl machen"
+    },
+    {
+      "id": "19.37.7",
+      "ref": "Psalmen 37,7",
+      "text": "Sei stille dem HERRN und warte auf ihn; erzürne dich nicht über den, dem sein Mutwille glücklich fortgeht."
+    },
+    {
+      "id": "19.40.1",
+      "ref": "Psalmen 40,1",
+      "text": "Ich harrte des HERRN; und er neigte sich zu mir und hörte mein Schreien"
+    },
+    {
+      "id": "19.42.1",
+      "ref": "Psalmen 42,1",
+      "text": "Wie der Hirsch schreit nach frischem Wasser, so schreit meine Seele, Gott, zu dir."
+    },
+    {
+      "id": "19.42.11",
+      "ref": "Psalmen 42,11",
+      "text": "Was betrübst du dich, meine Seele, und bist so unruhig in mir? Harre auf Gott! denn ich werde ihm noch danken, daß er meines Angesichts Hilfe und mein Gott ist."
+    },
+    {
+      "id": "19.46.1",
+      "ref": "Psalmen 46,1",
+      "text": "Gott ist unsre Zuversicht und Stärke. Eine Hilfe in den großen Nöten, die uns getroffen haben."
+    },
+    {
+      "id": "19.46.10",
+      "ref": "Psalmen 46,10",
+      "text": "Seid stille und erkennet, daß ich GOTT bin. Ich will Ehre einlegen unter den Heiden; ich will Ehre einlegen auf Erden."
+    },
+    {
+      "id": "19.51.10",
+      "ref": "Psalmen 51,10",
+      "text": "Schaffe in mir, Gott, ein reines Herz und gib mir einen neuen, gewissen Geist."
+    },
+    {
+      "id": "19.55.22",
+      "ref": "Psalmen 55,22",
+      "text": "Wirf dein Anliegen auf den HERRN; der wird dich versorgen und wird den Gerechten nicht ewiglich in Unruhe lassen."
+    },
+    {
+      "id": "19.56.3",
+      "ref": "Psalmen 56,3",
+      "text": "Wenn ich mich fürchte, so hoffe ich auf dich."
+    },
+    {
+      "id": "19.62.1-2",
+      "ref": "Psalmen 62,1-2",
+      "text": "Meine Seele sei stille zu Gott, der mir hilft. Denn er ist mein Hort, meine Hilfe, meine Schutz, daß mich kein Fall stürzen wird, wie groß er ist."
+    },
+    {
+      "id": "19.63.1",
+      "ref": "Psalmen 63,1",
+      "text": "Gott, du bist mein Gott; frühe wache ich zu dir. Es dürstet meine Seele nach dir; mein Fleisch verlangt nach dir in einem trockenen und dürren Land, wo kein Wasser ist."
+    },
+    {
+      "id": "19.71.5",
+      "ref": "Psalmen 71,5",
+      "text": "Denn du bist meine Zuversicht, Herr HERR, meine Hoffnung von meiner Jugend an."
+    },
+    {
+      "id": "19.73.26",
+      "ref": "Psalmen 73,26",
+      "text": "Wenn mir gleich Leib und Seele verschmachtet, so bist du doch, Gott, allezeit meines Herzens Trost und mein Teil."
+    },
+    {
+      "id": "19.84.11",
+      "ref": "Psalmen 84,11",
+      "text": "Denn Gott der HERR ist Sonne und Schild; der HERR gibt Gnade und Ehre: er wird kein Gutes mangeln lassen den Frommen."
+    },
+    {
+      "id": "19.86.15",
+      "ref": "Psalmen 86,15",
+      "text": "Du aber, Herr, Gott, bist barmherzig und gnädig, geduldig und von großer Güte und Treue."
+    },
+    {
+      "id": "19.90.12",
+      "ref": "Psalmen 90,12",
+      "text": "Lehre uns bedenken, daß wir sterben müssen, auf daß wir klug werden."
+    },
+    {
+      "id": "19.91.1-2",
+      "ref": "Psalmen 91,1-2",
+      "text": "Wer unter dem Schirm des Höchsten sitzt und unter dem Schatten des Allmächtigen bleibt, der spricht zu dem HERRN: Meine Zuversicht und meine Burg, mein Gott, auf den ich hoffe."
+    },
+    {
+      "id": "19.91.11",
+      "ref": "Psalmen 91,11",
+      "text": "Denn er hat seinen Engeln befohlen über dir, daß sie dich behüten auf allen deinen Wegen,"
+    },
+    {
+      "id": "19.94.19",
+      "ref": "Psalmen 94,19",
+      "text": "Ich hatte viel Bekümmernisse in meinem Herzen; aber deine Tröstungen ergötzten meine Seele."
+    },
+    {
+      "id": "19.100.4-5",
+      "ref": "Psalmen 100,4-5",
+      "text": "Geht zu seinen Toren ein mit Danken, zu seinen Vorhöfen mit Loben; danket ihm, lobet seinen Namen! Denn der HERR ist freundlich, und seine Gnade währet ewig und seine Wahrheit für und für."
+    },
+    {
+      "id": "19.103.2-3",
+      "ref": "Psalmen 103,2-3",
+      "text": "Lobe den HERRN, meine Seele, und vergiß nicht, was er dir Gutes getan hat: der dir alle deine Sünden vergibt und heilet alle deine Gebrechen,"
+    },
+    {
+      "id": "19.103.8",
+      "ref": "Psalmen 103,8",
+      "text": "Barmherzig und gnädig ist der HERR, geduldig und von großer Güte."
+    },
+    {
+      "id": "19.103.12",
+      "ref": "Psalmen 103,12",
+      "text": "So ferne der Morgen ist vom Abend, läßt er unsre Übertretungen von uns sein."
+    },
+    {
+      "id": "19.107.1",
+      "ref": "Psalmen 107,1",
+      "text": "Danket dem HERRN; denn er ist freundlich, und seine Güte währet ewiglich."
+    },
+    {
+      "id": "19.116.1-2",
+      "ref": "Psalmen 116,1-2",
+      "text": "Das ist mir lieb, daß der HERR meine Stimme und mein Flehen hört. Denn er neigte sein Ohr zu mir; darum will ich mein Leben lang ihn anrufen."
+    },
+    {
+      "id": "19.118.24",
+      "ref": "Psalmen 118,24",
+      "text": "Dies ist der Tag, den der HERR macht; lasset uns freuen und fröhlich darinnen sein."
+    },
+    {
+      "id": "19.119.105",
+      "ref": "Psalmen 119,105",
+      "text": "Dein Wort ist meine Fußes Leuchte und ein Licht auf meinem Wege."
+    },
+    {
+      "id": "19.121.1-2",
+      "ref": "Psalmen 121,1-2",
+      "text": "Ich hebe meine Augen auf zu den Bergen von welchen mir Hilfe kommt. Meine Hilfe kommt von dem HERRN, der Himmel und Erde gemacht hat."
+    },
+    {
+      "id": "19.121.7-8",
+      "ref": "Psalmen 121,7-8",
+      "text": "Der HERR behüte dich vor allem Übel, er behüte deine Seele; der HERR behüte deinen Ausgang und Eingang von nun an bis in Ewigkeit."
+    },
+    {
+      "id": "19.126.3",
+      "ref": "Psalmen 126,3",
+      "text": "Der HERR hat Großes an uns getan; des sind wir fröhlich."
+    },
+    {
+      "id": "19.130.5",
+      "ref": "Psalmen 130,5",
+      "text": "Ich harre des HERRN; meine Seele harret, und ich hoffe auf sein Wort."
+    },
+    {
+      "id": "19.133.1",
+      "ref": "Psalmen 133,1",
+      "text": "Siehe, wie fein und lieblich ist's, daß Brüder einträchtig beieinander wohnen!"
+    },
+    {
+      "id": "19.136.1",
+      "ref": "Psalmen 136,1",
+      "text": "Danket dem HERRN; denn er ist freundlich, denn seine Güte währet ewiglich."
+    },
+    {
+      "id": "19.138.8",
+      "ref": "Psalmen 138,8",
+      "text": "Der HERR wird's für mich vollführen. HERR, deine Güte ist ewig. Das Werk deiner Hände wollest du nicht lassen."
+    },
+    {
+      "id": "19.139.14",
+      "ref": "Psalmen 139,14",
+      "text": "Ich danke dir dafür, daß ich wunderbar gemacht bin; wunderbar sind deine Werke, und das erkennt meine Seele wohl."
+    },
+    {
+      "id": "19.139.23-24",
+      "ref": "Psalmen 139,23-24",
+      "text": "Erforsche mich, Gott, und erfahre mein Herz; prüfe mich und erfahre, wie ich's meine. Und siehe, ob ich auf bösem Wege bin, und leite mich auf ewigem Wege."
+    },
+    {
+      "id": "19.143.8",
+      "ref": "Psalmen 143,8",
+      "text": "Laß mich frühe hören deine Gnade; denn ich hoffe auf dich. Tue mir kund den Weg, darauf ich gehen soll; denn mich verlangt nach dir."
+    },
+    {
+      "id": "19.145.8-9",
+      "ref": "Psalmen 145,8-9",
+      "text": "Gnädig und barmherzig ist der HERR, geduldig und von großer Güte. Der HERR ist allen gütig und erbarmt sich aller seiner Werke."
+    },
+    {
+      "id": "19.145.18",
+      "ref": "Psalmen 145,18",
+      "text": "Der HERR ist nahe allen, die ihn anrufen, allen, die ihn mit Ernst anrufen."
+    },
+    {
+      "id": "19.147.3",
+      "ref": "Psalmen 147,3",
+      "text": "Er heilt, die zerbrochnes Herzens sind, und verbindet ihre Schmerzen."
+    },
+    {
+      "id": "19.150.6",
+      "ref": "Psalmen 150,6",
+      "text": "Alles, was Odem hat, lobe den HERRN! Halleluja!"
+    },
+    {
+      "id": "20.1.7",
+      "ref": "Sprüche 1,7",
+      "text": "Des HERRN Furcht ist Anfang der Erkenntnis. Die Ruchlosen verachten Weisheit und Zucht."
+    },
+    {
+      "id": "20.2.6",
+      "ref": "Sprüche 2,6",
+      "text": "Denn der HERR gibt Weisheit, und aus seinem Munde kommt Erkenntnis und Verstand."
+    },
+    {
+      "id": "20.3.5-6",
+      "ref": "Sprüche 3,5-6",
+      "text": "Verlaß dich auf den HERRN von ganzem Herzen und verlaß dich nicht auf deinen Verstand; sondern gedenke an ihn in allen deinen Wegen, so wird er dich recht führen."
+    },
+    {
+      "id": "20.3.9-10",
+      "ref": "Sprüche 3,9-10",
+      "text": "Ehre den HERRN von deinem Gut und von den Erstlingen all deines Einkommens, so werden deine Scheunen voll werden und deine Kelter mit Most übergehen."
+    },
+    {
+      "id": "20.4.23",
+      "ref": "Sprüche 4,23",
+      "text": "Behüte dein Herz mit allem Fleiß; denn daraus geht das Leben."
+    },
+    {
+      "id": "20.8.17",
+      "ref": "Sprüche 8,17",
+      "text": "Ich liebe, die mich lieben; und die mich frühe suchen, finden mich."
+    },
+    {
+      "id": "20.10.12",
+      "ref": "Sprüche 10,12",
+      "text": "Haß erregt Hader; aber Liebe deckt zu alle Übertretungen."
+    },
+    {
+      "id": "20.11.25",
+      "ref": "Sprüche 11,25",
+      "text": "Die Seele, die da reichlich segnet, wird gelabt; wer reichlich tränkt, der wird auch getränkt werden."
+    },
+    {
+      "id": "20.12.25",
+      "ref": "Sprüche 12,25",
+      "text": "Sorge im Herzen kränkt, aber ein freundliches Wort erfreut."
+    },
+    {
+      "id": "20.13.20",
+      "ref": "Sprüche 13,20",
+      "text": "Wer mit den Weisen umgeht, der wird weise; wer aber der Narren Geselle ist, der wird Unglück haben."
+    },
+    {
+      "id": "20.14.29",
+      "ref": "Sprüche 14,29",
+      "text": "Wer geduldig ist, der ist weise; wer aber ungeduldig ist, der offenbart seine Torheit."
+    },
+    {
+      "id": "20.15.1",
+      "ref": "Sprüche 15,1",
+      "text": "Eine linde Antwort stillt den Zorn; aber ein hartes Wort richtet Grimm an."
+    },
+    {
+      "id": "20.16.3",
+      "ref": "Sprüche 16,3",
+      "text": "Befiehl dem HERRN deine Werke, so werden deine Anschläge fortgehen."
+    },
+    {
+      "id": "20.16.9",
+      "ref": "Sprüche 16,9",
+      "text": "Des Menschen Herz erdenkt sich seinen Weg; aber der HERR allein gibt, daß er fortgehe."
+    },
+    {
+      "id": "20.16.24",
+      "ref": "Sprüche 16,24",
+      "text": "Die Reden des Freundlichen sind Honigseim, trösten die Seele und erfrischen die Gebeine."
+    },
+    {
+      "id": "20.17.17",
+      "ref": "Sprüche 17,17",
+      "text": "Ein Freund liebt allezeit, und als ein Bruder wird er in Not erfunden."
+    },
+    {
+      "id": "20.18.10",
+      "ref": "Sprüche 18,10",
+      "text": "Der Name des HERRN ist ein festes Schloß; der Gerechte läuft dahin und wird beschirmt."
+    },
+    {
+      "id": "20.18.24",
+      "ref": "Sprüche 18,24",
+      "text": "Ein treuer Freund liebt mehr uns steht fester bei denn ein Bruder."
+    },
+    {
+      "id": "20.19.21",
+      "ref": "Sprüche 19,21",
+      "text": "Es sind viel Anschläge in eines Mannes Herzen; aber der Rat des HERRN besteht."
+    },
+    {
+      "id": "20.21.21",
+      "ref": "Sprüche 21,21",
+      "text": "Wer der Gerechtigkeit und Güte nachjagt, der findet Leben, Gerechtigkeit und Ehre."
+    },
+    {
+      "id": "20.22.6",
+      "ref": "Sprüche 22,6",
+      "text": "Wie man einen Knaben gewöhnt, so läßt er nicht davon, wenn er alt wird."
+    },
+    {
+      "id": "20.23.18",
+      "ref": "Sprüche 23,18",
+      "text": "Denn es wird dir hernach gut sein, und dein Warten wird nicht trügen."
+    },
+    {
+      "id": "20.24.16",
+      "ref": "Sprüche 24,16",
+      "text": "Denn ein Gerechter fällt siebenmal und steht wieder auf; aber die Gottlosen versinken im Unglück."
+    },
+    {
+      "id": "20.27.17",
+      "ref": "Sprüche 27,17",
+      "text": "Ein Messer wetzt das andere und ein Mann den andern."
+    },
+    {
+      "id": "20.28.13",
+      "ref": "Sprüche 28,13",
+      "text": "Wer seine Missetat leugnet, dem wird's nicht gelingen; wer sie aber bekennt und läßt, der wird Barmherzigkeit erlangen."
+    },
+    {
+      "id": "20.29.25",
+      "ref": "Sprüche 29,25",
+      "text": "Vor Menschen sich scheuen bringt zu Fall; wer sich aber auf den HERRN verläßt, wird beschützt."
+    },
+    {
+      "id": "20.30.5",
+      "ref": "Sprüche 30,5",
+      "text": "Alle Worte Gottes sind durchläutert; er ist ein Schild denen, die auf ihn trauen."
+    },
+    {
+      "id": "20.31.25",
+      "ref": "Sprüche 31,25",
+      "text": "Kraft und Schöne sind ihr Gewand, und sie lacht des kommenden Tages."
+    },
+    {
+      "id": "21.3.1",
+      "ref": "Prediger 3,1",
+      "text": "Ein jegliches hat seine Zeit, und alles Vornehmen unter dem Himmel hat seine Stunde."
+    },
+    {
+      "id": "21.3.11",
+      "ref": "Prediger 3,11",
+      "text": "Er aber tut alles fein zu seiner Zeit und läßt ihr Herz sich ängsten, wie es gehen solle in der Welt; denn der Mensch kann doch nicht treffen das Werk, das Gott tut, weder Anfang noch Ende."
+    },
+    {
+      "id": "21.4.9-10",
+      "ref": "Prediger 4,9-10",
+      "text": "So ist's ja besser zwei als eins; denn sie genießen doch ihrer Arbeit wohl. Fällt ihrer einer so hilft ihm sein Gesell auf. Weh dem, der allein ist! Wenn er fällt, so ist keiner da, der ihm aufhelfe."
+    },
+    {
+      "id": "21.12.13",
+      "ref": "Prediger 12,13",
+      "text": "Laßt uns die Hauptsumme alle Lehre hören: Fürchte Gott und halte seine Gebote; denn das gehört allen Menschen zu."
+    },
+    {
+      "id": "23.1.18",
+      "ref": "Jesaja 1,18",
+      "text": "So kommt denn und laßt uns miteinander rechten, spricht der HERR. Wenn eure Sünde gleich blutrot ist, soll sie doch schneeweiß werden; und wenn sie gleich ist wie Scharlach, soll sie doch wie Wolle werden."
+    },
+    {
+      "id": "23.6.8",
+      "ref": "Jesaja 6,8",
+      "text": "Und ich hörte die Stimme des Herrn, daß er sprach: Wen soll ich senden? Wer will unser Bote sein? Ich aber sprach: Hier bin ich; sende mich!"
+    },
+    {
+      "id": "23.9.6",
+      "ref": "Jesaja 9,6",
+      "text": "Denn uns ist ein Kind geboren, ein Sohn ist uns gegeben, und die Herrschaft ist auf seiner Schulter; er heißt Wunderbar, Rat, Held, Ewig-Vater Friedefürst;"
+    },
+    {
+      "id": "23.12.2",
+      "ref": "Jesaja 12,2",
+      "text": "Siehe, Gott ist mein Heil, ich bin sicher und fürchte mich nicht; denn Gott der HERR ist meine Stärke und mein Psalm und ist mein Heil."
+    },
+    {
+      "id": "23.25.1",
+      "ref": "Jesaja 25,1",
+      "text": "HERR, du bist mein Gott! dich preise ich; ich lobe deinen Namen, denn du tust Wunder; dein Ratschlüsse von alters her sind treu und wahrhaftig."
+    },
+    {
+      "id": "23.26.3",
+      "ref": "Jesaja 26,3",
+      "text": "Du erhältst stets Frieden nach gewisser Zusage; denn man verläßt sich auf dich."
+    },
+    {
+      "id": "23.30.15",
+      "ref": "Jesaja 30,15",
+      "text": "Denn so spricht der Herr HERR, der Heilige in Israel: Wenn ihr umkehrtet und stillebliebet, so würde euch geholfen; durch Stillesein und Hoffen würdet ihr stark sein. Aber ihr wollt nicht"
+    },
+    {
+      "id": "23.30.21",
+      "ref": "Jesaja 30,21",
+      "text": "und deine Ohren werden hören hinter dir her das Wort sagen also: dies ist der Weg; den gehet, sonst weder zur Rechten noch zur Linken!"
+    },
+    {
+      "id": "23.32.17",
+      "ref": "Jesaja 32,17",
+      "text": "und der Gerechtigkeit Frucht wird Friede sein, und der Gerechtigkeit Nutzen wird ewige Stille und Sicherheit sein,"
+    },
+    {
+      "id": "23.40.8",
+      "ref": "Jesaja 40,8",
+      "text": "Das Gras verdorrt, die Blume verwelkt; aber das Wort unsres Gottes bleibt ewiglich."
+    },
+    {
+      "id": "23.40.28",
+      "ref": "Jesaja 40,28",
+      "text": "Weißt du nicht? hast du nicht gehört? Der HERR, der ewige Gott, der die Enden der Erde geschaffen hat, wird nicht müde noch matt; sein Verstand ist unausforschlich."
+    },
+    {
+      "id": "23.40.29",
+      "ref": "Jesaja 40,29",
+      "text": "Er gibt den Müden Kraft, und Stärke genug dem Unvermögenden."
+    },
+    {
+      "id": "23.40.31",
+      "ref": "Jesaja 40,31",
+      "text": "aber die auf den HERRN harren, kriegen neue Kraft, daß sie auffahren mit Flügeln wie Adler, daß sie laufen und nicht matt werden, daß sie wandeln und nicht müde werden."
+    },
+    {
+      "id": "23.41.10",
+      "ref": "Jesaja 41,10",
+      "text": "fürchte dich nicht, ich bin mit dir; weiche nicht, denn ich bin dein Gott; ich stärke dich, ich helfe dir auch, ich erhalte dich durch die rechte Hand meiner Gerechtigkeit."
+    },
+    {
+      "id": "23.41.13",
+      "ref": "Jesaja 41,13",
+      "text": "Denn ich bin der HERR, dein Gott, der deine rechte Hand stärkt und zu dir spricht: Fürchte dich nicht, ich helfe dir!"
+    },
+    {
+      "id": "23.43.1",
+      "ref": "Jesaja 43,1",
+      "text": "Und nun spricht der HERR, der dich geschaffen hat, Jakob, und dich gemacht hat, Israel: Fürchte dich nicht, denn ich habe dich erlöst; ich habe dich bei deinem Namen gerufen; du bist mein!"
+    },
+    {
+      "id": "23.43.2",
+      "ref": "Jesaja 43,2",
+      "text": "Denn so du durch Wasser gehst, will ich bei dir sein, daß dich die Ströme nicht sollen ersäufen; und so du ins Feuer gehst, sollst du nicht brennen, und die Flamme soll dich nicht versengen."
+    },
+    {
+      "id": "23.43.19",
+      "ref": "Jesaja 43,19",
+      "text": "Denn siehe, ich will ein Neues machen; jetzt soll es aufwachsen, und ihr werdet's erfahren, daß ich Weg in der Wüste mache und Wasserströme in der Einöde,"
+    },
+    {
+      "id": "23.46.4",
+      "ref": "Jesaja 46,4",
+      "text": "Ja, ich will euch tragen bis ins Alter und bis ihr grau werdet. Ich will es tun, ich will heben und tragen und erretten."
+    },
+    {
+      "id": "23.49.15-16",
+      "ref": "Jesaja 49,15-16",
+      "text": "Kann auch ein Weib ihres Kindleins vergessen, daß sie sich nicht erbarme über den Sohn ihres Leibes? Und ob sie desselben vergäße, so will ich doch dein nicht vergessen. Siehe, in die Hände habe ich dich gezeichnet; deine Mauern sind immerdar vor mir."
+    },
+    {
+      "id": "23.53.5",
+      "ref": "Jesaja 53,5",
+      "text": "Aber er ist um unsrer Missetat willen verwundet und um unsrer Sünde willen zerschlagen. Die Strafe liegt auf ihm, auf daß wir Frieden hätten, und durch seine Wunden sind wir geheilt."
+    },
+    {
+      "id": "23.54.10",
+      "ref": "Jesaja 54,10",
+      "text": "Denn es sollen wohl Berge weichen und Hügel hinfallen; aber meine Gnade soll nicht von dir weichen, und der Bund meines Friedens soll nicht hinfallen, spricht der HERR, dein Erbarmer."
+    },
+    {
+      "id": "23.55.8-9",
+      "ref": "Jesaja 55,8-9",
+      "text": "Denn meine Gedanken sind nicht eure Gedanken, und eure Wege sind nicht meine Wege, spricht der HERR; sondern soviel der Himmel höher ist denn die Erde, so sind auch meine Wege höher denn eure Wege und meine Gedanken denn eure Gedanken."
+    },
+    {
+      "id": "23.55.11",
+      "ref": "Jesaja 55,11",
+      "text": "also soll das Wort, so aus meinem Munde geht, auch sein. Es soll nicht wieder zu mir leer kommen, sondern tun, was mir gefällt, und soll ihm gelingen, dazu ich's sende."
+    },
+    {
+      "id": "23.58.11",
+      "ref": "Jesaja 58,11",
+      "text": "und der HERR wird dich immerdar führen und deine Seele sättigen in der Dürre und deine Gebeine stärken; und du wirst sein wie ein gewässerter Garten und wie eine Wasserquelle, welcher es nimmer an Wasser fehlt;"
+    },
+    {
+      "id": "23.61.1",
+      "ref": "Jesaja 61,1",
+      "text": "Der Geist des Herrn HERRN ist über mir, darum daß mich der HERR gesalbt hat. Er hat mich gesandt, den Elenden zu predigen, die zerbrochenen Herzen zu verbinden, zu verkündigen den Gefangenen die Freiheit, den Gebundenen, daß ihnen geöffnet werde,"
+    },
+    {
+      "id": "23.64.8",
+      "ref": "Jesaja 64,8",
+      "text": "Aber nun, HERR, du bist unser Vater; wir sind der Ton, du bist der Töpfer; und wir alle sind deiner Hände Werk."
+    },
+    {
+      "id": "23.66.13",
+      "ref": "Jesaja 66,13",
+      "text": "Ich will euch trösten, wie einen seine Mutter tröstet; ja, ihr sollt an Jerusalem ergötzt werden."
+    },
+    {
+      "id": "24.1.5",
+      "ref": "Jeremia 1,5",
+      "text": "Ich kannte dich, ehe denn ich dich im Mutterleibe bereitete, und sonderte dich aus, ehe denn du von der Mutter geboren wurdest, und stellte dich zum Propheten unter die Völker."
+    },
+    {
+      "id": "24.9.23-24",
+      "ref": "Jeremia 9,23-24",
+      "text": "So spricht der HERR: Ein Weiser rühme sich nicht seiner Weisheit, ein Starker rühme sich nicht seiner Stärke, ein Reicher rühme sich nicht seines Reichtums; sondern wer sich rühmen will, der rühme sich des, daß er mich wisse und kenne, daß ich der HERR bin, der Barmherzigkeit, Recht und Gerechtigkeit übt auf Erden; denn solches gefällt mir, spricht der HERR."
+    },
+    {
+      "id": "24.15.16",
+      "ref": "Jeremia 15,16",
+      "text": "Dein Wort ward mir Speise, da ich's empfing; und dein Wort ist meines Herzens Freude und Trost; denn ich bin ja nach deinem Namen genannt; HERR, Gott Zebaoth."
+    },
+    {
+      "id": "24.17.7-8",
+      "ref": "Jeremia 17,7-8",
+      "text": "Gesegnet aber ist der Mann, der sich auf den HERRN verläßt und des Zuversicht der HERR ist. Der ist wie ein Baum, am Wasser gepflanzt und am Bach gewurzelt. Denn obgleich eine Hitze kommt, fürchtet er sich doch nicht, sondern seine Blätter bleiben grün, und sorgt nicht, wenn ein dürres Jahr kommt sondern er bringt ohne Aufhören Früchte."
+    },
+    {
+      "id": "24.17.14",
+      "ref": "Jeremia 17,14",
+      "text": "Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen; denn du bist mein Ruhm."
+    },
+    {
+      "id": "24.29.11",
+      "ref": "Jeremia 29,11",
+      "text": "Denn ich weiß wohl, was ich für Gedanken über euch habe, spricht der HERR: Gedanken des Friedens und nicht des Leidens, daß ich euch gebe das Ende, des ihr wartet."
+    },
+    {
+      "id": "24.29.12-13",
+      "ref": "Jeremia 29,12-13",
+      "text": "Und ihr werdet mich anrufen und hingehen und mich bitten, und ich will euch erhören. Ihr werdet mich suchen und finden. Denn so ihr mich von ganzem Herzen suchen werdet,"
+    },
+    {
+      "id": "24.31.3",
+      "ref": "Jeremia 31,3",
+      "text": "Der HERR ist mir erschienen von ferne: Ich habe dich je und je geliebt; darum habe ich dich zu mir gezogen aus lauter Güte."
+    },
+    {
+      "id": "24.32.17",
+      "ref": "Jeremia 32,17",
+      "text": "Ach Herr HERR, siehe, du hast Himmel und Erde gemacht durch deine große Kraft und durch deinen ausgestreckten Arm, und ist kein Ding vor dir unmöglich;"
+    },
+    {
+      "id": "24.33.3",
+      "ref": "Jeremia 33,3",
+      "text": "Rufe mich an, so will ich dir antworten und will dir anzeigen große und gewaltige Dinge, die du nicht weißt."
+    },
+    {
+      "id": "25.3.22-23",
+      "ref": "Klagelieder 3,22-23",
+      "text": "Die Güte des HERRN ist's, daß wir nicht gar aus sind; seine Barmherzigkeit hat noch kein Ende, sondern sie ist alle Morgen neu, und deine Treue ist groß."
+    },
+    {
+      "id": "25.3.25",
+      "ref": "Klagelieder 3,25",
+      "text": "Denn der HERR ist freundlich dem, der auf sie harrt, und der Seele, die nach ihm fragt."
+    },
+    {
+      "id": "26.34.16",
+      "ref": "Hesekiel 34,16",
+      "text": "Ich will das Verlorene wieder suchen und das Verirrte wiederbringen und das Verwundete verbinden und des Schwachen warten; aber was fett und stark ist, will ich vertilgen und will es weiden mit Gericht."
+    },
+    {
+      "id": "26.36.26",
+      "ref": "Hesekiel 36,26",
+      "text": "Und ich will euch ein neues Herz und einen neuen Geist in euch geben und will das steinerne Herz aus eurem Fleische wegnehmen und euch ein fleischernes Herz geben;"
+    },
+    {
+      "id": "27.3.17",
+      "ref": "Daniel 3,17",
+      "text": "Siehe, unser Gott, den wir ehren, kann uns wohl erretten aus dem glühenden Ofen, dazu auch von deiner Hand erretten."
+    },
+    {
+      "id": "27.12.3",
+      "ref": "Daniel 12,3",
+      "text": "Die Lehrer aber werden leuchten wie des Himmels Glanz, und die, so viele zur Gerechtigkeit weisen, wie die Sterne immer und ewiglich."
+    },
+    {
+      "id": "28.6.3",
+      "ref": "Hosea 6,3",
+      "text": "Dann werden wir acht darauf haben und fleißig sein, daß wir den HERRN erkennen. Denn er wird hervorbrechen wie die schöne Morgenröte und wird zu uns kommen wie ein Regen, wie ein Spätregen, der das Land feuchtet."
+    },
+    {
+      "id": "29.2.13",
+      "ref": "Joel 2,13",
+      "text": "Zerreißet eure Herzen und nicht eure Kleider, und bekehret euch zu dem HERRN, eurem Gott! denn er ist gnädig, barmherzig, geduldig und von großer Güte, und ihn reut bald der Strafe."
+    },
+    {
+      "id": "29.2.25",
+      "ref": "Joel 2,25",
+      "text": "Und ich will euch die Jahre erstatten, welche die Heuschrecken, Käfer, Geschmeiß und Raupen, mein großes Heer, so ich unter euch schickte, gefressen haben;"
+    },
+    {
+      "id": "30.5.24",
+      "ref": "Amos 5,24",
+      "text": "Es soll aber das Recht offenbart werden wie Wasser und die Gerechtigkeit wie ein starker Strom."
+    },
+    {
+      "id": "33.6.8",
+      "ref": "Micha 6,8",
+      "text": "Es ist dir gesagt, Mensch, was gut ist und was der HERR von dir fordert, nämlich Gottes Wort halten und Liebe üben und demütig sein vor deinem Gott."
+    },
+    {
+      "id": "33.7.7",
+      "ref": "Micha 7,7",
+      "text": "Ich aber will auf den HERRN schauen und des Gottes meines Heils warten; mein Gott wird mich hören."
+    },
+    {
+      "id": "33.7.18",
+      "ref": "Micha 7,18",
+      "text": "Wo ist solch ein Gott, wie du bist, der die Sünde vergibt und erläßt die Missetat den übrigen seines Erbteils, der seinen Zorn nicht ewiglich behält! denn er ist barmherzig."
+    },
+    {
+      "id": "34.1.7",
+      "ref": "Nahum 1,7",
+      "text": "Der HERR ist gütig und eine Feste zur Zeit der Not und kennt die, die auf ihn trauen."
+    },
+    {
+      "id": "35.2.4",
+      "ref": "Habakuk 2,4",
+      "text": "Siehe, wer halsstarrig ist, der wird keine Ruhe in seinem Herzen haben; der Gerechte aber wird seines Glaubens leben."
+    },
+    {
+      "id": "35.3.19",
+      "ref": "Habakuk 3,19",
+      "text": "Denn der HERR ist meine Kraft und wird meine Füße machen wie Hirschfüße und wird mich auf meine Höhen führen. Vorzusingen auf meinem Saitenspiel."
+    },
+    {
+      "id": "36.3.17",
+      "ref": "Zefanja 3,17",
+      "text": "denn der HERR, dein Gott, ist bei dir, ein starker Heiland; er wird sich über dich freuen und dir freundlich sein und vergeben und wird über dir mit Schall fröhlich sein."
+    },
+    {
+      "id": "37.2.4",
+      "ref": "Haggai 2,4",
+      "text": "Und nun Serubabel, sei getrost! spricht der HERR; sei getrost, Josua, du Sohn Jozadaks, du Hoherpriester! sei getrost alles Volk im Lande! spricht der HERR, und arbeitet! denn ich bin mit euch, spricht der HERR Zebaoth."
+    },
+    {
+      "id": "38.4.6",
+      "ref": "Sacharja 4,6",
+      "text": "Und er antwortete und sprach zu mir: Das ist das Wort des HERRN von Serubabel: Es soll nicht durch Heer oder Kraft, sondern durch meinen Geist geschehen, spricht der HERR Zebaoth."
+    },
+    {
+      "id": "38.9.9",
+      "ref": "Sacharja 9,9",
+      "text": "Aber du, Tochter Zion, freue dich sehr, und du, Tochter Jerusalem, jauchze! Siehe, dein König kommt zu dir, ein Gerechter und ein Helfer, arm, und reitet auf einem Esel und auf einem jungen Füllen der Eselin."
+    },
+    {
+      "id": "39.3.6",
+      "ref": "Maleachi 3,6",
+      "text": "Denn ich bin der HERR und wandle mich nicht; und es soll mit euch Kindern Jakobs nicht gar aus sein."
+    },
+    {
+      "id": "39.3.10",
+      "ref": "Maleachi 3,10",
+      "text": "Bringt mir den Zehnten ganz in mein Kornhaus, auf daß in meinem Hause Speise sei, und prüft mich hierin, spricht der HERR Zebaoth, ob ich euch nicht des Himmels Fenster auftun werde und Segen herabschütten die Fülle."
+    },
+    {
+      "id": "40.4.4",
+      "ref": "Matthäus 4,4",
+      "text": "Und er antwortete und sprach: Es steht geschrieben: “Der Mensch lebt nicht vom Brot allein, sondern von einem jeglichen Wort, das durch den Mund Gottes geht.”"
+    },
+    {
+      "id": "40.5.3-4",
+      "ref": "Matthäus 5,3-4",
+      "text": "Selig sind, die da geistlich arm sind; denn das Himmelreich ist ihr. Selig sind, die da Leid tragen; denn sie sollen getröstet werden."
+    },
+    {
+      "id": "40.5.9",
+      "ref": "Matthäus 5,9",
+      "text": "Selig sind die Friedfertigen; denn sie werden Gottes Kinder heißen."
+    },
+    {
+      "id": "40.5.14",
+      "ref": "Matthäus 5,14",
+      "text": "Ihr seid das Licht der Welt. Es kann die Stadt, die auf einem Berge liegt, nicht verborgen sein."
+    },
+    {
+      "id": "40.5.16",
+      "ref": "Matthäus 5,16",
+      "text": "Also laßt euer Licht leuchten vor den Leuten, daß sie eure guten Werke sehen und euren Vater im Himmel preisen."
+    },
+    {
+      "id": "40.5.44",
+      "ref": "Matthäus 5,44",
+      "text": "Ich aber sage euch: Liebet eure Feinde; segnet, die euch fluchen; tut wohl denen, die euch hassen; bittet für die, so euch beleidigen und verfolgen,"
+    },
+    {
+      "id": "40.6.19-21",
+      "ref": "Matthäus 6,19-21",
+      "text": "Ihr sollt euch nicht Schätze sammeln auf Erden, da sie die Motten und der Rost fressen und da die Diebe nachgraben und stehlen. Sammelt euch aber Schätze im Himmel, da sie weder Motten noch Rost fressen und da die Diebe nicht nachgraben noch stehlen. Denn wo euer Schatz ist, da ist auch euer Herz."
+    },
+    {
+      "id": "40.6.26",
+      "ref": "Matthäus 6,26",
+      "text": "Sehet die Vögel unter dem Himmel an: sie säen nicht, sie ernten nicht, sie sammeln nicht in die Scheunen; und euer himmlischer Vater nährt sie doch. Seid ihr denn nicht viel mehr denn sie?"
+    },
+    {
+      "id": "40.6.33",
+      "ref": "Matthäus 6,33",
+      "text": "Trachtet am ersten nach dem Reich Gottes und nach seiner Gerechtigkeit, so wird euch solches alles zufallen."
+    },
+    {
+      "id": "40.6.34",
+      "ref": "Matthäus 6,34",
+      "text": "Darum sorgt nicht für den andern Morgen; denn der morgende Tag wird für das Seine sorgen. Es ist genug, daß ein jeglicher Tag seine eigene Plage habe."
+    },
+    {
+      "id": "40.7.7",
+      "ref": "Matthäus 7,7",
+      "text": "Bittet, so wird euch gegeben; suchet, so werdet ihr finden; klopfet an, so wird euch aufgetan."
+    },
+    {
+      "id": "40.7.12",
+      "ref": "Matthäus 7,12",
+      "text": "Alles nun, was ihr wollt, daß euch die Leute tun sollen, das tut ihr ihnen auch. Das ist das Gesetz und die Propheten."
+    },
+    {
+      "id": "40.9.37-38",
+      "ref": "Matthäus 9,37-38",
+      "text": "Da sprach er zu seinen Jüngern: Die Ernte ist groß, aber wenige sind der Arbeiter. Darum bittet den HERRN der Ernte, daß er Arbeiter in seine Ernte sende."
+    },
+    {
+      "id": "40.10.29-31",
+      "ref": "Matthäus 10,29-31",
+      "text": "Kauft man nicht zwei Sperlinge um einen Pfennig? Dennoch fällt deren keiner auf die Erde ohne euren Vater. Nun aber sind auch eure Haare auf dem Haupte alle gezählt. So fürchtet euch denn nicht; ihr seid besser als viele Sperlinge."
+    },
+    {
+      "id": "40.11.28-30",
+      "ref": "Matthäus 11,28-30",
+      "text": "Kommet her zu mir alle, die ihr mühselig und beladen seid; ich will euch erquicken. Nehmet auf euch mein Joch und lernet von mir; denn ich bin sanftmütig und von Herzen demütig; so werdet ihr Ruhe finden für eure Seelen. Denn mein Joch ist sanft, und meine Last ist leicht."
+    },
+    {
+      "id": "40.16.24",
+      "ref": "Matthäus 16,24",
+      "text": "Da sprach Jesus zu seinen Jüngern: Will mir jemand nachfolgen, der verleugne sich selbst und nehme sein Kreuz auf sich und folge mir."
+    },
+    {
+      "id": "40.18.20",
+      "ref": "Matthäus 18,20",
+      "text": "Denn wo zwei oder drei versammelt sind in meinem Namen, da bin ich mitten unter ihnen."
+    },
+    {
+      "id": "40.19.26",
+      "ref": "Matthäus 19,26",
+      "text": "Jesus aber sah sie an und sprach zu ihnen: Bei den Menschen ist es unmöglich; aber bei Gott sind alle Dinge möglich."
+    },
+    {
+      "id": "40.21.22",
+      "ref": "Matthäus 21,22",
+      "text": "Und alles, was ihr bittet im Gebet, so ihr glaubet, werdet ihr's empfangen."
+    },
+    {
+      "id": "40.22.37-39",
+      "ref": "Matthäus 22,37-39",
+      "text": "Jesus aber sprach zu ihm: “Du sollst lieben Gott, deinen HERRN, von ganzem Herzen, von ganzer Seele und von ganzem Gemüte.” Dies ist das vornehmste und größte Gebot. Das andere aber ist ihm gleich; Du sollst deinen Nächsten lieben wie dich selbst."
+    },
+    {
+      "id": "40.25.40",
+      "ref": "Matthäus 25,40",
+      "text": "Und der König wird antworten und sagen zu ihnen: Wahrlich ich sage euch: Was ihr getan habt einem unter diesen meinen geringsten Brüdern, das habt ihr mir getan."
+    },
+    {
+      "id": "40.28.19-20",
+      "ref": "Matthäus 28,19-20",
+      "text": "Darum gehet hin und lehret alle Völker und taufet sie im Namen des Vaters und des Sohnes und des heiligen Geistes, und lehret sie halten alles, was ich euch befohlen habe. Und siehe, ich bin bei euch alle Tage bis an der Welt Ende."
+    },
+    {
+      "id": "41.4.39",
+      "ref": "Markus 4,39",
+      "text": "Und er stand auf und bedrohte den Wind und sprach zu dem Meer: Schweig und verstumme! Und der Wind legte sich, und es ward eine große Stille."
+    },
+    {
+      "id": "41.5.36",
+      "ref": "Markus 5,36",
+      "text": "Jesus aber hörte alsbald die Rede, die da gesagt ward, und sprach zu dem Obersten der Schule: Fürchte dich nicht, glaube nur!"
+    },
+    {
+      "id": "41.6.31",
+      "ref": "Markus 6,31",
+      "text": "Und er sprach zu ihnen: Lasset uns besonders an eine wüste Stätte gehen und ruht ein wenig. Denn ihr waren viele, die ab und zu gingen; und sie hatten nicht Zeit genug, zu essen."
+    },
+    {
+      "id": "41.9.23",
+      "ref": "Markus 9,23",
+      "text": "Jesus aber sprach zu ihm: Wenn du könntest Glauben! Alle Dinge sind möglich dem, der da glaubt."
+    },
+    {
+      "id": "41.10.27",
+      "ref": "Markus 10,27",
+      "text": "Jesus aber sah sie an und sprach: Bei den Menschen ist's unmöglich, aber nicht bei Gott; denn alle Dinge sind möglich bei Gott."
+    },
+    {
+      "id": "41.10.45",
+      "ref": "Markus 10,45",
+      "text": "Denn auch des Menschen Sohn ist nicht gekommen, daß er sich dienen lasse, sondern daß er diene und gebe sein Leben zur Bezahlung für viele."
+    },
+    {
+      "id": "41.11.24",
+      "ref": "Markus 11,24",
+      "text": "Darum sage ich euch: Alles, was ihr bittet in eurem Gebet, glaubet nur, daß ihr's empfangen werdet, so wird's euch werden."
+    },
+    {
+      "id": "41.12.30-31",
+      "ref": "Markus 12,30-31",
+      "text": "und du sollst Gott, deinen HERRN, lieben von ganzem Herzen, von ganzer Seele, von ganzem Gemüte und von allen deinen Kräften.” Das ist das vornehmste Gebot. Und das andere ist ihm gleich: “Du sollst deinen Nächsten lieben wie dich selbst.” Es ist kein anderes Gebot größer denn diese."
+    },
+    {
+      "id": "41.16.15",
+      "ref": "Markus 16,15",
+      "text": "Und er sprach zu ihnen: Gehet hin in alle Welt und prediget das Evangelium aller Kreatur."
+    },
+    {
+      "id": "42.1.37",
+      "ref": "Lukas 1,37",
+      "text": "Denn bei Gott ist kein Ding unmöglich."
+    },
+    {
+      "id": "42.1.78-79",
+      "ref": "Lukas 1,78-79",
+      "text": "durch die herzliche Barmherzigkeit unsers Gottes, durch welche uns besucht hat der Aufgang aus der Höhe, auf daß er erscheine denen, die da sitzen in Finsternis und Schatten des Todes, und richte unsere Füße auf den Weg des Friedens."
+    },
+    {
+      "id": "42.2.10-11",
+      "ref": "Lukas 2,10-11",
+      "text": "Und der Engel sprach zu ihnen: Fürchtet euch nicht! siehe, ich verkündige euch große Freude, die allem Volk widerfahren wird; denn euch ist heute der Heiland geboren, welcher ist Christus, der HERR, in der Stadt Davids."
+    },
+    {
+      "id": "42.2.14",
+      "ref": "Lukas 2,14",
+      "text": "Ehre sei Gott in der Höhe und Frieden auf Erden und den Menschen ein Wohlgefallen."
+    },
+    {
+      "id": "42.6.31",
+      "ref": "Lukas 6,31",
+      "text": "Und wie ihr wollt, daß euch die Leute tun sollen, also tut ihnen gleich auch ihr."
+    },
+    {
+      "id": "42.6.36",
+      "ref": "Lukas 6,36",
+      "text": "Darum seid barmherzig, wie auch euer Vater barmherzig ist."
+    },
+    {
+      "id": "42.6.38",
+      "ref": "Lukas 6,38",
+      "text": "Gebt, so wird euch gegeben. Ein voll, gedrückt, gerüttelt und überfließend Maß wird man in euren Schoß geben; denn eben mit dem Maß, mit dem ihr messet, wird man euch wieder messen."
+    },
+    {
+      "id": "42.10.27",
+      "ref": "Lukas 10,27",
+      "text": "Er antwortete und sprach: “Du sollst Gott, deinen HERRN, lieben von ganzem Herzen, von ganzer Seele, von allen Kräften und von ganzem Gemüte und deinen Nächsten als dich selbst.”"
+    },
+    {
+      "id": "42.11.9",
+      "ref": "Lukas 11,9",
+      "text": "Und ich sage euch auch: Bittet, so wird euch gegeben; suchet, so werdet ihr finden; klopfet an, so wird euch aufgetan."
+    },
+    {
+      "id": "42.12.7",
+      "ref": "Lukas 12,7",
+      "text": "Aber auch die Haare auf eurem Haupt sind alle gezählt. Darum fürchtet euch nicht; ihr seid besser denn viele Sperlinge."
+    },
+    {
+      "id": "42.12.32",
+      "ref": "Lukas 12,32",
+      "text": "Fürchte dich nicht, du kleine Herde! denn es ist eures Vaters Wohlgefallen, euch das Reich zu geben."
+    },
+    {
+      "id": "42.15.7",
+      "ref": "Lukas 15,7",
+      "text": "Ich sage euch: Also wird auch Freude im Himmel sein über einen Sünder, der Buße tut, vor neunundneunzig Gerechten, die der Buße nicht bedürfen."
+    },
+    {
+      "id": "42.18.27",
+      "ref": "Lukas 18,27",
+      "text": "Er aber sprach: Was bei den Menschen unmöglich ist, das ist bei Gott möglich."
+    },
+    {
+      "id": "42.21.33",
+      "ref": "Lukas 21,33",
+      "text": "Himmel und Erde werden vergehen; aber meine Worte vergehen nicht."
+    },
+    {
+      "id": "43.1.1",
+      "ref": "Johannes 1,1",
+      "text": "Im Anfang war das Wort, und das Wort war bei Gott, und Gott war das Wort."
+    },
+    {
+      "id": "43.1.5",
+      "ref": "Johannes 1,5",
+      "text": "Und das Licht scheint in der Finsternis, und die Finsternis hat's nicht begriffen."
+    },
+    {
+      "id": "43.1.12",
+      "ref": "Johannes 1,12",
+      "text": "Wie viele ihn aber aufnahmen, denen gab er Macht, Kinder Gottes zu werden, die an seinen Namen glauben;"
+    },
+    {
+      "id": "43.3.16",
+      "ref": "Johannes 3,16",
+      "text": "Also hat Gott die Welt geliebt, daß er seinen eingeborenen Sohn gab, auf daß alle, die an ihn glauben, nicht verloren werden, sondern das ewige Leben haben."
+    },
+    {
+      "id": "43.3.17",
+      "ref": "Johannes 3,17",
+      "text": "Denn Gott hat seinen Sohn nicht gesandt in die Welt, daß er die Welt richte, sondern daß die Welt durch ihn selig werde."
+    },
+    {
+      "id": "43.4.14",
+      "ref": "Johannes 4,14",
+      "text": "wer aber von dem Wasser trinken wird, das ich ihm gebe, den wird ewiglich nicht dürsten; sondern das Wasser, das ich ihm geben werde, das wird in ihm ein Brunnen des Wassers werden, das in das ewige Leben quillt."
+    },
+    {
+      "id": "43.6.35",
+      "ref": "Johannes 6,35",
+      "text": "Jesus aber sprach zu ihnen: Ich bin das Brot des Lebens. Wer zu mir kommt, den wird nicht hungern; und wer an mich glaubt, den wird nimmermehr dürsten."
+    },
+    {
+      "id": "43.8.12",
+      "ref": "Johannes 8,12",
+      "text": "Da redete Jesus abermals zu ihnen und sprach: Ich bin das Licht der Welt; wer mir nachfolgt, der wird nicht wandeln in der Finsternis, sondern wir das Licht des Lebens haben."
+    },
+    {
+      "id": "43.8.32",
+      "ref": "Johannes 8,32",
+      "text": "und werdet die Wahrheit erkennen, und die Wahrheit wird euch frei machen."
+    },
+    {
+      "id": "43.10.9",
+      "ref": "Johannes 10,9",
+      "text": "Ich bin die Tür; so jemand durch mich eingeht, der wird selig werden und wird ein und aus gehen und Weide finden."
+    },
+    {
+      "id": "43.10.14-15",
+      "ref": "Johannes 10,14-15",
+      "text": "Ich bin der gute Hirte und erkenne die Meinen und bin bekannt den Meinen, wie mich mein Vater kennt und ich kenne den Vater. Und ich lasse mein Leben für die Schafe."
+    },
+    {
+      "id": "43.10.27-28",
+      "ref": "Johannes 10,27-28",
+      "text": "Denn meine Schafe hören meine Stimme, und ich kenne sie; und sie folgen mir, und ich gebe ihnen das ewige Leben; und sie werden nimmermehr umkommen, und niemand wird sie mir aus meiner Hand reißen."
+    },
+    {
+      "id": "43.11.25-26",
+      "ref": "Johannes 11,25-26",
+      "text": "Jesus spricht zu ihr: Ich bin die Auferstehung und das Leben. Wer an mich glaubt, der wird leben, ob er gleich stürbe; und wer da lebet und glaubet an mich, der wird nimmermehr sterben. Glaubst du das?"
+    },
+    {
+      "id": "43.13.34-35",
+      "ref": "Johannes 13,34-35",
+      "text": "Ein neu Gebot gebe ich euch, daß ihr euch untereinander liebet, wie ich euch geliebt habe, auf daß auch ihr einander liebhabet. Dabei wird jedermann erkennen, daß ihr meine Jünger seid, so ihr Liebe untereinander habt."
+    },
+    {
+      "id": "43.14.1",
+      "ref": "Johannes 14,1",
+      "text": "Und er sprach zu seinen Jüngern: Euer Herz erschrecke nicht! Glaubet an Gott und glaubet an mich!"
+    },
+    {
+      "id": "43.14.6",
+      "ref": "Johannes 14,6",
+      "text": "Jesus spricht zu ihm: Ich bin der Weg und die Wahrheit und das Leben; niemand kommt zum Vater denn durch mich."
+    },
+    {
+      "id": "43.14.16-17",
+      "ref": "Johannes 14,16-17",
+      "text": "Und ich will den Vater bitten, und er soll euch einen andern Tröster geben, daß er bei euch bleibe ewiglich: den Geist der Wahrheit, welchen die Welt nicht kann empfangen; denn sie sieht ihn nicht und kennt ihn nicht. Ihr aber kennet ihn; denn er bleibt bei euch und wird in euch sein."
+    },
+    {
+      "id": "43.14.27",
+      "ref": "Johannes 14,27",
+      "text": "Den Frieden lasse ich euch, meinen Frieden gebe ich euch. Nicht gebe ich euch, wie die Welt gibt. Euer Herz erschrecke nicht und fürchte sich nicht."
+    },
+    {
+      "id": "43.15.5",
+      "ref": "Johannes 15,5",
+      "text": "Ich bin der Weinstock, ihr seid die Reben. Wer in mir bleibt und ich in ihm, der bringt viele Frucht, denn ohne mich könnt ihr nichts tun."
+    },
+    {
+      "id": "43.15.12",
+      "ref": "Johannes 15,12",
+      "text": "Das ist mein Gebot, daß ihr euch untereinander liebet, gleichwie ich euch liebe."
+    },
+    {
+      "id": "43.15.13",
+      "ref": "Johannes 15,13",
+      "text": "Niemand hat größere Liebe denn die, daß er sein Leben läßt für seine Freunde."
+    },
+    {
+      "id": "43.16.33",
+      "ref": "Johannes 16,33",
+      "text": "Solches habe ich mit euch geredet, daß ihr in mir Frieden habet. In der Welt habt ihr Angst; aber seid getrost, ich habe die Welt überwunden."
+    },
+    {
+      "id": "43.17.3",
+      "ref": "Johannes 17,3",
+      "text": "Das ist aber das ewige Leben, daß sie dich, der du allein wahrer Gott bist, und den du gesandt hast, Jesum Christum, erkennen."
+    },
+    {
+      "id": "43.20.29",
+      "ref": "Johannes 20,29",
+      "text": "Spricht Jesus zu ihm: Dieweil du mich gesehen hast, Thomas, glaubest du. Selig sind, die nicht sehen und doch glauben!"
+    },
+    {
+      "id": "44.1.8",
+      "ref": "Apostelgeschichte 1,8",
+      "text": "sondern ihr werdet die Kraft des Heiligen Geistes empfangen, welcher auf euch kommen wird, und werdet meine Zeugen sein zu Jerusalem und in ganz Judäa und Samarien und bis an das Ende der Erde."
+    },
+    {
+      "id": "44.2.21",
+      "ref": "Apostelgeschichte 2,21",
+      "text": "Und soll geschehen, wer den Namen des HERRN anrufen wird, der soll selig werden.”"
+    },
+    {
+      "id": "44.2.38",
+      "ref": "Apostelgeschichte 2,38",
+      "text": "Petrus sprach zu ihnen: Tut Buße und lasse sich ein jeglicher taufen auf den Namen Jesu Christi zur Vergebung der Sünden, so werdet ihr empfangen die Gabe des Heiligen Geistes."
+    },
+    {
+      "id": "44.4.12",
+      "ref": "Apostelgeschichte 4,12",
+      "text": "Und ist in keinem andern-Heil, ist auch kein andrer Name unter dem Himmel den Menschen gegeben, darin wir sollen selig werden."
+    },
+    {
+      "id": "44.16.31",
+      "ref": "Apostelgeschichte 16,31",
+      "text": "Sie sprachen: Glaube an den HERRN Jesus Christus, so wirst du und dein Haus selig!"
+    },
+    {
+      "id": "44.17.27-28",
+      "ref": "Apostelgeschichte 17,27-28",
+      "text": "daß sie den HERRN suchen sollten, ob sie doch ihn fühlen und finden möchten; und fürwahr, er ist nicht ferne von einem jeglichen unter uns. Denn in ihm leben, weben und sind wir; wie auch etliche Poeten bei euch gesagt haben: “Wir sind seines Geschlechts.”"
+    },
+    {
+      "id": "44.20.35",
+      "ref": "Apostelgeschichte 20,35",
+      "text": "Ich habe es euch alles gezeigt, daß man also arbeiten müsse und die Schwachen aufnehmen und gedenken an das Wort des HERRN Jesus, daß er gesagt hat: “Geben ist seliger denn Nehmen!”"
+    },
+    {
+      "id": "45.1.16",
+      "ref": "Römer 1,16",
+      "text": "Denn ich schäme mich des Evangeliums von Christo nicht; denn es ist eine Kraft Gottes, die da selig macht alle, die daran glauben, die Juden vornehmlich und auch die Griechen."
+    },
+    {
+      "id": "45.3.23-24",
+      "ref": "Römer 3,23-24",
+      "text": "Denn es ist hier kein Unterschied: sie sind allzumal Sünder und mangeln des Ruhmes, den sie bei Gott haben sollten, und werden ohne Verdienst gerecht aus seiner Gnade durch die Erlösung, so durch Jesum Christum geschehen ist,"
+    },
+    {
+      "id": "45.5.1",
+      "ref": "Römer 5,1",
+      "text": "Nun wir denn sind gerecht geworden durch den Glauben, so haben wir Frieden mit Gott durch unsern HERRN Jesus Christus,"
+    },
+    {
+      "id": "45.5.3-5",
+      "ref": "Römer 5,3-5",
+      "text": "Nicht allein aber das, sondern wir rühmen uns auch der Trübsale, dieweil wir wissen, daß Trübsal Geduld bringt; Geduld aber bringt Erfahrung; Erfahrung aber bringt Hoffnung; Hoffnung aber läßt nicht zu Schanden werden. Denn die Liebe Gottes ist ausgegossen in unser Herz durch den heiligen Geist, welcher uns gegeben ist."
+    },
+    {
+      "id": "45.5.8",
+      "ref": "Römer 5,8",
+      "text": "Darum preiset Gott seine Liebe gegen uns, daß Christus für uns gestorben ist, da wir noch Sünder waren."
+    },
+    {
+      "id": "45.6.23",
+      "ref": "Römer 6,23",
+      "text": "Denn der Tod ist der Sünde Sold; aber die Gabe Gottes ist das ewige Leben in Christo Jesu, unserm HERRN."
+    },
+    {
+      "id": "45.8.1",
+      "ref": "Römer 8,1",
+      "text": "So ist nun nichts Verdammliches an denen, die in Christo Jesu sind, die nicht nach dem Fleisch wandeln, sondern nach dem Geist."
+    },
+    {
+      "id": "45.8.18",
+      "ref": "Römer 8,18",
+      "text": "Denn ich halte es dafür, daß dieser Zeit Leiden der Herrlichkeit nicht wert sei, die an uns soll offenbart werden."
+    },
+    {
+      "id": "45.8.26",
+      "ref": "Römer 8,26",
+      "text": "Desgleichen auch der Geist hilft unsrer Schwachheit auf. Denn wir wissen nicht, was wir beten sollen, wie sich's gebührt; sondern der Geist selbst vertritt uns aufs beste mit unaussprechlichem Seufzen."
+    },
+    {
+      "id": "45.8.28",
+      "ref": "Römer 8,28",
+      "text": "Wir wissen aber, daß denen, die Gott lieben, alle Dinge zum Besten dienen, denen, die nach dem Vorsatz berufen sind."
+    },
+    {
+      "id": "45.8.31",
+      "ref": "Römer 8,31",
+      "text": "Was wollen wir nun hierzu sagen? Ist Gott für uns, wer mag wider uns sein?"
+    },
+    {
+      "id": "45.8.37",
+      "ref": "Römer 8,37",
+      "text": "Aber in dem allem überwinden wir weit um deswillen, der uns geliebt hat."
+    },
+    {
+      "id": "45.8.38-39",
+      "ref": "Römer 8,38-39",
+      "text": "Denn ich bin gewiß, daß weder Tod noch Leben, weder Engel noch Fürstentümer noch Gewalten, weder Gegenwärtiges noch Zukünftiges, weder Hohes noch Tiefes noch keine andere Kreatur mag uns scheiden von der Liebe Gottes, die in Christo Jesu ist, unserm HERRN."
+    },
+    {
+      "id": "45.10.9",
+      "ref": "Römer 10,9",
+      "text": "Denn so du mit deinem Munde bekennst Jesum, daß er der HERR sei, und glaubst in deinem Herzen, daß ihn Gott von den Toten auferweckt hat, so wirst du selig."
+    },
+    {
+      "id": "45.10.17",
+      "ref": "Römer 10,17",
+      "text": "So kommt der Glaube aus der Predigt, das Predigen aber aus dem Wort Gottes."
+    },
+    {
+      "id": "45.12.1",
+      "ref": "Römer 12,1",
+      "text": "Ich ermahne euch nun, liebe Brüder, durch die Barmherzigkeit Gottes, daß ihr eure Leiber begebet zum Opfer, das da lebendig, heilig und Gott wohlgefällig sei, welches sei euer vernünftiger Gottesdienst."
+    },
+    {
+      "id": "45.12.2",
+      "ref": "Römer 12,2",
+      "text": "Und stellet euch nicht dieser Welt gleich, sondern verändert euch durch die Erneuerung eures Sinnes, auf daß ihr prüfen möget, welches da sei der gute, wohlgefällige und vollkommene Gotteswille."
+    },
+    {
+      "id": "45.12.9-10",
+      "ref": "Römer 12,9-10",
+      "text": "Die Liebe sei nicht falsch. Hasset das Arge, hanget dem Guten an. Die brüderliche Liebe untereinander sei herzlich. Einer komme dem andern mit Ehrerbietung zuvor."
+    },
+    {
+      "id": "45.12.12",
+      "ref": "Römer 12,12",
+      "text": "Seid fröhlich in Hoffnung, geduldig in Trübsal, haltet an am Gebet."
+    },
+    {
+      "id": "45.12.21",
+      "ref": "Römer 12,21",
+      "text": "Laß dich nicht das Böse überwinden, sondern überwinde das Böse mit Gutem."
+    },
+    {
+      "id": "45.13.8",
+      "ref": "Römer 13,8",
+      "text": "Seid niemand nichts schuldig, als daß ihr euch untereinander liebt; denn wer den andern liebt, der hat das Gesetz erfüllt."
+    },
+    {
+      "id": "45.15.13",
+      "ref": "Römer 15,13",
+      "text": "Der Gott aber der Hoffnung erfülle euch mit aller Freude und Frieden im Glauben, daß ihr völlige Hoffnung habet durch die Kraft des heiligen Geistes."
+    },
+    {
+      "id": "46.1.9",
+      "ref": "1. Korinther 1,9",
+      "text": "Denn Gott ist treu, durch welchen ihr berufen seid zur Gemeinschaft seines Sohnes Jesu Christi, unsers HERRN."
+    },
+    {
+      "id": "46.2.9",
+      "ref": "1. Korinther 2,9",
+      "text": "Sondern wie geschrieben steht: “Was kein Auge gesehen hat und kein Ohr gehört hat und in keines Menschen Herz gekommen ist, was Gott bereitet hat denen, die ihn lieben.”"
+    },
+    {
+      "id": "46.3.16",
+      "ref": "1. Korinther 3,16",
+      "text": "Wisset ihr nicht, daß ihr Gottes Tempel seid und der Geist Gottes in euch wohnt?"
+    },
+    {
+      "id": "46.6.19-20",
+      "ref": "1. Korinther 6,19-20",
+      "text": "Oder wisset ihr nicht, daß euer Leib ein Tempel des heiligen Geistes ist, welchen ihr habt von Gott, und seid nicht euer selbst. Denn ihr seid teuer erkauft; darum so preist Gott an eurem Leibe und in eurem Geiste, welche sind Gottes."
+    },
+    {
+      "id": "46.9.24",
+      "ref": "1. Korinther 9,24",
+      "text": "Wisset ihr nicht, daß die, so in den Schranken laufen, die laufen alle, aber einer erlangt das Kleinod? Laufet nun also, daß ihr es ergreifet!"
+    },
+    {
+      "id": "46.10.13",
+      "ref": "1. Korinther 10,13",
+      "text": "Es hat euch noch keine denn menschliche Versuchung betreten; aber Gott ist getreu, der euch nicht läßt versuchen über euer Vermögen, sondern macht, daß die Versuchung so ein Ende gewinne, daß ihr's könnet ertragen."
+    },
+    {
+      "id": "46.10.31",
+      "ref": "1. Korinther 10,31",
+      "text": "Ihr esset nun oder trinket oder was ihr tut, so tut es alles zu Gottes Ehre."
+    },
+    {
+      "id": "46.12.12",
+      "ref": "1. Korinther 12,12",
+      "text": "Denn gleichwie ein Leib ist, und hat doch viele Glieder, alle Glieder aber des Leibes, wiewohl ihrer viel sind, doch ein Leib sind: also auch Christus."
+    },
+    {
+      "id": "46.13.4-5",
+      "ref": "1. Korinther 13,4-5",
+      "text": "Die Liebe ist langmütig und freundlich, die Liebe eifert nicht, die Liebe treibt nicht Mutwillen, sie blähet sich nicht, sie stellet sich nicht ungebärdig, sie suchet nicht das Ihre, sie läßt sich nicht erbittern, sie rechnet das Böse nicht zu,"
+    },
+    {
+      "id": "46.13.7",
+      "ref": "1. Korinther 13,7",
+      "text": "sie verträgt alles, sie glaubet alles, sie hoffet alles, sie duldet alles."
+    },
+    {
+      "id": "46.13.13",
+      "ref": "1. Korinther 13,13",
+      "text": "Nun aber bleibt Glaube, Hoffnung, Liebe, diese drei; aber die Liebe ist die größte unter ihnen."
+    },
+    {
+      "id": "46.15.57",
+      "ref": "1. Korinther 15,57",
+      "text": "Gott aber sei Dank, der uns den Sieg gegeben hat durch unsern HERRN Jesus Christus!"
+    },
+    {
+      "id": "46.15.58",
+      "ref": "1. Korinther 15,58",
+      "text": "Darum, meine lieben Brüder, seid fest, unbeweglich, und nehmet immer zu in dem Werk des HERRN, sintemal ihr wisset, daß eure Arbeit nicht vergeblich ist in dem HERRN."
+    },
+    {
+      "id": "46.16.13-14",
+      "ref": "1. Korinther 16,13-14",
+      "text": "Wachet, stehet im Glauben, seid männlich und seid stark! Alle eure Dinge lasset in der Liebe geschehen!"
+    },
+    {
+      "id": "47.1.3-4",
+      "ref": "2. Korinther 1,3-4",
+      "text": "Gelobet sei Gott und der Vater unsers HERRN Jesu Christi, der Vater der Barmherzigkeit und Gott alles Trostes, der uns tröstet in aller unsrer Trübsal, daß auch wir trösten können, die da sind in allerlei Trübsal, mit dem Trost, damit wir getröstet werden von Gott."
+    },
+    {
+      "id": "47.1.20",
+      "ref": "2. Korinther 1,20",
+      "text": "Denn alle Gottesverheißungen sind Ja in ihm und sind Amen in ihm, Gott zu Lobe durch uns."
+    },
+    {
+      "id": "47.3.17",
+      "ref": "2. Korinther 3,17",
+      "text": "Denn der HERR ist der Geist; wo aber der Geist des HERRN ist, da ist Freiheit."
+    },
+    {
+      "id": "47.4.16",
+      "ref": "2. Korinther 4,16",
+      "text": "Darum werden wir nicht müde; sondern, ob unser äußerlicher Mensch verdirbt, so wird doch der innerliche von Tag zu Tag erneuert."
+    },
+    {
+      "id": "47.4.17-18",
+      "ref": "2. Korinther 4,17-18",
+      "text": "Denn unsre Trübsal, die zeitlich und leicht ist, schafft eine ewige und über alle Maßen wichtige Herrlichkeit uns, die wir nicht sehen auf das Sichtbare, sondern auf das Unsichtbare. Denn was sichtbar ist, das ist zeitlich; was aber unsichtbar ist, das ist ewig."
+    },
+    {
+      "id": "47.5.7",
+      "ref": "2. Korinther 5,7",
+      "text": "denn wir wandeln im Glauben, und nicht im Schauen."
+    },
+    {
+      "id": "47.5.17",
+      "ref": "2. Korinther 5,17",
+      "text": "Darum, ist jemand in Christo, so ist er eine neue Kreatur; das Alte ist vergangen, siehe, es ist alles neu geworden!"
+    },
+    {
+      "id": "47.9.7",
+      "ref": "2. Korinther 9,7",
+      "text": "Ein jeglicher nach seiner Willkür, nicht mit Unwillen oder aus Zwang; denn einen fröhlichen Geber hat Gott lieb."
+    },
+    {
+      "id": "47.9.8",
+      "ref": "2. Korinther 9,8",
+      "text": "Gott aber kann machen, daß allerlei Gnade unter euch reichlich sei, daß ihr in allen Dingen volle Genüge habt und reich seid zu allerlei guten Werken;"
+    },
+    {
+      "id": "47.10.5",
+      "ref": "2. Korinther 10,5",
+      "text": "wir zerstören damit die Anschläge und alle Höhe, die sich erhebt wider die Erkenntnis Gottes, und nehmen gefangen alle Vernunft unter den Gehorsam Christi"
+    },
+    {
+      "id": "47.12.9",
+      "ref": "2. Korinther 12,9",
+      "text": "Und er hat zu mir gesagt: Laß dir an meiner Gnade genügen; denn meine Kraft ist in den Schwachen mächtig. Darum will ich mich am allerliebsten rühmen meiner Schwachheit, auf daß die Kraft Christi bei mir wohne."
+    },
+    {
+      "id": "48.2.20",
+      "ref": "Galater 2,20",
+      "text": "Ich lebe aber; doch nun nicht ich, sondern Christus lebt in mir. Denn was ich jetzt lebe im Fleisch, das lebe ich in dem Glauben des Sohnes Gottes, der mich geliebt hat und sich selbst für mich dargegeben."
+    },
+    {
+      "id": "48.3.26-28",
+      "ref": "Galater 3,26-28",
+      "text": "Denn ihr seid alle Gottes Kinder durch den Glauben an Christum Jesum. Denn wieviel euer auf Christum getauft sind, die haben Christum angezogen. Hier ist kein Jude noch Grieche, hier ist kein Knecht noch Freier, hier ist kein Mann noch Weib; denn ihr seid allzumal einer in Christo Jesu."
+    },
+    {
+      "id": "48.5.1",
+      "ref": "Galater 5,1",
+      "text": "So bestehet nun in der Freiheit, zu der uns Christus befreit hat, und lasset euch nicht wiederum in das knechtische Joch fangen."
+    },
+    {
+      "id": "48.5.13",
+      "ref": "Galater 5,13",
+      "text": "Ihr aber, liebe Brüder, seid zur Freiheit berufen! Allein sehet zu, daß ihr durch die Freiheit dem Fleisch nicht Raum gebet; sondern durch die Liebe diene einer dem andern."
+    },
+    {
+      "id": "48.5.22-23",
+      "ref": "Galater 5,22-23",
+      "text": "Die Frucht aber des Geistes ist Liebe, Freude, Friede, Geduld, Freundlichkeit, Gütigkeit, Glaube, Sanftmut, Keuschheit. Wider solche ist das Gesetz nicht."
+    },
+    {
+      "id": "48.6.2",
+      "ref": "Galater 6,2",
+      "text": "Einer trage des andern Last, so werdet ihr das Gesetz Christi erfüllen."
+    },
+    {
+      "id": "48.6.7",
+      "ref": "Galater 6,7",
+      "text": "Irrt euch nicht! Gott läßt sich nicht spotten. Denn was der Mensch sät, das wird er ernten."
+    },
+    {
+      "id": "48.6.9",
+      "ref": "Galater 6,9",
+      "text": "Lasset uns aber Gutes tun und nicht müde werden; denn zu seiner Zeit werden wir auch ernten ohne Aufhören."
+    },
+    {
+      "id": "49.1.3",
+      "ref": "Epheser 1,3",
+      "text": "Gelobet sei Gott und der Vater unsers HERRN Jesu Christi, der uns gesegnet hat mit allerlei geistlichem Segen in himmlischen Gütern durch Christum;"
+    },
+    {
+      "id": "49.2.8-9",
+      "ref": "Epheser 2,8-9",
+      "text": "Denn aus Gnade seid ihr selig geworden durch den Glauben, und das nicht aus euch: Gottes Gabe ist es, nicht aus den Werken, auf daß sich nicht jemand rühme."
+    },
+    {
+      "id": "49.2.10",
+      "ref": "Epheser 2,10",
+      "text": "Denn wir sind sein Werk, geschaffen in Christo Jesu zu guten Werken, zu welchen Gott uns zuvor bereitet hat, daß wir darin wandeln sollen."
+    },
+    {
+      "id": "49.3.16-17",
+      "ref": "Epheser 3,16-17",
+      "text": "daß er euch Kraft gebe nach dem Reichtum seiner Herrlichkeit, stark zu werden durch seinen Geist an dem inwendigen Menschen, daß Christus wohne durch den Glauben in euren Herzen und ihr durch die Liebe eingewurzelt und gegründet werdet,"
+    },
+    {
+      "id": "49.3.20",
+      "ref": "Epheser 3,20",
+      "text": "Dem aber, der überschwenglich tun kann über alles, das wir bitten oder verstehen, nach der Kraft, die da in uns wirkt,"
+    },
+    {
+      "id": "49.4.2-3",
+      "ref": "Epheser 4,2-3",
+      "text": "mit aller Demut und Sanftmut, mit Geduld, und vertraget einer den andern in der Liebe und seid fleißig, zu halten die Einigkeit im Geist durch das Band des Friedens:"
+    },
+    {
+      "id": "49.4.29",
+      "ref": "Epheser 4,29",
+      "text": "Lasset kein faul Geschwätz aus eurem Munde gehen, sondern was nützlich zur Besserung ist, wo es not tut, daß es holdselig sei zu hören."
+    },
+    {
+      "id": "49.4.32",
+      "ref": "Epheser 4,32",
+      "text": "Seid aber untereinander freundlich, herzlich und vergebet einer dem andern, gleichwie Gott euch auch vergeben hat in Christo."
+    },
+    {
+      "id": "49.5.1-2",
+      "ref": "Epheser 5,1-2",
+      "text": "So seid nun Gottes Nachfolger als die lieben Kinder und wandelt in der Liebe, gleichwie Christus uns hat geliebt und sich selbst dargegeben für uns als Gabe und Opfer, Gott zu einem süßen Geruch."
+    },
+    {
+      "id": "49.5.20",
+      "ref": "Epheser 5,20",
+      "text": "und saget Dank allezeit für alles Gott und dem Vater in dem Namen unsers HERRN Jesu Christi,"
+    },
+    {
+      "id": "49.6.10",
+      "ref": "Epheser 6,10",
+      "text": "Zuletzt, meine Brüder, seid stark in dem HERRN und in der Macht seiner Stärke."
+    },
+    {
+      "id": "49.6.11",
+      "ref": "Epheser 6,11",
+      "text": "Ziehet an den Harnisch Gottes, daß ihr bestehen könnet gegen die listigen Anläufe des Teufels."
+    },
+    {
+      "id": "50.1.6",
+      "ref": "Philipper 1,6",
+      "text": "und bin desselben in guter Zuversicht, daß, der in euch angefangen hat das gute Werk, der wird's auch vollführen bis an den Tag Jesu Christi."
+    },
+    {
+      "id": "50.1.21",
+      "ref": "Philipper 1,21",
+      "text": "Denn Christus ist mein Leben, und Sterben ist mein Gewinn."
+    },
+    {
+      "id": "50.2.3-4",
+      "ref": "Philipper 2,3-4",
+      "text": "Nichts tut durch Zank oder eitle Ehre; sondern durch Demut achte einer den andern höher denn sich selbst, und ein jeglicher sehe nicht auf das Seine, sondern auch auf das, was des andern ist."
+    },
+    {
+      "id": "50.2.13",
+      "ref": "Philipper 2,13",
+      "text": "Denn Gott ist's, der in euch wirkt beides, das Wollen und das Vollbringen, nach seinem Wohlgefallen."
+    },
+    {
+      "id": "50.3.13-14",
+      "ref": "Philipper 3,13-14",
+      "text": "Meine Brüder, ich schätze mich selbst noch nicht, daß ich's ergriffen habe. Eines aber sage ich: Ich vergesse, was dahinten ist, und strecke mich zu dem, was da vorne ist, und jage nach dem vorgesteckten Ziel, nach dem Kleinod, welches vorhält die himmlische Berufung Gottes in Christo Jesu."
+    },
+    {
+      "id": "50.4.4",
+      "ref": "Philipper 4,4",
+      "text": "Freuet euch in dem HERRN allewege! Und abermals sage ich: Freuet euch!"
+    },
+    {
+      "id": "50.4.6-7",
+      "ref": "Philipper 4,6-7",
+      "text": "Sorget nichts! sondern in allen Dingen lasset eure Bitten im Gebet und Flehen mit Danksagung vor Gott kund werden. Und der Friede Gottes, welcher höher ist denn alle Vernunft, bewahre eure Herzen und Sinne in Christo Jesu!"
+    },
+    {
+      "id": "50.4.8",
+      "ref": "Philipper 4,8",
+      "text": "Weiter, liebe Brüder, was wahrhaftig ist, was ehrbar, was gerecht, was keusch, was lieblich, was wohllautet, ist etwa eine Tugend, ist etwa ein Lob, dem denket nach!"
+    },
+    {
+      "id": "50.4.13",
+      "ref": "Philipper 4,13",
+      "text": "Ich vermag alles durch den, der mich mächtig macht, Christus."
+    },
+    {
+      "id": "50.4.19",
+      "ref": "Philipper 4,19",
+      "text": "Mein Gott aber fülle aus alle eure Notdurft nach seinem Reichtum in der Herrlichkeit in Christo Jesu."
+    },
+    {
+      "id": "51.1.16-17",
+      "ref": "Kolosser 1,16-17",
+      "text": "Denn durch ihn ist alles geschaffen, was im Himmel und auf Erden ist, das Sichtbare und das Unsichtbare, es seien Throne oder Herrschaften oder Fürstentümer oder Obrigkeiten; es ist alles durch ihn und zu ihm geschaffen. Und er ist vor allem, und es besteht alles in ihm."
+    },
+    {
+      "id": "51.2.6-7",
+      "ref": "Kolosser 2,6-7",
+      "text": "Wie ihr nun angenommen habt den HERRN Christus Jesus, so wandelt in ihm und seid gewurzelt und erbaut in ihm und fest im Glauben, wie ihr gelehrt seid, und seid in demselben reichlich dankbar."
+    },
+    {
+      "id": "51.3.2",
+      "ref": "Kolosser 3,2",
+      "text": "Trachtet nach dem, was droben ist, nicht nach dem, was auf Erden ist."
+    },
+    {
+      "id": "51.3.12",
+      "ref": "Kolosser 3,12",
+      "text": "So ziehet nun an, als die Auserwählten Gottes, Heiligen und Geliebten, herzliches Erbarmen, Freundlichkeit, Demut, Sanftmut, Geduld;"
+    },
+    {
+      "id": "51.3.13",
+      "ref": "Kolosser 3,13",
+      "text": "und vertrage einer den andern und vergebet euch untereinander, so jemand Klage hat wider den andern; gleichwie Christus euch vergeben hat, also auch ihr."
+    },
+    {
+      "id": "51.3.15",
+      "ref": "Kolosser 3,15",
+      "text": "Und der Friede Gottes regiere in euren Herzen, zu welchem ihr auch berufen seid in einem Leibe; und seid dankbar!"
+    },
+    {
+      "id": "51.3.17",
+      "ref": "Kolosser 3,17",
+      "text": "Und alles, was ihr tut mit Worten oder mit Werken, das tut alles in dem Namen des HERRN Jesu, und danket Gott und dem Vater durch ihn."
+    },
+    {
+      "id": "51.3.23",
+      "ref": "Kolosser 3,23",
+      "text": "Alles, was ihr tut, das tut von Herzen als dem HERRN und nicht den Menschen,"
+    },
+    {
+      "id": "52.4.16-17",
+      "ref": "1. Thessalonicher 4,16-17",
+      "text": "denn er selbst, der HERR, wird mit einem Feldgeschrei und der Stimme des Erzengels und mit der Posaune Gottes herniederkommen vom Himmel, und die Toten in Christo werden auferstehen zuerst. Darnach wir, die wir leben und übrig bleiben, werden zugleich mit ihnen hingerückt werden in den Wolken, dem HERRN entgegen in der Luft, und werden also bei dem HERRN sein allezeit."
+    },
+    {
+      "id": "52.5.11",
+      "ref": "1. Thessalonicher 5,11",
+      "text": "Darum ermahnet euch untereinander und bauet einer den andern, wie ihr denn tut."
+    },
+    {
+      "id": "52.5.16-18",
+      "ref": "1. Thessalonicher 5,16-18",
+      "text": "Seid allezeit fröhlich, betet ohne Unterlaß, seid dankbar in allen Dingen; denn das ist der Wille Gottes in Christo Jesu an euch."
+    },
+    {
+      "id": "52.5.21",
+      "ref": "1. Thessalonicher 5,21",
+      "text": "prüfet aber alles, und das Gute behaltet."
+    },
+    {
+      "id": "52.5.24",
+      "ref": "1. Thessalonicher 5,24",
+      "text": "Getreu ist er, der euch ruft; er wird's auch tun."
+    },
+    {
+      "id": "53.3.3",
+      "ref": "2. Thessalonicher 3,3",
+      "text": "Aber der HERR ist treu; der wird euch stärken und bewahren vor dem Argen."
+    },
+    {
+      "id": "53.3.16",
+      "ref": "2. Thessalonicher 3,16",
+      "text": "Er aber, der HERR des Friedens, gebe euch Frieden allenthalben und auf allerlei Weise. Der HERR sei mit euch allen!"
+    },
+    {
+      "id": "54.2.5",
+      "ref": "1. Timotheus 2,5",
+      "text": "Denn es ist ein Gott und ein Mittler zwischen Gott und den Menschen, nämlich der Mensch Christus Jesus,"
+    },
+    {
+      "id": "54.4.12",
+      "ref": "1. Timotheus 4,12",
+      "text": "Niemand verachte deine Jugend; sondern sei ein Vorbild den Gläubigen im Wort, im Wandel, in der Liebe, im Geist, im Glauben, in der Keuschheit."
+    },
+    {
+      "id": "54.6.6-7",
+      "ref": "1. Timotheus 6,6-7",
+      "text": "Es ist aber ein großer Gewinn, wer gottselig ist und lässet sich genügen. Denn wir haben nichts in die Welt gebracht; darum offenbar ist, wir werden auch nichts hinausbringen."
+    },
+    {
+      "id": "54.6.12",
+      "ref": "1. Timotheus 6,12",
+      "text": "kämpfe den guten Kampf des Glaubens; ergreife das ewige Leben, dazu du auch berufen bist und bekannt hast ein gutes Bekenntnis vor vielen Zeugen."
+    },
+    {
+      "id": "55.1.7",
+      "ref": "2. Timotheus 1,7",
+      "text": "Denn Gott hat uns nicht gegeben den Geist der Furcht, sondern der Kraft und der Liebe und der Zucht."
+    },
+    {
+      "id": "55.1.9",
+      "ref": "2. Timotheus 1,9",
+      "text": "der uns hat selig gemacht und berufen mit einem heiligen Ruf, nicht nach unsern Werken, sondern nach dem Vorsatz und der Gnade, die uns gegeben ist in Christo Jesu vor der Zeit der Welt,"
+    },
+    {
+      "id": "55.2.15",
+      "ref": "2. Timotheus 2,15",
+      "text": "Befleißige dich, Gott dich zu erzeigen als einen rechtschaffenen und unsträflichen Arbeiter, der da recht teile das Wort der Wahrheit."
+    },
+    {
+      "id": "55.3.16-17",
+      "ref": "2. Timotheus 3,16-17",
+      "text": "Denn alle Schrift, von Gott eingegeben, ist nütze zur Lehre, zur Strafe, zur Besserung, zur Züchtigung in der Gerechtigkeit, daß ein Mensch Gottes sei vollkommen, zu allem guten Werk geschickt."
+    },
+    {
+      "id": "55.4.7",
+      "ref": "2. Timotheus 4,7",
+      "text": "Ich habe einen guten Kampf gekämpft, ich habe den Lauf vollendet, ich habe Glauben gehalten;"
+    },
+    {
+      "id": "56.2.11-12",
+      "ref": "Titus 2,11-12",
+      "text": "Denn es ist erschienen die heilsame Gnade Gottes allen Menschen und züchtigt uns, daß wir sollen verleugnen das ungöttliche Wesen und die weltlichen Lüste, und züchtig, gerecht und gottselig leben in dieser Welt"
+    },
+    {
+      "id": "56.3.5",
+      "ref": "Titus 3,5",
+      "text": "nicht um der Werke willen der Gerechtigkeit, die wir getan hatten, sondern nach seiner Barmherzigkeit machte er uns selig durch das Bad der Wiedergeburt und Erneuerung des heiligen Geistes,"
+    },
+    {
+      "id": "58.4.12",
+      "ref": "Hebräer 4,12",
+      "text": "Denn das Wort Gottes ist lebendig und kräftig und schärfer denn kein zweischneidig Schwert, und dringt durch, bis daß es scheidet Seele und Geist, auch Mark und Bein, und ist ein Richter der Gedanken und Sinne des Herzens."
+    },
+    {
+      "id": "58.4.16",
+      "ref": "Hebräer 4,16",
+      "text": "Darum laßt uns hinzutreten mit Freudigkeit zu dem Gnadenstuhl, auf daß wir Barmherzigkeit empfangen und Gnade finden auf die Zeit, wenn uns Hilfe not sein wird."
+    },
+    {
+      "id": "58.6.19",
+      "ref": "Hebräer 6,19",
+      "text": "welche wir haben als einen sichern und festen Anker unsrer Seele, der auch hineingeht in das Inwendige des Vorhangs,"
+    },
+    {
+      "id": "58.10.23",
+      "ref": "Hebräer 10,23",
+      "text": "und lasset uns halten an dem Bekenntnis der Hoffnung und nicht wanken; denn er ist treu, der sie verheißen hat;"
+    },
+    {
+      "id": "58.10.24-25",
+      "ref": "Hebräer 10,24-25",
+      "text": "und lasset uns untereinander unser selbst wahrnehmen mit Reizen zur Liebe und guten Werken und nicht verlassen unsere Versammlung, wie etliche pflegen, sondern einander ermahnen; und das so viel mehr, soviel ihr sehet, daß sich der Tag naht."
+    },
+    {
+      "id": "58.11.1",
+      "ref": "Hebräer 11,1",
+      "text": "Es ist aber der Glaube eine gewisse Zuversicht des, das man hofft, und ein Nichtzweifeln an dem, das man nicht sieht."
+    },
+    {
+      "id": "58.11.6",
+      "ref": "Hebräer 11,6",
+      "text": "Aber ohne Glauben ist's unmöglich, Gott zu gefallen; denn wer zu Gott kommen will, der muß glauben, daß er sei und denen, die ihn suchen, ein Vergelter sein werde."
+    },
+    {
+      "id": "58.12.1-2",
+      "ref": "Hebräer 12,1-2",
+      "text": "Darum wir auch, dieweil wir eine solche Wolke von Zeugen um uns haben, lasset uns ablegen die Sünde, so uns immer anklebt und träge macht, und lasset uns laufen durch Geduld in dem Kampf, der uns verordnet ist. und aufsehen auf Jesum, den Anfänger und Vollender des Glaubens; welcher, da er wohl hätte mögen Freude haben, erduldete das Kreuz und achtete der Schande nicht und hat sich gesetzt zur Rechten auf den Stuhl Gottes."
+    },
+    {
+      "id": "58.12.11",
+      "ref": "Hebräer 12,11",
+      "text": "Alle Züchtigung aber, wenn sie da ist, dünkt uns nicht Freude, sondern Traurigkeit zu sein; aber darnach wird sie geben eine friedsame Frucht der Gerechtigkeit denen, die dadurch geübt sind."
+    },
+    {
+      "id": "58.13.5",
+      "ref": "Hebräer 13,5",
+      "text": "Der Wandel sei ohne Geiz; und laßt euch genügen an dem, was da ist. Denn er hat gesagt: “Ich will dich nicht verlassen noch versäumen”;"
+    },
+    {
+      "id": "58.13.6",
+      "ref": "Hebräer 13,6",
+      "text": "also daß wir dürfen sagen: “Der HERR ist mein Helfer, ich will mich nicht fürchten; was sollte mir ein Mensch tun?”"
+    },
+    {
+      "id": "58.13.8",
+      "ref": "Hebräer 13,8",
+      "text": "Jesus Christus gestern und heute und derselbe auch in Ewigkeit."
+    },
+    {
+      "id": "59.1.2-3",
+      "ref": "Jakobus 1,2-3",
+      "text": "Meine lieben Brüder, achtet es für eitel Freude, wenn ihr in mancherlei Anfechtungen fallet, und wisset, daß euer Glaube, wenn er rechtschaffen ist, Geduld wirkt."
+    },
+    {
+      "id": "59.1.5",
+      "ref": "Jakobus 1,5",
+      "text": "So aber jemand unter euch Weisheit mangelt, der bitte Gott, der da gibt einfältig jedermann und rücket's niemand auf, so wird sie ihm gegeben werden."
+    },
+    {
+      "id": "59.1.12",
+      "ref": "Jakobus 1,12",
+      "text": "Selig ist der Mann, der die Anfechtung erduldet; denn nachdem er bewährt ist, wird er die Krone des Lebens empfangen, welche Gott verheißen hat denen, die ihn liebhaben."
+    },
+    {
+      "id": "59.1.17",
+      "ref": "Jakobus 1,17",
+      "text": "Alle gute Gabe und alle vollkommene Gabe kommt von obenherab, von dem Vater des Lichts, bei welchem ist keine Veränderung noch Wechsel des Lichtes und der Finsternis."
+    },
+    {
+      "id": "59.1.19",
+      "ref": "Jakobus 1,19",
+      "text": "Darum, liebe Brüder, ein jeglicher Mensch sei schnell, zu hören, langsam aber, zu reden, und langsam zum Zorn."
+    },
+    {
+      "id": "59.1.22",
+      "ref": "Jakobus 1,22",
+      "text": "Seid aber Täter des Worts und nicht Hörer allein, wodurch ihr euch selbst betrügt."
+    },
+    {
+      "id": "59.4.7",
+      "ref": "Jakobus 4,7",
+      "text": "So seid nun Gott untertänig. Widerstehet dem Teufel, so flieht er von euch;"
+    },
+    {
+      "id": "59.4.8",
+      "ref": "Jakobus 4,8",
+      "text": "nahet euch zu Gott, so naht er sich zu euch. Reiniget die Hände, ihr Sünder, und macht eure Herzen keusch, ihr Wankelmütigen."
+    },
+    {
+      "id": "59.5.16",
+      "ref": "Jakobus 5,16",
+      "text": "Bekenne einer dem andern seine Sünden und betet füreinander, daß ihr gesund werdet. Des Gerechten Gebet vermag viel, wenn es ernstlich ist."
+    },
+    {
+      "id": "60.1.3",
+      "ref": "1. Petrus 1,3",
+      "text": "Gelobet sei Gott und der Vater unsers HERRN Jesu Christi, der uns nach seiner Barmherzigkeit wiedergeboren hat zu einer lebendigen Hoffnung durch die Auferstehung Jesu Christi von den Toten,"
+    },
+    {
+      "id": "60.1.6-7",
+      "ref": "1. Petrus 1,6-7",
+      "text": "In derselben werdet ihr euch freuen, die ihr jetzt eine kleine Zeit, wo es sein soll, traurig seid in mancherlei Anfechtungen, auf daß euer Glaube rechtschaffen und viel köstlicher erfunden werde denn das vergängliche Gold, das durchs Feuer bewährt wird, zu Lob, Preis und Ehre, wenn nun offenbart wird Jesus Christus,"
+    },
+    {
+      "id": "60.2.9",
+      "ref": "1. Petrus 2,9",
+      "text": "Ihr aber seid das auserwählte Geschlecht, das königliche Priestertum, das heilige Volk, das Volk des Eigentums, daß ihr verkündigen sollt die Tugenden des, der euch berufen hat von der Finsternis zu seinem wunderbaren Licht;"
+    },
+    {
+      "id": "60.2.24",
+      "ref": "1. Petrus 2,24",
+      "text": "welcher unsre Sünden selbst hinaufgetragen hat an seinem Leibe auf das Holz, auf daß wir, der Sünde abgestorben, der Gerechtigkeit leben; durch welches Wunden ihr seid heil geworden."
+    },
+    {
+      "id": "60.3.15",
+      "ref": "1. Petrus 3,15",
+      "text": "heiligt aber Gott den HERRN in euren Herzen. Seid allezeit bereit zur Verantwortung jedermann, der Grund fordert der Hoffnung, die in euch ist,"
+    },
+    {
+      "id": "60.4.8",
+      "ref": "1. Petrus 4,8",
+      "text": "So seid nun mäßig und nüchtern zum Gebet. Vor allen Dingen aber habt untereinander eine inbrünstige Liebe; denn die Liebe deckt auch der Sünden Menge."
+    },
+    {
+      "id": "60.4.10",
+      "ref": "1. Petrus 4,10",
+      "text": "Und dienet einander, ein jeglicher mit der Gabe, die er empfangen hat, als die guten Haushalter der mancherlei Gnade Gottes:"
+    },
+    {
+      "id": "60.5.6-7",
+      "ref": "1. Petrus 5,6-7",
+      "text": "So demütiget euch nun unter die gewaltige Hand Gottes, daß er euch erhöhe zu seiner Zeit. Alle Sorge werfet auf ihn; denn er sorgt für euch."
+    },
+    {
+      "id": "60.5.8",
+      "ref": "1. Petrus 5,8",
+      "text": "Seid nüchtern und wachet; denn euer Widersacher, der Teufel, geht umher wie ein brüllender Löwe und sucht, welchen er verschlinge."
+    },
+    {
+      "id": "60.5.10",
+      "ref": "1. Petrus 5,10",
+      "text": "Der Gott aber aller Gnade, der uns berufen hat zu seiner ewigen Herrlichkeit in Christo Jesu, der wird euch, die ihr eine kleine Zeit leidet, vollbereiten, stärken, kräftigen, gründen."
+    },
+    {
+      "id": "61.1.3",
+      "ref": "2. Petrus 1,3",
+      "text": "Nachdem allerlei seiner göttlichen Kraft, was zum Leben und göttlichen Wandel dient, uns geschenkt ist durch die Erkenntnis des, der uns berufen hat durch seine Herrlichkeit und Tugend,"
+    },
+    {
+      "id": "61.3.9",
+      "ref": "2. Petrus 3,9",
+      "text": "Der HERR verzieht nicht die Verheißung, wie es etliche für einen Verzug achten; sondern er hat Geduld mit uns und will nicht, daß jemand verloren werde, sondern daß sich jedermann zur Buße kehre."
+    },
+    {
+      "id": "61.3.18",
+      "ref": "2. Petrus 3,18",
+      "text": "Wachset aber in der Gnade und Erkenntnis unsers HERRN und Heilandes Jesu Christi. Dem sei Ehre nun und zu ewigen Zeiten! Amen."
+    },
+    {
+      "id": "62.1.9",
+      "ref": "1. Johannes 1,9",
+      "text": "So wir aber unsre Sünden bekennen, so ist er treu und gerecht, daß er uns die Sünden vergibt und reinigt uns von aller Untugend."
+    },
+    {
+      "id": "62.3.1",
+      "ref": "1. Johannes 3,1",
+      "text": "Sehet, welch eine Liebe hat uns der Vater erzeigt, daß wir Gottes Kinder sollen heißen! Darum kennt euch die Welt nicht; denn sie kennt ihn nicht."
+    },
+    {
+      "id": "62.3.16",
+      "ref": "1. Johannes 3,16",
+      "text": "Daran haben wir erkannt die Liebe, daß er sein Leben für uns gelassen hat; und wir sollen auch das Leben für die Brüder lassen."
+    },
+    {
+      "id": "62.3.18",
+      "ref": "1. Johannes 3,18",
+      "text": "Meine Kindlein, laßt uns nicht lieben mit Worten noch mit der Zunge, sondern mit der Tat und mit der Wahrheit."
+    },
+    {
+      "id": "62.4.7",
+      "ref": "1. Johannes 4,7",
+      "text": "Ihr Lieben, lasset uns untereinander liebhaben; denn die Liebe ist von Gott, und wer liebhat, der ist von Gott geboren und kennt Gott."
+    },
+    {
+      "id": "62.4.9-10",
+      "ref": "1. Johannes 4,9-10",
+      "text": "Daran ist erschienen die Liebe Gottes gegen uns, daß Gott seinen eingeborenen Sohn gesandt hat in die Welt, daß wir durch ihn leben sollen. Darin steht die Liebe: nicht, daß wir Gott geliebt haben, sondern daß er uns geliebt hat und gesandt seinen Sohn zur Versöhnung für unsre Sünden."
+    },
+    {
+      "id": "62.4.16",
+      "ref": "1. Johannes 4,16",
+      "text": "Und wir haben erkannt und geglaubt die Liebe, die Gott zu uns hat. Gott ist die Liebe; und wer in der Liebe bleibt, der bleibt in Gott und Gott in ihm."
+    },
+    {
+      "id": "62.4.18",
+      "ref": "1. Johannes 4,18",
+      "text": "Furcht ist nicht in der Liebe, sondern die völlige Liebe treibt die Furcht aus; denn die Furcht hat Pein. Wer sich aber fürchtet, der ist nicht völlig in der Liebe."
+    },
+    {
+      "id": "62.4.19",
+      "ref": "1. Johannes 4,19",
+      "text": "Lasset uns ihn lieben; denn er hat uns zuerst geliebt."
+    },
+    {
+      "id": "62.5.14",
+      "ref": "1. Johannes 5,14",
+      "text": "Und das ist die Freudigkeit, die wir haben zu ihm, daß, so wir etwas bitten nach seinem Willen, so hört er uns."
+    },
+    {
+      "id": "65.1.24-25",
+      "ref": "Judas 1,24-25",
+      "text": "Dem aber, der euch kann behüten ohne Fehl und stellen vor das Angesicht seiner Herrlichkeit unsträflich mit Freuden, dem Gott, der allein weise ist, unserm Heiland, sei Ehre und Majestät und Gewalt und Macht nun und zu aller Ewigkeit! Amen."
+    },
+    {
+      "id": "66.1.8",
+      "ref": "Offenbarung 1,8",
+      "text": "Ich bin das A und das O, der Anfang und das Ende, spricht Gott der HERR, der da ist und der da war und der da kommt, der Allmächtige."
+    },
+    {
+      "id": "66.2.10",
+      "ref": "Offenbarung 2,10",
+      "text": "Fürchte dich vor der keinem, das du leiden wirst! Siehe, der Teufel wird etliche von euch ins Gefängnis werfen, auf daß ihr versucht werdet, und werdet Trübsal haben zehn Tage. Sei getreu bis an den Tod, so will ich dir die Krone des Lebens geben."
+    },
+    {
+      "id": "66.3.20",
+      "ref": "Offenbarung 3,20",
+      "text": "Siehe, ich stehe vor der Tür und klopfe an. So jemand meine Stimme hören wird und die Tür auftun, zu dem werde ich eingehen und das Abendmahl mit ihm halten und er mit mir."
+    },
+    {
+      "id": "66.7.17",
+      "ref": "Offenbarung 7,17",
+      "text": "denn das Lamm mitten im Stuhl wird sie weiden und leiten zu den lebendigen Wasserbrunnen, und Gott wird abwischen alle Tränen von ihren Augen."
+    },
+    {
+      "id": "66.21.3-4",
+      "ref": "Offenbarung 21,3-4",
+      "text": "Und ich hörte eine große Stimme von dem Stuhl, die sprach: Siehe da, die Hütte Gottes bei den Menschen! und er wird bei ihnen wohnen, und sie werden sein Volk sein, und er selbst, Gott mit ihnen, wird ihr Gott sein; und Gott wird abwischen alle Tränen von ihren Augen, und der Tod wird nicht mehr sein, noch Leid noch Geschrei noch Schmerz wird mehr sein; denn das Erste ist vergangen."
+    },
+    {
+      "id": "66.21.5",
+      "ref": "Offenbarung 21,5",
+      "text": "Und der auf dem Stuhl saß, sprach: Siehe, ich mache alles neu! Und er spricht zu mir: Schreibe; denn diese Worte sind wahrhaftig und gewiß!"
+    },
+    {
+      "id": "66.22.13",
+      "ref": "Offenbarung 22,13",
+      "text": "Ich bin das A und das O, der Anfang und das Ende, der Erste und der Letzte."
+    }
+  ]
+}
