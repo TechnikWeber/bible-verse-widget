@@ -89,7 +89,7 @@ Referenzimplementierung und prüft das JavaScript dagegen.
 
 ## Der Text
 
-434 kuratierte Stellen, aufgelöst gegen gemeinfreie Texte:
+1000 kuratierte Stellen, aufgelöst gegen gemeinfreie Texte:
 
 | Sprache | Übersetzung | Lizenz |
 |---|---|---|

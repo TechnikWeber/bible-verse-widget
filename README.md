@@ -82,7 +82,7 @@ holds a reference implementation and checks the JavaScript against it.
 
 ## The text
 
-434 curated references, resolved against public-domain texts:
+1000 curated references, resolved against public-domain texts:
 
 | Language | Translation | Licence |
 |---|---|---|

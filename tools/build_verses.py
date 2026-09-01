@@ -35,7 +35,10 @@ GETBIBLE = "https://api.getbible.net/v2"
 DIVERGENT = {
     (4, 12), (4, 29), (9, 23), (10, 20), (14, 33),
     (18, 35), (18, 38), (18, 40), (28, 11),
-    (32, 1), (32, 2), (32, 3), (32, 4),  # Jonah: whole book is shifted
+    # Jonah 1 has one verse fewer in Reina-Valera; chapter 2 has the same verse
+    # count in all three but is still shifted by one (es 2:9 = en 2:8).
+    # Chapters 3 and 4 line up and are usable.
+    (32, 1), (32, 2),
     (42, 17), (44, 8), (44, 15), (44, 19), (44, 24),
     (45, 14), (45, 16), (47, 13),
 }
