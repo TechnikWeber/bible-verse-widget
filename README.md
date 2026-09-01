@@ -1,6 +1,6 @@
-# Bible Verse Widget
+**English** · [Deutsch](README.de.md)
 
-*[Deutsche Version](README.de.md)*
+# Bible Verse Widget
 
 A Bible verse for every day, sitting directly on your desktop — no window to
 open, no account, no network.

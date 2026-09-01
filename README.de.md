@@ -1,6 +1,6 @@
-# Bibelvers-Widget
+[English](README.md) · **Deutsch**
 
-*[English version](README.md)*
+# Bible Verse Widget
 
 Jeden Tag ein Bibelvers, direkt auf dem Schreibtisch — kein Fenster zum Öffnen,
 kein Konto, kein Internet.
