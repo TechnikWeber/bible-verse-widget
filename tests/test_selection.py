@@ -82,9 +82,9 @@ class TestSelection(unittest.TestCase):
     def test_stable_across_runs(self):
         # Guards against an accidental change to the constants: these values are
         # what every already-installed widget will be showing.
-        self.assertEqual(verse_index_for_date(dt.date(2026, 1, 1), 438), 146)
-        self.assertEqual(verse_index_for_date(dt.date(2026, 9, 1), 438), 172)
-        self.assertEqual(verse_index_for_date(dt.date(2027, 1, 1), 438), 306)
+        self.assertEqual(verse_index_for_date(dt.date(2026, 1, 1), 434), 267)
+        self.assertEqual(verse_index_for_date(dt.date(2026, 9, 1), 434), 191)
+        self.assertEqual(verse_index_for_date(dt.date(2027, 1, 1), 434), 340)
 
     def test_javascript_port_agrees(self):
         node = shutil.which("node")

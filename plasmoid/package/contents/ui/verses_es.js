@@ -12,7 +12,7 @@ var DATA = {
     "license": "public-domain",
     "sourceUrl": "https://getbible.net/"
   },
-  "count": 438,
+  "count": 434,
   "verses": [
     {
       "id": "1.1.1",
@@ -60,9 +60,9 @@ var DATA = {
       "text": "Y él dijo: Mi rostro irá contigo, y te haré descansar."
     },
     {
-      "id": "2.34.6",
-      "ref": "Éxodo 34:6",
-      "text": "Y pasando Jehová por delante de él, proclamó: Jehová, Jehová, fuerte, misericordioso, y piadoso; tardo para la ira, y grande en benignidad y verdad;"
+      "id": "2.34.6-7",
+      "ref": "Éxodo 34:6-7",
+      "text": "Y pasando Jehová por delante de él, proclamó: Jehová, Jehová, fuerte, misericordioso, y piadoso; tardo para la ira, y grande en benignidad y verdad; Que guarda la misericordia en millares, que perdona la iniquidad, la rebelión, y el pecado, y que de ningún modo justificará al malvado; que visita la iniquidad de los padres sobre los hijos y sobre los hijos de los hijos, sobre los terceros, y sobre los cuartos."
     },
     {
       "id": "3.19.18",
@@ -90,14 +90,14 @@ var DATA = {
       "text": "Y amarás á Jehová tu Dios de todo tu corazón, y de toda tu alma, y con todo tu poder."
     },
     {
-      "id": "5.7.9",
-      "ref": "Deuteronomio 7:9",
-      "text": "Conoce, pues, que Jehová tu Dios es Dios, Dios fiel, que guarda el pacto y la misericordia á los que le aman y guardan sus mandamientos, hasta las mil generaciones;"
+      "id": "5.7.9-10",
+      "ref": "Deuteronomio 7:9-10",
+      "text": "Conoce, pues, que Jehová tu Dios es Dios, Dios fiel, que guarda el pacto y la misericordia á los que le aman y guardan sus mandamientos, hasta las mil generaciones; Y que da el pago en su cara al que le aborrece, destruyéndolo: ni lo dilatará al que le odia, en su cara le dará el pago."
     },
     {
-      "id": "5.30.19",
-      "ref": "Deuteronomio 30:19",
-      "text": "A los cielos y la tierra llamo por testigos hoy contra vosotros, que os he puesto delante la vida y la muerte, la bendición y la maldición: escoge pues la vida, porque vivas tú y tu simiente:"
+      "id": "5.30.19-20",
+      "ref": "Deuteronomio 30:19-20",
+      "text": "A los cielos y la tierra llamo por testigos hoy contra vosotros, que os he puesto delante la vida y la muerte, la bendición y la maldición: escoge pues la vida, porque vivas tú y tu simiente: Que ames á Jehová tu Dios, que oigas su voz, y te allegues á él; porque él es tu vida, y la longitud de tus días; á fin de que habites sobre la tierra que juró Jehová á tus padres Abraham, Isaac, y Jacob, que les había de dar."
     },
     {
       "id": "5.31.6",
@@ -380,9 +380,9 @@ var DATA = {
       "text": "Pon asimismo tu delicia en Jehová, y él te dará las peticiones de tu corazón."
     },
     {
-      "id": "19.37.5",
-      "ref": "Salmos 37:5",
-      "text": "Encomienda á Jehová tu camino, y espera en él; y él hará."
+      "id": "19.37.5-6",
+      "ref": "Salmos 37:5-6",
+      "text": "Encomienda á Jehová tu camino, y espera en él; y él hará. Y exhibirá tu justicia como la luz, y tus derechos como el medio día."
     },
     {
       "id": "19.37.7",
@@ -390,9 +390,9 @@ var DATA = {
       "text": "Calla á Jehová, y espera en él: no te alteres con motivo del que prospera en su camino, por el hombre que hace maldades."
     },
     {
-      "id": "19.40.1",
-      "ref": "Salmos 40:1",
-      "text": "Resignadamente esperé á Jehová, é inclinóse á mí, y oyó mi clamor."
+      "id": "19.40.1-2",
+      "ref": "Salmos 40:1-2",
+      "text": "Resignadamente esperé á Jehová, é inclinóse á mí, y oyó mi clamor. E hízome sacar de un lago de miseria, del lodo cenagoso; y puso mis pies sobre peña, y enderezó mis pasos."
     },
     {
       "id": "19.42.1",
@@ -470,9 +470,9 @@ var DATA = {
       "text": "El que habita al abrigo del Altísimo, morará bajo la sombra del Omnipotente. Diré yo á Jehová: Esperanza mía, y castillo mío; mi Dios, en él confiaré."
     },
     {
-      "id": "19.91.11",
-      "ref": "Salmos 91:11",
-      "text": "Pues que á sus ángeles mandará acerca de ti, que te guarden en todos tus caminos."
+      "id": "19.91.11-12",
+      "ref": "Salmos 91:11-12",
+      "text": "Pues que á sus ángeles mandará acerca de ti, que te guarden en todos tus caminos. En las manos te llevarán, porque tu pie no tropiece en piedra."
     },
     {
       "id": "19.94.19",
@@ -485,9 +485,9 @@ var DATA = {
       "text": "Entrad por sus puertas con reconocimiento, por sus atrios con alabanza: alabadle, bendecid su nombre. Porque Jehová es bueno: para siempre es su misericordia, y su verdad por todas las generaciones."
     },
     {
-      "id": "19.103.2-3",
-      "ref": "Salmos 103:2-3",
-      "text": "Bendice, alma mía á Jehová, y no olvides ninguno de sus beneficios. El es quien perdona todas tus iniquidades, el que sana todas tus dolencias;"
+      "id": "19.103.2-5",
+      "ref": "Salmos 103:2-5",
+      "text": "Bendice, alma mía á Jehová, y no olvides ninguno de sus beneficios. El es quien perdona todas tus iniquidades, el que sana todas tus dolencias; El que rescata del hoyo tu vida, el que te corona de favores y misericordias; El que sacia de bien tu boca de modo que te rejuvenezcas como el águila."
     },
     {
       "id": "19.103.8",
@@ -780,9 +780,9 @@ var DATA = {
       "text": "Tú le guardarás en completa paz, cuyo pensamiento en ti persevera; porque en ti se ha confiado."
     },
     {
-      "id": "23.30.15",
-      "ref": "Isaías 30:15",
-      "text": "Porque así dijo el Señor Jehová, el Santo de Israel: En descanso y en reposo seréis salvos; en quietud y en confianza será vuestra fortaleza. Y no quisisteis,"
+      "id": "23.30.15-16",
+      "ref": "Isaías 30:15-16",
+      "text": "Porque así dijo el Señor Jehová, el Santo de Israel: En descanso y en reposo seréis salvos; en quietud y en confianza será vuestra fortaleza. Y no quisisteis, Sino que dijisteis: No, antes huiremos en caballos: por tanto vosotros huiréis. Sobre ligeros cabalgaremos: por tanto serán ligeros vuestros perseguidores."
     },
     {
       "id": "23.30.21",
@@ -790,9 +790,9 @@ var DATA = {
       "text": "Entonces tus oídos oirán á tus espaldas palabra que diga: Este es el camino, andad por él; y no echéis á la mano derecha, ni tampoco torzáis á la mano izquierda."
     },
     {
-      "id": "23.32.17",
-      "ref": "Isaías 32:17",
-      "text": "Y el efecto de la justicia será paz; y la labor de justicia, reposo y seguridad para siempre."
+      "id": "23.32.17-19",
+      "ref": "Isaías 32:17-19",
+      "text": "Y el efecto de la justicia será paz; y la labor de justicia, reposo y seguridad para siempre. Y mi pueblo habitará en morada de paz, y en habitaciones seguras, y en recreos de reposo. Y el granizo, cuando descendiere, será en los montes; y la ciudad será del todo abatida."
     },
     {
       "id": "23.40.8",
@@ -835,9 +835,9 @@ var DATA = {
       "text": "Cuando pasares por las aguas, yo seré contigo; y por los ríos, no te anegarán. Cuando pasares por el fuego, no te quemarás, ni la llama arderá en ti."
     },
     {
-      "id": "23.43.19",
-      "ref": "Isaías 43:19",
-      "text": "He aquí que yo hago cosa nueva: presto saldrá á luz: ¿no la sabréis? Otra vez pondré camino en el desierto, y ríos en la soledad."
+      "id": "23.43.19-21",
+      "ref": "Isaías 43:19-21",
+      "text": "He aquí que yo hago cosa nueva: presto saldrá á luz: ¿no la sabréis? Otra vez pondré camino en el desierto, y ríos en la soledad. La bestia del campo me honrará, los chacales, y los pollos del avestruz: porque daré aguas en el desierto, ríos en la soledad, para que beba mi pueblo, mi escogido. Este pueblo crié para mí; mis alabanzas publicará."
     },
     {
       "id": "23.46.4",
@@ -875,9 +875,9 @@ var DATA = {
       "text": "Y Jehová te pastoreará siempre, y en las sequías hartará tu alma, y engordará tus huesos; y serás como huerta de riego, y como manadero de aguas, cuyas aguas nunca faltan."
     },
     {
-      "id": "23.61.1",
-      "ref": "Isaías 61:1",
-      "text": "El espíritu del Señor Jehová es sobre mí, porque me ungió Jehová; hame enviado á predicar buenas nuevas á los abatidos, á vendar á los quebrantados de corazón, á publicar libertad á los cautivos, y á los presos abertura de la cárcel;"
+      "id": "23.61.10",
+      "ref": "Isaías 61:10",
+      "text": "En gran manera me gozaré en Jehová, mi alma se alegrará en mi Dios; porque me vistió de vestidos de salud, rodeóme de manto de justicia, como á novio me atavió, y como á novia compuesta de sus joyas."
     },
     {
       "id": "23.64.8",
@@ -920,9 +920,9 @@ var DATA = {
       "text": "Porque yo sé los pensamientos que tengo acerca de vosotros, dice Jehová, pensamientos de paz, y no de mal, para daros el fin que esperáis."
     },
     {
-      "id": "24.29.12-13",
-      "ref": "Jeremías 29:12-13",
-      "text": "Entonces me invocaréis, é iréis y oraréis á mí, y yo os oiré: Y me buscaréis y hallaréis, porque me buscaréis de todo vuestro corazón."
+      "id": "24.29.12-14",
+      "ref": "Jeremías 29:12-14",
+      "text": "Entonces me invocaréis, é iréis y oraréis á mí, y yo os oiré: Y me buscaréis y hallaréis, porque me buscaréis de todo vuestro corazón. Y seré hallado de vosotros, dice Jehová, y tornaré vuestra cautividad, y os juntaré de todas las gentes, y de todos los lugares adonde os arrojé, dice Jehová; y os haré volver al lugar de donde os hice ser llevados."
     },
     {
       "id": "24.31.3",
@@ -1075,9 +1075,9 @@ var DATA = {
       "text": "Así alumbre vuestra luz delante de los hombres, para que vean vuestras obras buenas, y glorifiquen á vuestro Padre que está en los cielos."
     },
     {
-      "id": "40.5.44",
-      "ref": "Mateo 5:44",
-      "text": "Mas yo os digo: Amad á vuestros enemigos, bendecid á los que os maldicen, haced bien á los que os aborrecen, y orad por los que os ultrajan y os persiguen;"
+      "id": "40.5.44-45",
+      "ref": "Mateo 5:44-45",
+      "text": "Mas yo os digo: Amad á vuestros enemigos, bendecid á los que os maldicen, haced bien á los que os aborrecen, y orad por los que os ultrajan y os persiguen; Para que seáis hijos de vuestro Padre que está en los cielos: que hace que su sol salga sobre malos y buenos, y llueve sobre justos é injustos."
     },
     {
       "id": "40.6.19-21",
@@ -1425,9 +1425,9 @@ var DATA = {
       "text": "Para que buscasen á Dios, si en alguna manera, palpando, le hallen; aunque cierto no está lejos de cada uno de nosotros: Porque en él vivimos, y nos movemos, y somos; como también algunos de vuestros poetas dijeron: Porque linaje de éste somos también."
     },
     {
-      "id": "44.20.35",
-      "ref": "Hechos 20:35",
-      "text": "En todo os he enseñado que, trabajando así, es necesario sobrellevar á los enfermos, y tener presente las palabras del Señor Jesús, el cual dijo: Más bienaventurada cosa es dar que recibir."
+      "id": "44.20.35-36",
+      "ref": "Hechos 20:35-36",
+      "text": "En todo os he enseñado que, trabajando así, es necesario sobrellevar á los enfermos, y tener presente las palabras del Señor Jesús, el cual dijo: Más bienaventurada cosa es dar que recibir. Y como hubo dicho estas cosas, se puso de rodillas, y oró con todos ellos."
     },
     {
       "id": "45.1.16",
@@ -1435,14 +1435,9 @@ var DATA = {
       "text": "Porque no me avergüenzo del evangelio: porque es potencia de Dios para salud á todo aquel que cree; al Judío primeramente y también al Griego."
     },
     {
-      "id": "45.3.23-24",
-      "ref": "Romanos 3:23-24",
-      "text": "Por cuanto todos pecaron, y están destituídos de la gloria de Dios; Siendo justificados gratuitamente por su gracia, por la redención que es en Cristo Jesús;"
-    },
-    {
-      "id": "45.5.1",
-      "ref": "Romanos 5:1",
-      "text": "Justificados pues por la fe, tenemos paz para con Dios por medio de nuestro Señor Jesucristo:"
+      "id": "45.5.1-2",
+      "ref": "Romanos 5:1-2",
+      "text": "Justificados pues por la fe, tenemos paz para con Dios por medio de nuestro Señor Jesucristo: Por el cual también tenemos entrada por la fe á esta gracia en la cual estamos firmes, y nos gloriamos en la esperanza de la gloria de Dios."
     },
     {
       "id": "45.5.3-5",
@@ -1515,14 +1510,9 @@ var DATA = {
       "text": "Y no os conforméis á este siglo; mas reformaos por la renovación de vuestro entendimiento, para que experimentéis cuál sea la buena voluntad de Dios, agradable y perfecta."
     },
     {
-      "id": "45.12.9-10",
-      "ref": "Romanos 12:9-10",
-      "text": "El amor sea sin fingimiento: aborreciendo lo malo, llegándoos á lo bueno; Amándoos los unos á los otros con caridad fraternal; previniéndoos con honra los unos á los otros;"
-    },
-    {
-      "id": "45.12.12",
-      "ref": "Romanos 12:12",
-      "text": "Gozosos en la esperanza; sufridos en la tribulación; constantes en la oración;"
+      "id": "45.12.9-13",
+      "ref": "Romanos 12:9-13",
+      "text": "El amor sea sin fingimiento: aborreciendo lo malo, llegándoos á lo bueno; Amándoos los unos á los otros con caridad fraternal; previniéndoos con honra los unos á los otros; En el cuidado no perezosos; ardientes en espíritu; sirviendo al Señor; Gozosos en la esperanza; sufridos en la tribulación; constantes en la oración; Comunicando á las necesidades de los santos; siguiendo la hospitalidad."
     },
     {
       "id": "45.12.21",
@@ -1580,9 +1570,9 @@ var DATA = {
       "text": "Porque de la manera que el cuerpo es uno, y tiene muchos miembros, empero todos los miembros del cuerpo, siendo muchos, son un cuerpo, así también Cristo."
     },
     {
-      "id": "46.13.4-5",
-      "ref": "1 Corintios 13:4-5",
-      "text": "La caridad es sufrida, es benigna; la caridad no tiene envidia, la caridad no hace sinrazón, no se ensancha; No es injuriosa, no busca lo suyo, no se irrita, no piensa el mal;"
+      "id": "46.13.4-6",
+      "ref": "1 Corintios 13:4-6",
+      "text": "La caridad es sufrida, es benigna; la caridad no tiene envidia, la caridad no hace sinrazón, no se ensancha; No es injuriosa, no busca lo suyo, no se irrita, no piensa el mal; No se huelga de la injusticia, mas se huelga de la verdad;"
     },
     {
       "id": "46.13.7",
@@ -1655,9 +1645,9 @@ var DATA = {
       "text": "Y poderoso es Dios para hacer que abunde en vosotros toda gracia; á fin de que, teniendo siempre en todas las cosas todo lo que basta, abundéis para toda buena obra:"
     },
     {
-      "id": "47.10.5",
-      "ref": "2 Corintios 10:5",
-      "text": "Destruyendo consejos, y toda altura que se levanta contra la ciencia de Dios, y cautivando todo intento á la obediencia de Cristo;"
+      "id": "47.10.5-6",
+      "ref": "2 Corintios 10:5-6",
+      "text": "Destruyendo consejos, y toda altura que se levanta contra la ciencia de Dios, y cautivando todo intento á la obediencia de Cristo; Y estando prestos para castigar toda desobediencia, cuando vuestra obediencia fuere cumplida."
     },
     {
       "id": "47.12.9",
@@ -1705,11 +1695,6 @@ var DATA = {
       "text": "No nos cansemos, pues, de hacer bien; que á su tiempo segaremos, si no hubiéremos desmayado."
     },
     {
-      "id": "49.1.3",
-      "ref": "Efesios 1:3",
-      "text": "Bendito el Dios y Padre del Señor nuestro Jesucristo, el cual nos bendijo con toda bendición espiritual en lugares celestiales en Cristo:"
-    },
-    {
       "id": "49.2.8-9",
       "ref": "Efesios 2:8-9",
       "text": "Porque por gracia sois salvos por la fe; y esto no de vosotros, pues es don de Dios: No por obras, para que nadie se gloríe."
@@ -1720,14 +1705,14 @@ var DATA = {
       "text": "Porque somos hechura suya, criados en Cristo Jesús para buenas obras, las cuales Dios preparó para que anduviésemos en ellas."
     },
     {
-      "id": "49.3.16-17",
-      "ref": "Efesios 3:16-17",
-      "text": "Que os dé, conforme á las riquezas de su gloria, el ser corroborados con potencia en el hombre interior por su Espíritu. Que habite Cristo por la fe en vuestros corazones; para que, arraigados y fundados en amor,"
+      "id": "49.3.16-19",
+      "ref": "Efesios 3:16-19",
+      "text": "Que os dé, conforme á las riquezas de su gloria, el ser corroborados con potencia en el hombre interior por su Espíritu. Que habite Cristo por la fe en vuestros corazones; para que, arraigados y fundados en amor, Podáis bien comprender con todos los santos cuál sea la anchura y la longura y la profundidad y la altura, Y conocer el amor de Cristo, que excede á todo conocimiento, para que seáis llenos de toda la plenitud de Dios."
     },
     {
-      "id": "49.3.20",
-      "ref": "Efesios 3:20",
-      "text": "Y á Aquel que es poderoso para hacer todas las cosas mucho más abundantemente de lo que pedimos ó entendemos, por la potencia que obra en nosotros,"
+      "id": "49.3.20-21",
+      "ref": "Efesios 3:20-21",
+      "text": "Y á Aquel que es poderoso para hacer todas las cosas mucho más abundantemente de lo que pedimos ó entendemos, por la potencia que obra en nosotros, A él sea gloria en la iglesia por Cristo Jesús, por todas edades del siglo de los siglos. Amén."
     },
     {
       "id": "49.4.2-3",
@@ -1750,9 +1735,9 @@ var DATA = {
       "text": "Sed, pues, imitadores de Dios como hijos amados: Y andad en amor, como también Cristo nos amó, y se entregó á sí mismo por nosotros, ofrenda y sacrificio á Dios en olor suave."
     },
     {
-      "id": "49.5.20",
-      "ref": "Efesios 5:20",
-      "text": "Dando gracias siempre de todo al Dios y Padre en el nombre de nuestro Señor Jesucristo:"
+      "id": "49.5.20-21",
+      "ref": "Efesios 5:20-21",
+      "text": "Dando gracias siempre de todo al Dios y Padre en el nombre de nuestro Señor Jesucristo: Sujetados los unos á los otros en el temor de Dios."
     },
     {
       "id": "49.6.10",
@@ -1850,9 +1835,9 @@ var DATA = {
       "text": "Y todo lo que hacéis, sea de palabra, ó de hecho, hacedlo todo en el nombre del Señor Jesús, dando gracias á Dios Padre por él."
     },
     {
-      "id": "51.3.23",
-      "ref": "Colosenses 3:23",
-      "text": "Y todo lo que hagáis, hacedlo de ánimo, como al Señor, y no á los hombres;"
+      "id": "51.3.23-24",
+      "ref": "Colosenses 3:23-24",
+      "text": "Y todo lo que hagáis, hacedlo de ánimo, como al Señor, y no á los hombres; Sabiendo que del Señor recibiréis la compensación de la herencia: porque al Señor Cristo servís."
     },
     {
       "id": "52.4.16-17",
@@ -1890,9 +1875,9 @@ var DATA = {
       "text": "Y el mismo Señor de paz os dé siempre paz en toda manera. El Señor sea con todos vosotros."
     },
     {
-      "id": "54.2.5",
-      "ref": "1 Timoteo 2:5",
-      "text": "Porque hay un Dios, asimismo un mediador entre Dios y los hombres, Jesucristo hombre;"
+      "id": "54.2.5-7",
+      "ref": "1 Timoteo 2:5-7",
+      "text": "Porque hay un Dios, asimismo un mediador entre Dios y los hombres, Jesucristo hombre; El cual se dió á sí mismo en precio del rescate por todos, para testimonio en sus tiempos: De lo que yo soy puesto por predicador y apóstol, (digo verdad en Cristo, no miento) doctor de los Gentiles en fidelidad y verdad."
     },
     {
       "id": "54.4.12",
@@ -1915,9 +1900,9 @@ var DATA = {
       "text": "Porque no nos ha dado Dios el espíritu de temor, sino el de fortaleza, y de amor, y de templanza."
     },
     {
-      "id": "55.1.9",
-      "ref": "2 Timoteo 1:9",
-      "text": "Que nos salvó y llamó con vocación santa, no conforme á nuestras obras, mas según el intento suyo y gracia, la cual nos es dada en Cristo Jesús antes de los tiempos de los siglos,"
+      "id": "55.1.9-11",
+      "ref": "2 Timoteo 1:9-11",
+      "text": "Que nos salvó y llamó con vocación santa, no conforme á nuestras obras, mas según el intento suyo y gracia, la cual nos es dada en Cristo Jesús antes de los tiempos de los siglos, Mas ahora es manifestada por la aparición de nuestro Salvador Jesucristo, el cual quitó la muerte, y sacó á la luz la vida y la inmortalidad por el evangelio; Del cual yo soy puesto predicador, y apóstol, y maestro de los Gentiles."
     },
     {
       "id": "55.2.15",
@@ -1935,14 +1920,14 @@ var DATA = {
       "text": "He peleado la buena batalla, he acabado la carrera, he guardado la fe."
     },
     {
-      "id": "56.2.11-12",
-      "ref": "Tito 2:11-12",
-      "text": "Porque la gracia de Dios que trae salvación á todos los hombres, se manifestó, Enseñándonos que, renunciando á la impiedad y á los deseos mundanos, vivamos en este siglo templada, y justa, y píamente,"
+      "id": "56.2.11-14",
+      "ref": "Tito 2:11-14",
+      "text": "Porque la gracia de Dios que trae salvación á todos los hombres, se manifestó, Enseñándonos que, renunciando á la impiedad y á los deseos mundanos, vivamos en este siglo templada, y justa, y píamente, Esperando aquella esperanza bienaventurada, y la manifestación gloriosa del gran Dios y Salvador nuestro Jesucristo, Que se dió á sí mismo por nosotros para redimirnos de toda iniquidad, y limpiar para sí un pueblo propio, celoso de buenas obras."
     },
     {
-      "id": "56.3.5",
-      "ref": "Tito 3:5",
-      "text": "No por obras de justicia que nosotros habíamos hecho, mas por su misericordia nos salvó, por el lavacro de la regeneración, y de la renovación del Espíritu Santo;"
+      "id": "56.3.5-7",
+      "ref": "Tito 3:5-7",
+      "text": "No por obras de justicia que nosotros habíamos hecho, mas por su misericordia nos salvó, por el lavacro de la regeneración, y de la renovación del Espíritu Santo; El cual derramó en nosotros abundantemente por Jesucristo nuestro Salvador, Para que, justificados por su gracia, seamos hechos herederos según la esperanza de la vida eterna."
     },
     {
       "id": "58.4.12",
@@ -1955,9 +1940,9 @@ var DATA = {
       "text": "Lleguémonos pues confiadamente al trono de la gracia, para alcanzar misericordia, y hallar gracia para el oportuno socorro."
     },
     {
-      "id": "58.6.19",
-      "ref": "Hebreos 6:19",
-      "text": "La cual tenemos como segura y firme ancla del alma, y que entra hasta dentro del velo;"
+      "id": "58.6.19-20",
+      "ref": "Hebreos 6:19-20",
+      "text": "La cual tenemos como segura y firme ancla del alma, y que entra hasta dentro del velo; Donde entró por nosotros como precursor Jesús, hecho Pontífice eternalmente según el orden de Melchîsedec."
     },
     {
       "id": "58.10.23",
@@ -2050,14 +2035,9 @@ var DATA = {
       "text": "Confesaos vuestras faltas unos á otros, y rogad los unos por los otros, para que seáis sanos; la oración del justo, obrando eficazmente, puede mucho."
     },
     {
-      "id": "60.1.3",
-      "ref": "1 Pedro 1:3",
-      "text": "Bendito el Dios y Padre de nuestro Señor Jesucristo, que según su grande misericordia nos ha regenerado en esperanza viva, por la resurrección de Jesucristo de los muertos,"
-    },
-    {
-      "id": "60.1.6-7",
-      "ref": "1 Pedro 1:6-7",
-      "text": "En lo cual vosotros os alegráis, estando al presente un poco de tiempo afligidos en diversas tentaciones, si es necesario, Para que la prueba de vuestra fe, mucho más preciosa que el oro, el cual perece, bien que sea probado con fuego, sea hallada en alabanza, gloria y honra, cuando Jesucristo fuere manifestado:"
+      "id": "60.1.3-5",
+      "ref": "1 Pedro 1:3-5",
+      "text": "Bendito el Dios y Padre de nuestro Señor Jesucristo, que según su grande misericordia nos ha regenerado en esperanza viva, por la resurrección de Jesucristo de los muertos, Para una herencia incorruptible, y que no puede contaminarse, ni marchitarse, reservada en los cielos Para nosotros que somos guardados en la virtud de Dios por fe, para alcanzar la salud que está aparejada para ser manifestada en el postrimero tiempo."
     },
     {
       "id": "60.2.9",
@@ -2070,9 +2050,9 @@ var DATA = {
       "text": "El cual mismo llevó nuestros pecados en su cuerpo sobre el madero, para que nosotros siendo muertos á los pecados, vivamos á la justicia: por la herida del cual habéis sido sanados."
     },
     {
-      "id": "60.3.15",
-      "ref": "1 Pedro 3:15",
-      "text": "Sino santificad al Señor Dios en vuestros corazones, y estad siempre aparejados para responder con mansedumbre y reverencia á cada uno que os demande razón de la esperanza que hay en vosotros:"
+      "id": "60.3.15-16",
+      "ref": "1 Pedro 3:15-16",
+      "text": "Sino santificad al Señor Dios en vuestros corazones, y estad siempre aparejados para responder con mansedumbre y reverencia á cada uno que os demande razón de la esperanza que hay en vosotros: Teniendo buena conciencia, para que en lo que murmuran de vosotros como de malhechores, sean confundidos los que blasfeman vuestra buena conversación en Cristo."
     },
     {
       "id": "60.4.8",
@@ -2100,9 +2080,9 @@ var DATA = {
       "text": "Mas el Dios de toda gracia, que nos ha llamado á su gloria eterna por Jesucristo, después que hubiereis un poco de tiempo padecido, él mismo os perfeccione, confirme, corrobore y establezca."
     },
     {
-      "id": "61.1.3",
-      "ref": "2 Pedro 1:3",
-      "text": "Como todas las cosas que pertenecen á la vida y á la piedad nos sean dadas de su divina potencia, por el conocimiento de aquel que nos ha llamado por su gloria y virtud:"
+      "id": "61.1.3-4",
+      "ref": "2 Pedro 1:3-4",
+      "text": "Como todas las cosas que pertenecen á la vida y á la piedad nos sean dadas de su divina potencia, por el conocimiento de aquel que nos ha llamado por su gloria y virtud: Por las cuales nos son dadas preciosas y grandísimas promesas, para que por ellas fueseis hechos participantes de la naturaleza divina, habiendo huído de la corrupción que está en el mundo por concupiscencia."
     },
     {
       "id": "61.3.9",

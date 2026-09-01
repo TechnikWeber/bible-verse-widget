@@ -7,7 +7,7 @@
     "license": "public-domain",
     "sourceUrl": "https://github.com/midvash/bible-data"
   },
-  "count": 438,
+  "count": 434,
   "verses": [
     {
       "id": "1.1.1",
@@ -55,9 +55,9 @@
       "text": "Er sprach: Mein Angesicht soll vorangehen; damit will ich dich leiten."
     },
     {
-      "id": "2.34.6",
-      "ref": "2. Mose 34,6",
-      "text": "Und der HERR ging vor seinem Angesicht vorüber und rief: HERR, HERR, GOTT, barmherzig und gnädig und geduldig und von großer Gnade und Treue!"
+      "id": "2.34.6-7",
+      "ref": "2. Mose 34,6-7",
+      "text": "Und der HERR ging vor seinem Angesicht vorüber und rief: HERR, HERR, GOTT, barmherzig und gnädig und geduldig und von großer Gnade und Treue! der da bewahrt Gnade in tausend Glieder und vergibt Missetat, Übertretung und Sünde, und vor welchem niemand unschuldig ist; der die Missetat der Väter heimsucht auf Kinder und Kindeskinder bis ins dritte und vierte Glied."
     },
     {
       "id": "3.19.18",
@@ -85,14 +85,14 @@
       "text": "Und du sollst den HERRN, deinen Gott, liebhaben von ganzem Herzen, von ganzer Seele, von allem Vermögen."
     },
     {
-      "id": "5.7.9",
-      "ref": "5. Mose 7,9",
-      "text": "So sollst du nun wissen, daß der HERR, dein Gott, ein Gott ist, ein treuer Gott, der den Bund und die Barmherzigkeit hält denen, die ihn lieben und seine Gebote halten, in tausend Glieder,"
+      "id": "5.7.9-10",
+      "ref": "5. Mose 7,9-10",
+      "text": "So sollst du nun wissen, daß der HERR, dein Gott, ein Gott ist, ein treuer Gott, der den Bund und die Barmherzigkeit hält denen, die ihn lieben und seine Gebote halten, in tausend Glieder, und vergilt denen, die ihn hassen, ins Angesicht, daß er sie umbringe, und säumt sie nicht, daß er denen vergelte ins Angesicht, die ihn hassen."
     },
     {
-      "id": "5.30.19",
-      "ref": "5. Mose 30,19",
-      "text": "Ich nehme Himmel und Erde heute über euch zu Zeugen: ich habe euch Leben und Tod, Segen und Fluch vorgelegt, daß du das Leben erwählest und du und dein Same leben mögt,"
+      "id": "5.30.19-20",
+      "ref": "5. Mose 30,19-20",
+      "text": "Ich nehme Himmel und Erde heute über euch zu Zeugen: ich habe euch Leben und Tod, Segen und Fluch vorgelegt, daß du das Leben erwählest und du und dein Same leben mögt, daß ihr den HERRN, euren Gott, liebet und seiner Stimme gehorchet und ihm anhanget. Denn das ist dein Leben und dein langes Alter, daß du in dem Lande wohnst, das der HERR deinen Vätern Abraham, Isaak und Jakob geschworen hat ihnen zu geben."
     },
     {
       "id": "5.31.6",
@@ -375,9 +375,9 @@
       "text": "Habe Deine Lust am HERRN; der wird dir geben, was dein Herz wünschet."
     },
     {
-      "id": "19.37.5",
-      "ref": "Psalmen 37,5",
-      "text": "Befiehl dem HERRN deine Wege und hoffe auf ihn; er wird's wohl machen"
+      "id": "19.37.5-6",
+      "ref": "Psalmen 37,5-6",
+      "text": "Befiehl dem HERRN deine Wege und hoffe auf ihn; er wird's wohl machen und wird deine Gerechtigkeit hervorbringen wie das Licht und dein Recht wie den Mittag."
     },
     {
       "id": "19.37.7",
@@ -385,9 +385,9 @@
       "text": "Sei stille dem HERRN und warte auf ihn; erzürne dich nicht über den, dem sein Mutwille glücklich fortgeht."
     },
     {
-      "id": "19.40.1",
-      "ref": "Psalmen 40,1",
-      "text": "Ich harrte des HERRN; und er neigte sich zu mir und hörte mein Schreien"
+      "id": "19.40.1-2",
+      "ref": "Psalmen 40,1-2",
+      "text": "Ich harrte des HERRN; und er neigte sich zu mir und hörte mein Schreien und zog mich aus der grausamen Grube und aus dem Schlamm und stellte meine Füße auf einen Fels, daß ich gewiß treten kann;"
     },
     {
       "id": "19.42.1",
@@ -465,9 +465,9 @@
       "text": "Wer unter dem Schirm des Höchsten sitzt und unter dem Schatten des Allmächtigen bleibt, der spricht zu dem HERRN: Meine Zuversicht und meine Burg, mein Gott, auf den ich hoffe."
     },
     {
-      "id": "19.91.11",
-      "ref": "Psalmen 91,11",
-      "text": "Denn er hat seinen Engeln befohlen über dir, daß sie dich behüten auf allen deinen Wegen,"
+      "id": "19.91.11-12",
+      "ref": "Psalmen 91,11-12",
+      "text": "Denn er hat seinen Engeln befohlen über dir, daß sie dich behüten auf allen deinen Wegen, daß sie dich auf Händen tragen und du deinen Fuß nicht an einen Stein stoßest."
     },
     {
       "id": "19.94.19",
@@ -480,9 +480,9 @@
       "text": "Geht zu seinen Toren ein mit Danken, zu seinen Vorhöfen mit Loben; danket ihm, lobet seinen Namen! Denn der HERR ist freundlich, und seine Gnade währet ewig und seine Wahrheit für und für."
     },
     {
-      "id": "19.103.2-3",
-      "ref": "Psalmen 103,2-3",
-      "text": "Lobe den HERRN, meine Seele, und vergiß nicht, was er dir Gutes getan hat: der dir alle deine Sünden vergibt und heilet alle deine Gebrechen,"
+      "id": "19.103.2-5",
+      "ref": "Psalmen 103,2-5",
+      "text": "Lobe den HERRN, meine Seele, und vergiß nicht, was er dir Gutes getan hat: der dir alle deine Sünden vergibt und heilet alle deine Gebrechen, der dein Leben vom Verderben erlöst, der dich krönt mit Gnade und Barmherzigkeit, der deinen Mund fröhlich macht, und du wieder jung wirst wie ein Adler."
     },
     {
       "id": "19.103.8",
@@ -775,9 +775,9 @@
       "text": "Du erhältst stets Frieden nach gewisser Zusage; denn man verläßt sich auf dich."
     },
     {
-      "id": "23.30.15",
-      "ref": "Jesaja 30,15",
-      "text": "Denn so spricht der Herr HERR, der Heilige in Israel: Wenn ihr umkehrtet und stillebliebet, so würde euch geholfen; durch Stillesein und Hoffen würdet ihr stark sein. Aber ihr wollt nicht"
+      "id": "23.30.15-16",
+      "ref": "Jesaja 30,15-16",
+      "text": "Denn so spricht der Herr HERR, der Heilige in Israel: Wenn ihr umkehrtet und stillebliebet, so würde euch geholfen; durch Stillesein und Hoffen würdet ihr stark sein. Aber ihr wollt nicht und sprecht: “Nein, sondern auf Rossen wollen wir fliehen”, darum werdet ihr flüchtig sein, “und auf Rennern wollen wir reiten”, darum werden euch eure Verfolger übereilen."
     },
     {
       "id": "23.30.21",
@@ -785,9 +785,9 @@
       "text": "und deine Ohren werden hören hinter dir her das Wort sagen also: dies ist der Weg; den gehet, sonst weder zur Rechten noch zur Linken!"
     },
     {
-      "id": "23.32.17",
-      "ref": "Jesaja 32,17",
-      "text": "und der Gerechtigkeit Frucht wird Friede sein, und der Gerechtigkeit Nutzen wird ewige Stille und Sicherheit sein,"
+      "id": "23.32.17-19",
+      "ref": "Jesaja 32,17-19",
+      "text": "und der Gerechtigkeit Frucht wird Friede sein, und der Gerechtigkeit Nutzen wird ewige Stille und Sicherheit sein, daß mein Volk in Häusern des Friedens wohnen wird, in sicheren Wohnungen und in stolzer Ruhe. Aber Hagel wird sein den Wald hinab, und die Stadt danieden wird niedrig sein."
     },
     {
       "id": "23.40.8",
@@ -830,9 +830,9 @@
       "text": "Denn so du durch Wasser gehst, will ich bei dir sein, daß dich die Ströme nicht sollen ersäufen; und so du ins Feuer gehst, sollst du nicht brennen, und die Flamme soll dich nicht versengen."
     },
     {
-      "id": "23.43.19",
-      "ref": "Jesaja 43,19",
-      "text": "Denn siehe, ich will ein Neues machen; jetzt soll es aufwachsen, und ihr werdet's erfahren, daß ich Weg in der Wüste mache und Wasserströme in der Einöde,"
+      "id": "23.43.19-21",
+      "ref": "Jesaja 43,19-21",
+      "text": "Denn siehe, ich will ein Neues machen; jetzt soll es aufwachsen, und ihr werdet's erfahren, daß ich Weg in der Wüste mache und Wasserströme in der Einöde, daß mich das Tier auf dem Felde preise, die Schakale und Strauße. Denn ich will Wasser in der Wüste und Ströme in der Einöde geben, zu tränken mein Volk, meine Auserwählten. Dies Volk habe ich mir zugerichtet; es soll meinen Ruhm erzählen."
     },
     {
       "id": "23.46.4",
@@ -870,9 +870,9 @@
       "text": "und der HERR wird dich immerdar führen und deine Seele sättigen in der Dürre und deine Gebeine stärken; und du wirst sein wie ein gewässerter Garten und wie eine Wasserquelle, welcher es nimmer an Wasser fehlt;"
     },
     {
-      "id": "23.61.1",
-      "ref": "Jesaja 61,1",
-      "text": "Der Geist des Herrn HERRN ist über mir, darum daß mich der HERR gesalbt hat. Er hat mich gesandt, den Elenden zu predigen, die zerbrochenen Herzen zu verbinden, zu verkündigen den Gefangenen die Freiheit, den Gebundenen, daß ihnen geöffnet werde,"
+      "id": "23.61.10",
+      "ref": "Jesaja 61,10",
+      "text": "Ich freue mich im Herrn, und meine Seele ist fröhlich in meinem Gott; denn er hat mich angezogen mit Kleidern des Heils und mit dem Rock der Gerechtigkeit gekleidet, wie einen Bräutigam, mit priesterlichem Schmuck geziert, und wie eine Braut, die in ihrem Geschmeide prangt."
     },
     {
       "id": "23.64.8",
@@ -915,9 +915,9 @@
       "text": "Denn ich weiß wohl, was ich für Gedanken über euch habe, spricht der HERR: Gedanken des Friedens und nicht des Leidens, daß ich euch gebe das Ende, des ihr wartet."
     },
     {
-      "id": "24.29.12-13",
-      "ref": "Jeremia 29,12-13",
-      "text": "Und ihr werdet mich anrufen und hingehen und mich bitten, und ich will euch erhören. Ihr werdet mich suchen und finden. Denn so ihr mich von ganzem Herzen suchen werdet,"
+      "id": "24.29.12-14",
+      "ref": "Jeremia 29,12-14",
+      "text": "Und ihr werdet mich anrufen und hingehen und mich bitten, und ich will euch erhören. Ihr werdet mich suchen und finden. Denn so ihr mich von ganzem Herzen suchen werdet, so will ich mich von euch finden lassen, spricht der HERR, und will euer Gefängnis wenden und euch sammeln aus allen Völkern und von allen Orten, dahin ich euch verstoßen habe, spricht der HERR, und will euch wiederum an diesen Ort bringen, von dem ich euch habe lassen wegführen."
     },
     {
       "id": "24.31.3",
@@ -1070,9 +1070,9 @@
       "text": "Also laßt euer Licht leuchten vor den Leuten, daß sie eure guten Werke sehen und euren Vater im Himmel preisen."
     },
     {
-      "id": "40.5.44",
-      "ref": "Matthäus 5,44",
-      "text": "Ich aber sage euch: Liebet eure Feinde; segnet, die euch fluchen; tut wohl denen, die euch hassen; bittet für die, so euch beleidigen und verfolgen,"
+      "id": "40.5.44-45",
+      "ref": "Matthäus 5,44-45",
+      "text": "Ich aber sage euch: Liebet eure Feinde; segnet, die euch fluchen; tut wohl denen, die euch hassen; bittet für die, so euch beleidigen und verfolgen, auf daß ihr Kinder seid eures Vater im Himmel; denn er läßt seine Sonne aufgehen über die Bösen und über die Guten und läßt regnen über Gerechte und Ungerechte."
     },
     {
       "id": "40.6.19-21",
@@ -1420,9 +1420,9 @@
       "text": "daß sie den HERRN suchen sollten, ob sie doch ihn fühlen und finden möchten; und fürwahr, er ist nicht ferne von einem jeglichen unter uns. Denn in ihm leben, weben und sind wir; wie auch etliche Poeten bei euch gesagt haben: “Wir sind seines Geschlechts.”"
     },
     {
-      "id": "44.20.35",
-      "ref": "Apostelgeschichte 20,35",
-      "text": "Ich habe es euch alles gezeigt, daß man also arbeiten müsse und die Schwachen aufnehmen und gedenken an das Wort des HERRN Jesus, daß er gesagt hat: “Geben ist seliger denn Nehmen!”"
+      "id": "44.20.35-36",
+      "ref": "Apostelgeschichte 20,35-36",
+      "text": "Ich habe es euch alles gezeigt, daß man also arbeiten müsse und die Schwachen aufnehmen und gedenken an das Wort des HERRN Jesus, daß er gesagt hat: “Geben ist seliger denn Nehmen!” Und als er solches gesagt, kniete er nieder und betete mit ihnen allen."
     },
     {
       "id": "45.1.16",
@@ -1430,14 +1430,9 @@
       "text": "Denn ich schäme mich des Evangeliums von Christo nicht; denn es ist eine Kraft Gottes, die da selig macht alle, die daran glauben, die Juden vornehmlich und auch die Griechen."
     },
     {
-      "id": "45.3.23-24",
-      "ref": "Römer 3,23-24",
-      "text": "Denn es ist hier kein Unterschied: sie sind allzumal Sünder und mangeln des Ruhmes, den sie bei Gott haben sollten, und werden ohne Verdienst gerecht aus seiner Gnade durch die Erlösung, so durch Jesum Christum geschehen ist,"
-    },
-    {
-      "id": "45.5.1",
-      "ref": "Römer 5,1",
-      "text": "Nun wir denn sind gerecht geworden durch den Glauben, so haben wir Frieden mit Gott durch unsern HERRN Jesus Christus,"
+      "id": "45.5.1-2",
+      "ref": "Römer 5,1-2",
+      "text": "Nun wir denn sind gerecht geworden durch den Glauben, so haben wir Frieden mit Gott durch unsern HERRN Jesus Christus, durch welchen wir auch den Zugang haben im Glauben zu dieser Gnade, darin wir stehen, und rühmen uns der Hoffnung der zukünftigen Herrlichkeit, die Gott geben soll."
     },
     {
       "id": "45.5.3-5",
@@ -1510,14 +1505,9 @@
       "text": "Und stellet euch nicht dieser Welt gleich, sondern verändert euch durch die Erneuerung eures Sinnes, auf daß ihr prüfen möget, welches da sei der gute, wohlgefällige und vollkommene Gotteswille."
     },
     {
-      "id": "45.12.9-10",
-      "ref": "Römer 12,9-10",
-      "text": "Die Liebe sei nicht falsch. Hasset das Arge, hanget dem Guten an. Die brüderliche Liebe untereinander sei herzlich. Einer komme dem andern mit Ehrerbietung zuvor."
-    },
-    {
-      "id": "45.12.12",
-      "ref": "Römer 12,12",
-      "text": "Seid fröhlich in Hoffnung, geduldig in Trübsal, haltet an am Gebet."
+      "id": "45.12.9-13",
+      "ref": "Römer 12,9-13",
+      "text": "Die Liebe sei nicht falsch. Hasset das Arge, hanget dem Guten an. Die brüderliche Liebe untereinander sei herzlich. Einer komme dem andern mit Ehrerbietung zuvor. Seid nicht träge in dem, was ihr tun sollt. Seid brünstig im Geiste. Schicket euch in die Zeit. Seid fröhlich in Hoffnung, geduldig in Trübsal, haltet an am Gebet. Nehmet euch der Notdurft der Heiligen an. Herberget gern."
     },
     {
       "id": "45.12.21",
@@ -1575,9 +1565,9 @@
       "text": "Denn gleichwie ein Leib ist, und hat doch viele Glieder, alle Glieder aber des Leibes, wiewohl ihrer viel sind, doch ein Leib sind: also auch Christus."
     },
     {
-      "id": "46.13.4-5",
-      "ref": "1. Korinther 13,4-5",
-      "text": "Die Liebe ist langmütig und freundlich, die Liebe eifert nicht, die Liebe treibt nicht Mutwillen, sie blähet sich nicht, sie stellet sich nicht ungebärdig, sie suchet nicht das Ihre, sie läßt sich nicht erbittern, sie rechnet das Böse nicht zu,"
+      "id": "46.13.4-6",
+      "ref": "1. Korinther 13,4-6",
+      "text": "Die Liebe ist langmütig und freundlich, die Liebe eifert nicht, die Liebe treibt nicht Mutwillen, sie blähet sich nicht, sie stellet sich nicht ungebärdig, sie suchet nicht das Ihre, sie läßt sich nicht erbittern, sie rechnet das Böse nicht zu, sie freut sich nicht der Ungerechtigkeit, sie freut sich aber der Wahrheit;"
     },
     {
       "id": "46.13.7",
@@ -1650,9 +1640,9 @@
       "text": "Gott aber kann machen, daß allerlei Gnade unter euch reichlich sei, daß ihr in allen Dingen volle Genüge habt und reich seid zu allerlei guten Werken;"
     },
     {
-      "id": "47.10.5",
-      "ref": "2. Korinther 10,5",
-      "text": "wir zerstören damit die Anschläge und alle Höhe, die sich erhebt wider die Erkenntnis Gottes, und nehmen gefangen alle Vernunft unter den Gehorsam Christi"
+      "id": "47.10.5-6",
+      "ref": "2. Korinther 10,5-6",
+      "text": "wir zerstören damit die Anschläge und alle Höhe, die sich erhebt wider die Erkenntnis Gottes, und nehmen gefangen alle Vernunft unter den Gehorsam Christi und sind bereit, zu rächen allen Ungehorsam, wenn euer Gehorsam erfüllt ist."
     },
     {
       "id": "47.12.9",
@@ -1700,11 +1690,6 @@
       "text": "Lasset uns aber Gutes tun und nicht müde werden; denn zu seiner Zeit werden wir auch ernten ohne Aufhören."
     },
     {
-      "id": "49.1.3",
-      "ref": "Epheser 1,3",
-      "text": "Gelobet sei Gott und der Vater unsers HERRN Jesu Christi, der uns gesegnet hat mit allerlei geistlichem Segen in himmlischen Gütern durch Christum;"
-    },
-    {
       "id": "49.2.8-9",
       "ref": "Epheser 2,8-9",
       "text": "Denn aus Gnade seid ihr selig geworden durch den Glauben, und das nicht aus euch: Gottes Gabe ist es, nicht aus den Werken, auf daß sich nicht jemand rühme."
@@ -1715,14 +1700,14 @@
       "text": "Denn wir sind sein Werk, geschaffen in Christo Jesu zu guten Werken, zu welchen Gott uns zuvor bereitet hat, daß wir darin wandeln sollen."
     },
     {
-      "id": "49.3.16-17",
-      "ref": "Epheser 3,16-17",
-      "text": "daß er euch Kraft gebe nach dem Reichtum seiner Herrlichkeit, stark zu werden durch seinen Geist an dem inwendigen Menschen, daß Christus wohne durch den Glauben in euren Herzen und ihr durch die Liebe eingewurzelt und gegründet werdet,"
+      "id": "49.3.16-19",
+      "ref": "Epheser 3,16-19",
+      "text": "daß er euch Kraft gebe nach dem Reichtum seiner Herrlichkeit, stark zu werden durch seinen Geist an dem inwendigen Menschen, daß Christus wohne durch den Glauben in euren Herzen und ihr durch die Liebe eingewurzelt und gegründet werdet, auf daß ihr begreifen möget mit allen Heiligen, welches da sei die Breite und die Länge und die Tiefe und die Höhe; auch erkennen die Liebe Christi, die doch alle Erkenntnis übertrifft, auf daß ihr erfüllt werdet mit allerlei Gottesfülle."
     },
     {
-      "id": "49.3.20",
-      "ref": "Epheser 3,20",
-      "text": "Dem aber, der überschwenglich tun kann über alles, das wir bitten oder verstehen, nach der Kraft, die da in uns wirkt,"
+      "id": "49.3.20-21",
+      "ref": "Epheser 3,20-21",
+      "text": "Dem aber, der überschwenglich tun kann über alles, das wir bitten oder verstehen, nach der Kraft, die da in uns wirkt, dem sei Ehre in der Gemeinde, die in Christo Jesu ist, zu aller Zeit, von Ewigkeit zu Ewigkeit! Amen."
     },
     {
       "id": "49.4.2-3",
@@ -1745,9 +1730,9 @@
       "text": "So seid nun Gottes Nachfolger als die lieben Kinder und wandelt in der Liebe, gleichwie Christus uns hat geliebt und sich selbst dargegeben für uns als Gabe und Opfer, Gott zu einem süßen Geruch."
     },
     {
-      "id": "49.5.20",
-      "ref": "Epheser 5,20",
-      "text": "und saget Dank allezeit für alles Gott und dem Vater in dem Namen unsers HERRN Jesu Christi,"
+      "id": "49.5.20-21",
+      "ref": "Epheser 5,20-21",
+      "text": "und saget Dank allezeit für alles Gott und dem Vater in dem Namen unsers HERRN Jesu Christi, und seid untereinander untertan in der Furcht Gottes."
     },
     {
       "id": "49.6.10",
@@ -1845,9 +1830,9 @@
       "text": "Und alles, was ihr tut mit Worten oder mit Werken, das tut alles in dem Namen des HERRN Jesu, und danket Gott und dem Vater durch ihn."
     },
     {
-      "id": "51.3.23",
-      "ref": "Kolosser 3,23",
-      "text": "Alles, was ihr tut, das tut von Herzen als dem HERRN und nicht den Menschen,"
+      "id": "51.3.23-24",
+      "ref": "Kolosser 3,23-24",
+      "text": "Alles, was ihr tut, das tut von Herzen als dem HERRN und nicht den Menschen, und wisset, daß ihr von dem HERRN empfangen werdet die Vergeltung des Erbes; denn ihr dienet dem HERRN Christus."
     },
     {
       "id": "52.4.16-17",
@@ -1885,9 +1870,9 @@
       "text": "Er aber, der HERR des Friedens, gebe euch Frieden allenthalben und auf allerlei Weise. Der HERR sei mit euch allen!"
     },
     {
-      "id": "54.2.5",
-      "ref": "1. Timotheus 2,5",
-      "text": "Denn es ist ein Gott und ein Mittler zwischen Gott und den Menschen, nämlich der Mensch Christus Jesus,"
+      "id": "54.2.5-7",
+      "ref": "1. Timotheus 2,5-7",
+      "text": "Denn es ist ein Gott und ein Mittler zwischen Gott und den Menschen, nämlich der Mensch Christus Jesus, der sich selbst gegeben hat für alle zur Erlösung, daß solches zu seiner Zeit gepredigt würde; dazu ich gesetzt bin als Prediger und Apostel (ich sage die Wahrheit in Christo und lüge nicht), als Lehrer der Heiden im Glauben und in der Wahrheit."
     },
     {
       "id": "54.4.12",
@@ -1910,9 +1895,9 @@
       "text": "Denn Gott hat uns nicht gegeben den Geist der Furcht, sondern der Kraft und der Liebe und der Zucht."
     },
     {
-      "id": "55.1.9",
-      "ref": "2. Timotheus 1,9",
-      "text": "der uns hat selig gemacht und berufen mit einem heiligen Ruf, nicht nach unsern Werken, sondern nach dem Vorsatz und der Gnade, die uns gegeben ist in Christo Jesu vor der Zeit der Welt,"
+      "id": "55.1.9-11",
+      "ref": "2. Timotheus 1,9-11",
+      "text": "der uns hat selig gemacht und berufen mit einem heiligen Ruf, nicht nach unsern Werken, sondern nach dem Vorsatz und der Gnade, die uns gegeben ist in Christo Jesu vor der Zeit der Welt, jetzt aber offenbart durch die Erscheinung unsers Heilandes Jesu Christi, der dem Tode die Macht hat genommen und das Leben und ein unvergänglich Wesen ans Licht gebracht durch das Evangelium, für welches ich gesetzt bin als Prediger und Apostel der Heiden."
     },
     {
       "id": "55.2.15",
@@ -1930,14 +1915,14 @@
       "text": "Ich habe einen guten Kampf gekämpft, ich habe den Lauf vollendet, ich habe Glauben gehalten;"
     },
     {
-      "id": "56.2.11-12",
-      "ref": "Titus 2,11-12",
-      "text": "Denn es ist erschienen die heilsame Gnade Gottes allen Menschen und züchtigt uns, daß wir sollen verleugnen das ungöttliche Wesen und die weltlichen Lüste, und züchtig, gerecht und gottselig leben in dieser Welt"
+      "id": "56.2.11-14",
+      "ref": "Titus 2,11-14",
+      "text": "Denn es ist erschienen die heilsame Gnade Gottes allen Menschen und züchtigt uns, daß wir sollen verleugnen das ungöttliche Wesen und die weltlichen Lüste, und züchtig, gerecht und gottselig leben in dieser Welt und warten auf die selige Hoffnung und Erscheinung der Herrlichkeit des großen Gottes und unsers Heilandes, Jesu Christi, der sich selbst für uns gegeben hat, auf daß er uns erlöste von aller Ungerechtigkeit und reinigte sich selbst ein Volk zum Eigentum, das fleißig wäre zu guten Werken."
     },
     {
-      "id": "56.3.5",
-      "ref": "Titus 3,5",
-      "text": "nicht um der Werke willen der Gerechtigkeit, die wir getan hatten, sondern nach seiner Barmherzigkeit machte er uns selig durch das Bad der Wiedergeburt und Erneuerung des heiligen Geistes,"
+      "id": "56.3.5-7",
+      "ref": "Titus 3,5-7",
+      "text": "nicht um der Werke willen der Gerechtigkeit, die wir getan hatten, sondern nach seiner Barmherzigkeit machte er uns selig durch das Bad der Wiedergeburt und Erneuerung des heiligen Geistes, welchen er ausgegossen hat über uns reichlich durch Jesum Christum, unsern Heiland, auf daß wir durch desselben Gnade gerecht und Erben seien des ewigen Lebens nach der Hoffnung."
     },
     {
       "id": "58.4.12",
@@ -1950,9 +1935,9 @@
       "text": "Darum laßt uns hinzutreten mit Freudigkeit zu dem Gnadenstuhl, auf daß wir Barmherzigkeit empfangen und Gnade finden auf die Zeit, wenn uns Hilfe not sein wird."
     },
     {
-      "id": "58.6.19",
-      "ref": "Hebräer 6,19",
-      "text": "welche wir haben als einen sichern und festen Anker unsrer Seele, der auch hineingeht in das Inwendige des Vorhangs,"
+      "id": "58.6.19-20",
+      "ref": "Hebräer 6,19-20",
+      "text": "welche wir haben als einen sichern und festen Anker unsrer Seele, der auch hineingeht in das Inwendige des Vorhangs, dahin der Vorläufer für uns eingegangen, Jesus, ein Hoherpriester geworden in Ewigkeit nach der Ordnung Melchisedeks."
     },
     {
       "id": "58.10.23",
@@ -2045,14 +2030,9 @@
       "text": "Bekenne einer dem andern seine Sünden und betet füreinander, daß ihr gesund werdet. Des Gerechten Gebet vermag viel, wenn es ernstlich ist."
     },
     {
-      "id": "60.1.3",
-      "ref": "1. Petrus 1,3",
-      "text": "Gelobet sei Gott und der Vater unsers HERRN Jesu Christi, der uns nach seiner Barmherzigkeit wiedergeboren hat zu einer lebendigen Hoffnung durch die Auferstehung Jesu Christi von den Toten,"
-    },
-    {
-      "id": "60.1.6-7",
-      "ref": "1. Petrus 1,6-7",
-      "text": "In derselben werdet ihr euch freuen, die ihr jetzt eine kleine Zeit, wo es sein soll, traurig seid in mancherlei Anfechtungen, auf daß euer Glaube rechtschaffen und viel köstlicher erfunden werde denn das vergängliche Gold, das durchs Feuer bewährt wird, zu Lob, Preis und Ehre, wenn nun offenbart wird Jesus Christus,"
+      "id": "60.1.3-5",
+      "ref": "1. Petrus 1,3-5",
+      "text": "Gelobet sei Gott und der Vater unsers HERRN Jesu Christi, der uns nach seiner Barmherzigkeit wiedergeboren hat zu einer lebendigen Hoffnung durch die Auferstehung Jesu Christi von den Toten, zu einem unvergänglichen und unbefleckten und unverwelklichen Erbe, das behalten wird im Himmel euch, die ihr aus Gottes Macht durch den Glauben bewahrt werdet zur Seligkeit, die bereitet ist, daß sie offenbar werde zu der letzten Zeit."
     },
     {
       "id": "60.2.9",
@@ -2065,9 +2045,9 @@
       "text": "welcher unsre Sünden selbst hinaufgetragen hat an seinem Leibe auf das Holz, auf daß wir, der Sünde abgestorben, der Gerechtigkeit leben; durch welches Wunden ihr seid heil geworden."
     },
     {
-      "id": "60.3.15",
-      "ref": "1. Petrus 3,15",
-      "text": "heiligt aber Gott den HERRN in euren Herzen. Seid allezeit bereit zur Verantwortung jedermann, der Grund fordert der Hoffnung, die in euch ist,"
+      "id": "60.3.15-16",
+      "ref": "1. Petrus 3,15-16",
+      "text": "heiligt aber Gott den HERRN in euren Herzen. Seid allezeit bereit zur Verantwortung jedermann, der Grund fordert der Hoffnung, die in euch ist, und das mit Sanftmütigkeit und Furcht; und habt ein gutes Gewissen, auf daß die, so von euch afterreden als von Übeltätern, zu Schanden werden, daß sie geschmäht haben euren guten Wandel in Christo."
     },
     {
       "id": "60.4.8",
@@ -2095,9 +2075,9 @@
       "text": "Der Gott aber aller Gnade, der uns berufen hat zu seiner ewigen Herrlichkeit in Christo Jesu, der wird euch, die ihr eine kleine Zeit leidet, vollbereiten, stärken, kräftigen, gründen."
     },
     {
-      "id": "61.1.3",
-      "ref": "2. Petrus 1,3",
-      "text": "Nachdem allerlei seiner göttlichen Kraft, was zum Leben und göttlichen Wandel dient, uns geschenkt ist durch die Erkenntnis des, der uns berufen hat durch seine Herrlichkeit und Tugend,"
+      "id": "61.1.3-4",
+      "ref": "2. Petrus 1,3-4",
+      "text": "Nachdem allerlei seiner göttlichen Kraft, was zum Leben und göttlichen Wandel dient, uns geschenkt ist durch die Erkenntnis des, der uns berufen hat durch seine Herrlichkeit und Tugend, durch welche uns die teuren und allergrößten Verheißungen geschenkt sind, nämlich, daß ihr dadurch teilhaftig werdet der göttlichen Natur, so ihr fliehet die vergängliche Lust der Welt;"
     },
     {
       "id": "61.3.9",

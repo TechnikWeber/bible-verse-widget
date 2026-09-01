@@ -171,10 +171,33 @@ def parse_references(english_names: dict[int, str]) -> list[tuple[int, int, int,
     duplicates = {r for r in refs if refs.count(r) > 1}
     if duplicates:
         raise SystemExit(f"duplicate references: {sorted(duplicates)}")
+
+    overlaps = []
+    for i, (book_a, chapter_a, first_a, last_a) in enumerate(refs):
+        for book_b, chapter_b, first_b, last_b in refs[i + 1:]:
+            if (book_a, chapter_a) == (book_b, chapter_b) \
+                    and first_a <= last_b and first_b <= last_a:
+                overlaps.append(f"  {english_names[book_a]} {chapter_a}:"
+                                f"{first_a}-{last_a} and {chapter_b}:{first_b}-{last_b}")
+    if overlaps:
+        raise SystemExit("overlapping references would repeat the same words:\n"
+                         + "\n".join(overlaps))
     return refs
 
 
 PSALMS = 19
+
+# A rendering reads as a finished thought when it ends in one of these, ignoring
+# any closing quotation mark or bracket. Reina-Valera 1909 uses ";" and ":" the
+# way the other two editions use a full stop, so those count as endings; a
+# trailing comma — or no punctuation at all — means the passage was cut mid
+# clause and the reference needs to span another verse.
+SENTENCE_END = (".", "!", "?", ";", ":", "\u2026")
+CLOSING_MARKS = "\u2019\u201d\u00bb\u203a\")']"
+
+
+def reads_complete(text: str) -> bool:
+    return text.rstrip().rstrip(CLOSING_MARKS).endswith(SENTENCE_END)
 
 # The Luther and WEB digitisations fold the Psalm superscription ("A Psalm by
 # David", "Ein Lied im höhern Chor", …) into verse 1. Reina-Valera does not, so
@@ -284,6 +307,27 @@ def check_balance() -> None:
         raise SystemExit("unbalanced renderings — check versification:\n" + "\n".join(offenders))
 
 
+def check_fragments() -> None:
+    """Flag references that stop mid-clause.
+
+    A verse boundary is not a sentence boundary: Isaiah 61:1 ends on a comma in
+    all three editions because the sentence runs into verse 2. Such a reference
+    has to span the extra verse, or be replaced.
+    """
+    loaded = {lang: json.loads((OUT / f"{lang}.json").read_text("utf-8"))["verses"]
+              for lang in SOURCES}
+    offenders = []
+    for i in range(len(loaded["en"])):
+        incomplete = [lang for lang in sorted(loaded)
+                      if not reads_complete(loaded[lang][i]["text"])]
+        if incomplete:
+            offenders.append(f"  {loaded['en'][i]['ref']}: cut mid-clause in "
+                             + ", ".join(incomplete))
+    if offenders:
+        raise SystemExit("references stop mid-clause — extend the range or "
+                         "replace them:\n" + "\n".join(offenders))
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true",
@@ -320,6 +364,7 @@ def main() -> int:
             raise SystemExit(f"{lang}.json is not index-aligned with en.json")
 
     check_balance()
+    check_fragments()
 
     if stale:
         raise SystemExit("stale, re-run tools/build_verses.py: " + ", ".join(stale))

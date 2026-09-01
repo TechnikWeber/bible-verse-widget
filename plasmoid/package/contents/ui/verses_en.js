@@ -12,7 +12,7 @@ var DATA = {
     "license": "public-domain",
     "sourceUrl": "https://github.com/midvash/bible-data"
   },
-  "count": 438,
+  "count": 434,
   "verses": [
     {
       "id": "1.1.1",
@@ -60,9 +60,9 @@ var DATA = {
       "text": "He said, “My presence will go with you, and I will give you rest.”"
     },
     {
-      "id": "2.34.6",
-      "ref": "Exodus 34:6",
-      "text": "The LORD passed by before him, and proclaimed, “The LORD! The LORD, a merciful and gracious God, slow to anger, and abundant in loving kindness and truth,"
+      "id": "2.34.6-7",
+      "ref": "Exodus 34:6-7",
+      "text": "The LORD passed by before him, and proclaimed, “The LORD! The LORD, a merciful and gracious God, slow to anger, and abundant in loving kindness and truth, keeping loving kindness for thousands, forgiving iniquity and disobedience and sin; and who will by no means clear the guilty, visiting the iniquity of the fathers on the children, and on the children’s children, on the third and on the fourth generation.”"
     },
     {
       "id": "3.19.18",
@@ -90,14 +90,14 @@ var DATA = {
       "text": "You shall love the LORD your God with all your heart, with all your soul, and with all your might."
     },
     {
-      "id": "5.7.9",
-      "ref": "Deuteronomy 7:9",
-      "text": "Know therefore that the LORD your God himself is God, the faithful God, who keeps covenant and loving kindness to a thousand generations with those who love him and keep his commandments,"
+      "id": "5.7.9-10",
+      "ref": "Deuteronomy 7:9-10",
+      "text": "Know therefore that the LORD your God himself is God, the faithful God, who keeps covenant and loving kindness to a thousand generations with those who love him and keep his commandments, and repays those who hate him to their face, to destroy them. He will not be slack to him who hates him. He will repay him to his face."
     },
     {
-      "id": "5.30.19",
-      "ref": "Deuteronomy 30:19",
-      "text": "I call heaven and earth to witness against you today that I have set before you life and death, the blessing and the curse. Therefore choose life, that you may live, you and your descendants,"
+      "id": "5.30.19-20",
+      "ref": "Deuteronomy 30:19-20",
+      "text": "I call heaven and earth to witness against you today that I have set before you life and death, the blessing and the curse. Therefore choose life, that you may live, you and your descendants, to love the LORD your God, to obey his voice, and to cling to him; for he is your life, and the length of your days, that you may dwell in the land which the LORD swore to your fathers, to Abraham, to Isaac, and to Jacob, to give them."
     },
     {
       "id": "5.31.6",
@@ -380,9 +380,9 @@ var DATA = {
       "text": "Also delight yourself in the LORD, and he will give you the desires of your heart."
     },
     {
-      "id": "19.37.5",
-      "ref": "Psalms 37:5",
-      "text": "Commit your way to the LORD. Trust also in him, and he will do this:"
+      "id": "19.37.5-6",
+      "ref": "Psalms 37:5-6",
+      "text": "Commit your way to the LORD. Trust also in him, and he will do this: he will make your righteousness shine out like light, and your justice as the noon day sun."
     },
     {
       "id": "19.37.7",
@@ -390,9 +390,9 @@ var DATA = {
       "text": "Rest in the LORD, and wait patiently for him. Don’t fret because of him who prospers in his way, because of the man who makes wicked plots happen."
     },
     {
-      "id": "19.40.1",
-      "ref": "Psalms 40:1",
-      "text": "I waited patiently for the LORD. He turned to me, and heard my cry."
+      "id": "19.40.1-2",
+      "ref": "Psalms 40:1-2",
+      "text": "I waited patiently for the LORD. He turned to me, and heard my cry. He brought me up also out of a horrible pit, out of the miry clay. He set my feet on a rock, and gave me a firm place to stand."
     },
     {
       "id": "19.42.1",
@@ -470,9 +470,9 @@ var DATA = {
       "text": "He who dwells in the secret place of the Most High will rest in the shadow of the Almighty. I will say of the LORD, “He is my refuge and my fortress; my God, in whom I trust.”"
     },
     {
-      "id": "19.91.11",
-      "ref": "Psalms 91:11",
-      "text": "For he will put his angels in charge of you, to guard you in all your ways."
+      "id": "19.91.11-12",
+      "ref": "Psalms 91:11-12",
+      "text": "For he will put his angels in charge of you, to guard you in all your ways. They will bear you up in their hands, so that you won’t dash your foot against a stone."
     },
     {
       "id": "19.94.19",
@@ -485,9 +485,9 @@ var DATA = {
       "text": "Enter into his gates with thanksgiving, and into his courts with praise. Give thanks to him, and bless his name. For the LORD is good. His loving kindness endures forever, his faithfulness to all generations."
     },
     {
-      "id": "19.103.2-3",
-      "ref": "Psalms 103:2-3",
-      "text": "Praise the LORD, my soul, and don’t forget all his benefits, who forgives all your sins, who heals all your diseases,"
+      "id": "19.103.2-5",
+      "ref": "Psalms 103:2-5",
+      "text": "Praise the LORD, my soul, and don’t forget all his benefits, who forgives all your sins, who heals all your diseases, who redeems your life from destruction, who crowns you with loving kindness and tender mercies, who satisfies your desire with good things, so that your youth is renewed like the eagle’s."
     },
     {
       "id": "19.103.8",
@@ -780,9 +780,9 @@ var DATA = {
       "text": "You will keep whoever’s mind is steadfast in perfect peace, because he trusts in you."
     },
     {
-      "id": "23.30.15",
-      "ref": "Isaiah 30:15",
-      "text": "For thus said the Lord GOD, the Holy One of Israel, “You will be saved in returning and rest. Your strength will be in quietness and in confidence.” You refused,"
+      "id": "23.30.15-16",
+      "ref": "Isaiah 30:15-16",
+      "text": "For thus said the Lord GOD, the Holy One of Israel, “You will be saved in returning and rest. Your strength will be in quietness and in confidence.” You refused, but you said, “No, for we will flee on horses;” therefore you will flee; and, “We will ride on the swift;” therefore those who pursue you will be swift."
     },
     {
       "id": "23.30.21",
@@ -790,9 +790,9 @@ var DATA = {
       "text": "and when you turn to the right hand, and when you turn to the left, your ears will hear a voice behind you, saying, “This is the way. Walk in it.”"
     },
     {
-      "id": "23.32.17",
-      "ref": "Isaiah 32:17",
-      "text": "The work of righteousness will be peace, and the effect of righteousness, quietness and confidence forever."
+      "id": "23.32.17-19",
+      "ref": "Isaiah 32:17-19",
+      "text": "The work of righteousness will be peace, and the effect of righteousness, quietness and confidence forever. My people will live in a peaceful habitation, in safe dwellings, and in quiet resting places, though hail flattens the forest, and the city is leveled completely."
     },
     {
       "id": "23.40.8",
@@ -835,9 +835,9 @@ var DATA = {
       "text": "When you pass through the waters, I will be with you, and through the rivers, they will not overflow you. When you walk through the fire, you will not be burned, and flame will not scorch you."
     },
     {
-      "id": "23.43.19",
-      "ref": "Isaiah 43:19",
-      "text": "Behold, I will do a new thing. It springs out now. Don’t you know it? I will even make a way in the wilderness, and rivers in the desert."
+      "id": "23.43.19-21",
+      "ref": "Isaiah 43:19-21",
+      "text": "Behold, I will do a new thing. It springs out now. Don’t you know it? I will even make a way in the wilderness, and rivers in the desert. The animals of the field, the jackals and the ostriches, shall honor me, because I give water in the wilderness and rivers in the desert, to give drink to my people, my chosen, the people which I formed for myself, that they might declare my praise."
     },
     {
       "id": "23.46.4",
@@ -875,9 +875,9 @@ var DATA = {
       "text": "and the LORD will guide you continually, satisfy your soul in dry places, and make your bones strong. You will be like a watered garden, and like a spring of water whose waters don’t fail."
     },
     {
-      "id": "23.61.1",
-      "ref": "Isaiah 61:1",
-      "text": "The Lord GOD’s Spirit is on me, because the LORD has anointed me to preach good news to the humble. He has sent me to bind up the broken hearted, to proclaim liberty to the captives and release to those who are bound,"
+      "id": "23.61.10",
+      "ref": "Isaiah 61:10",
+      "text": "I will greatly rejoice in the LORD! My soul will be joyful in my God, for he has clothed me with the garments of salvation. He has covered me with the robe of righteousness, as a bridegroom decks himself with a garland and as a bride adorns herself with her jewels."
     },
     {
       "id": "23.64.8",
@@ -920,9 +920,9 @@ var DATA = {
       "text": "For I know the thoughts that I think toward you,” says the LORD, “thoughts of peace, and not of evil, to give you hope and a future."
     },
     {
-      "id": "24.29.12-13",
-      "ref": "Jeremiah 29:12-13",
-      "text": "You shall call on me, and you shall go and pray to me, and I will listen to you. You shall seek me and find me, when you search for me with all your heart."
+      "id": "24.29.12-14",
+      "ref": "Jeremiah 29:12-14",
+      "text": "You shall call on me, and you shall go and pray to me, and I will listen to you. You shall seek me and find me, when you search for me with all your heart. I will be found by you,” says the LORD, “and I will turn again your captivity, and I will gather you from all the nations, and from all the places where I have driven you,” says the LORD. “I will bring you again to the place from where I caused you to be carried away captive.”"
     },
     {
       "id": "24.31.3",
@@ -1075,9 +1075,9 @@ var DATA = {
       "text": "Even so, let your light shine before men, that they may see your good works and glorify your Father who is in heaven."
     },
     {
-      "id": "40.5.44",
-      "ref": "Matthew 5:44",
-      "text": "But I tell you, love your enemies, bless those who curse you, do good to those who hate you, and pray for those who mistreat you and persecute you,"
+      "id": "40.5.44-45",
+      "ref": "Matthew 5:44-45",
+      "text": "But I tell you, love your enemies, bless those who curse you, do good to those who hate you, and pray for those who mistreat you and persecute you, that you may be children of your Father who is in heaven. For he makes his sun to rise on the evil and the good, and sends rain on the just and the unjust."
     },
     {
       "id": "40.6.19-21",
@@ -1425,9 +1425,9 @@ var DATA = {
       "text": "that they should seek the Lord, if perhaps they might reach out for him and find him, though he is not far from each one of us. ‘For in him we live, move, and have our being.’ As some of your own poets have said, ‘For we are also his offspring.’"
     },
     {
-      "id": "44.20.35",
-      "ref": "Acts 20:35",
-      "text": "In all things I gave you an example, that so laboring you ought to help the weak, and to remember the words of the Lord Jesus, that he himself said, ‘It is more blessed to give than to receive.’ ”"
+      "id": "44.20.35-36",
+      "ref": "Acts 20:35-36",
+      "text": "In all things I gave you an example, that so laboring you ought to help the weak, and to remember the words of the Lord Jesus, that he himself said, ‘It is more blessed to give than to receive.’ ” When he had spoken these things, he knelt down and prayed with them all."
     },
     {
       "id": "45.1.16",
@@ -1435,14 +1435,9 @@ var DATA = {
       "text": "For I am not ashamed of the Good News of Christ, because it is the power of God for salvation for everyone who believes, for the Jew first, and also for the Greek."
     },
     {
-      "id": "45.3.23-24",
-      "ref": "Romans 3:23-24",
-      "text": "for all have sinned, and fall short of the glory of God; being justified freely by his grace through the redemption that is in Christ Jesus,"
-    },
-    {
-      "id": "45.5.1",
-      "ref": "Romans 5:1",
-      "text": "Being therefore justified by faith, we have peace with God through our Lord Jesus Christ;"
+      "id": "45.5.1-2",
+      "ref": "Romans 5:1-2",
+      "text": "Being therefore justified by faith, we have peace with God through our Lord Jesus Christ; through whom we also have our access by faith into this grace in which we stand. We rejoice in hope of the glory of God."
     },
     {
       "id": "45.5.3-5",
@@ -1515,14 +1510,9 @@ var DATA = {
       "text": "Don’t be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what is the good, well-pleasing, and perfect will of God."
     },
     {
-      "id": "45.12.9-10",
-      "ref": "Romans 12:9-10",
-      "text": "Let love be without hypocrisy. Abhor that which is evil. Cling to that which is good. In love of the brothers be tenderly affectionate to one another; in honor prefer one another,"
-    },
-    {
-      "id": "45.12.12",
-      "ref": "Romans 12:12",
-      "text": "rejoicing in hope, enduring in troubles, continuing steadfastly in prayer,"
+      "id": "45.12.9-13",
+      "ref": "Romans 12:9-13",
+      "text": "Let love be without hypocrisy. Abhor that which is evil. Cling to that which is good. In love of the brothers be tenderly affectionate to one another; in honor prefer one another, not lagging in diligence, fervent in spirit, serving the Lord, rejoicing in hope, enduring in troubles, continuing steadfastly in prayer, contributing to the needs of the saints, and given to hospitality."
     },
     {
       "id": "45.12.21",
@@ -1580,9 +1570,9 @@ var DATA = {
       "text": "For as the body is one and has many members, and all the members of the body, being many, are one body; so also is Christ."
     },
     {
-      "id": "46.13.4-5",
-      "ref": "1 Corinthians 13:4-5",
-      "text": "Love is patient and is kind. Love doesn’t envy. Love doesn’t brag, is not proud, doesn’t behave itself inappropriately, doesn’t seek its own way, is not provoked, takes no account of evil;"
+      "id": "46.13.4-6",
+      "ref": "1 Corinthians 13:4-6",
+      "text": "Love is patient and is kind. Love doesn’t envy. Love doesn’t brag, is not proud, doesn’t behave itself inappropriately, doesn’t seek its own way, is not provoked, takes no account of evil; doesn’t rejoice in unrighteousness, but rejoices with the truth;"
     },
     {
       "id": "46.13.7",
@@ -1655,9 +1645,9 @@ var DATA = {
       "text": "And God is able to make all grace abound to you, that you, always having all sufficiency in everything, may abound to every good work."
     },
     {
-      "id": "47.10.5",
-      "ref": "2 Corinthians 10:5",
-      "text": "throwing down imaginations and every high thing that is exalted against the knowledge of God and bringing every thought into captivity to the obedience of Christ,"
+      "id": "47.10.5-6",
+      "ref": "2 Corinthians 10:5-6",
+      "text": "throwing down imaginations and every high thing that is exalted against the knowledge of God and bringing every thought into captivity to the obedience of Christ, and being in readiness to avenge all disobedience when your obedience is made full."
     },
     {
       "id": "47.12.9",
@@ -1705,11 +1695,6 @@ var DATA = {
       "text": "Let’s not be weary in doing good, for we will reap in due season if we don’t give up."
     },
     {
-      "id": "49.1.3",
-      "ref": "Ephesians 1:3",
-      "text": "Blessed be the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenly places in Christ,"
-    },
-    {
       "id": "49.2.8-9",
       "ref": "Ephesians 2:8-9",
       "text": "for by grace you have been saved through faith, and that not of yourselves; it is the gift of God, not of works, that no one would boast."
@@ -1720,14 +1705,14 @@ var DATA = {
       "text": "For we are his workmanship, created in Christ Jesus for good works, which God prepared before that we would walk in them."
     },
     {
-      "id": "49.3.16-17",
-      "ref": "Ephesians 3:16-17",
-      "text": "that he would grant you, according to the riches of his glory, that you may be strengthened with power through his Spirit in the inner person, that Christ may dwell in your hearts through faith, to the end that you, being rooted and grounded in love,"
+      "id": "49.3.16-19",
+      "ref": "Ephesians 3:16-19",
+      "text": "that he would grant you, according to the riches of his glory, that you may be strengthened with power through his Spirit in the inner person, that Christ may dwell in your hearts through faith, to the end that you, being rooted and grounded in love, may be strengthened to comprehend with all the saints what is the width and length and height and depth, and to know Christ’s love which surpasses knowledge, that you may be filled with all the fullness of God."
     },
     {
-      "id": "49.3.20",
-      "ref": "Ephesians 3:20",
-      "text": "Now to him who is able to do exceedingly abundantly above all that we ask or think, according to the power that works in us,"
+      "id": "49.3.20-21",
+      "ref": "Ephesians 3:20-21",
+      "text": "Now to him who is able to do exceedingly abundantly above all that we ask or think, according to the power that works in us, to him be the glory in the assembly and in Christ Jesus to all generations, forever and ever. Amen."
     },
     {
       "id": "49.4.2-3",
@@ -1750,9 +1735,9 @@ var DATA = {
       "text": "Be therefore imitators of God, as beloved children. Walk in love, even as Christ also loved us and gave himself up for us, an offering and a sacrifice to God for a sweet-smelling fragrance."
     },
     {
-      "id": "49.5.20",
-      "ref": "Ephesians 5:20",
-      "text": "giving thanks always concerning all things in the name of our Lord Jesus Christ to God, even the Father;"
+      "id": "49.5.20-21",
+      "ref": "Ephesians 5:20-21",
+      "text": "giving thanks always concerning all things in the name of our Lord Jesus Christ to God, even the Father; subjecting yourselves to one another in the fear of Christ."
     },
     {
       "id": "49.6.10",
@@ -1850,9 +1835,9 @@ var DATA = {
       "text": "Whatever you do, in word or in deed, do all in the name of the Lord Jesus, giving thanks to God the Father through him."
     },
     {
-      "id": "51.3.23",
-      "ref": "Colossians 3:23",
-      "text": "And whatever you do, work heartily, as for the Lord and not for men,"
+      "id": "51.3.23-24",
+      "ref": "Colossians 3:23-24",
+      "text": "And whatever you do, work heartily, as for the Lord and not for men, knowing that from the Lord you will receive the reward of the inheritance; for you serve the Lord Christ."
     },
     {
       "id": "52.4.16-17",
@@ -1890,9 +1875,9 @@ var DATA = {
       "text": "Now may the Lord of peace himself give you peace at all times in all ways. The Lord be with you all."
     },
     {
-      "id": "54.2.5",
-      "ref": "1 Timothy 2:5",
-      "text": "For there is one God and one mediator between God and men, the man Christ Jesus,"
+      "id": "54.2.5-7",
+      "ref": "1 Timothy 2:5-7",
+      "text": "For there is one God and one mediator between God and men, the man Christ Jesus, who gave himself as a ransom for all, the testimony at the proper time, to which I was appointed a preacher and an apostle—I am telling the truth in Christ, not lying—a teacher of the Gentiles in faith and truth."
     },
     {
       "id": "54.4.12",
@@ -1915,9 +1900,9 @@ var DATA = {
       "text": "For God didn’t give us a spirit of fear, but of power, love, and self-control."
     },
     {
-      "id": "55.1.9",
-      "ref": "2 Timothy 1:9",
-      "text": "who saved us and called us with a holy calling, not according to our works, but according to his own purpose and grace, which was given to us in Christ Jesus before times eternal,"
+      "id": "55.1.9-11",
+      "ref": "2 Timothy 1:9-11",
+      "text": "who saved us and called us with a holy calling, not according to our works, but according to his own purpose and grace, which was given to us in Christ Jesus before times eternal, but has now been revealed by the appearing of our Savior, Christ Jesus, who abolished death, and brought life and immortality to light through the Good News. For this I was appointed as a preacher, an apostle, and a teacher of the Gentiles."
     },
     {
       "id": "55.2.15",
@@ -1935,14 +1920,14 @@ var DATA = {
       "text": "I have fought the good fight. I have finished the course. I have kept the faith."
     },
     {
-      "id": "56.2.11-12",
-      "ref": "Titus 2:11-12",
-      "text": "For the grace of God has appeared, bringing salvation to all men, instructing us to the intent that, denying ungodliness and worldly lusts, we would live soberly, righteously, and godly in this present age;"
+      "id": "56.2.11-14",
+      "ref": "Titus 2:11-14",
+      "text": "For the grace of God has appeared, bringing salvation to all men, instructing us to the intent that, denying ungodliness and worldly lusts, we would live soberly, righteously, and godly in this present age; looking for the blessed hope and appearing of the glory of our great God and Savior, Jesus Christ, who gave himself for us, that he might redeem us from all iniquity and purify for himself a people for his own possession, zealous for good works."
     },
     {
-      "id": "56.3.5",
-      "ref": "Titus 3:5",
-      "text": "not by works of righteousness which we did ourselves, but according to his mercy, he saved us through the washing of regeneration and renewing by the Holy Spirit,"
+      "id": "56.3.5-7",
+      "ref": "Titus 3:5-7",
+      "text": "not by works of righteousness which we did ourselves, but according to his mercy, he saved us through the washing of regeneration and renewing by the Holy Spirit, whom he poured out on us richly through Jesus Christ our Savior; that being justified by his grace, we might be made heirs according to the hope of eternal life."
     },
     {
       "id": "58.4.12",
@@ -1955,9 +1940,9 @@ var DATA = {
       "text": "Let’s therefore draw near with boldness to the throne of grace, that we may receive mercy and may find grace for help in time of need."
     },
     {
-      "id": "58.6.19",
-      "ref": "Hebrews 6:19",
-      "text": "This hope we have as an anchor of the soul, a hope both sure and steadfast and entering into that which is within the veil,"
+      "id": "58.6.19-20",
+      "ref": "Hebrews 6:19-20",
+      "text": "This hope we have as an anchor of the soul, a hope both sure and steadfast and entering into that which is within the veil, where as a forerunner Jesus entered for us, having become a high priest forever after the order of Melchizedek."
     },
     {
       "id": "58.10.23",
@@ -2050,14 +2035,9 @@ var DATA = {
       "text": "Confess your sins to one another and pray for one another, that you may be healed. The insistent prayer of a righteous person is powerfully effective."
     },
     {
-      "id": "60.1.3",
-      "ref": "1 Peter 1:3",
-      "text": "Blessed be the God and Father of our Lord Jesus Christ, who according to his great mercy caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead,"
-    },
-    {
-      "id": "60.1.6-7",
-      "ref": "1 Peter 1:6-7",
-      "text": "In this you greatly rejoice, though now for a little while, if need be, you have been grieved in various trials, that the proof of your faith, which is more precious than gold that perishes, even though it is tested by fire, may be found to result in praise, glory, and honor at the revelation of Jesus Christ—"
+      "id": "60.1.3-5",
+      "ref": "1 Peter 1:3-5",
+      "text": "Blessed be the God and Father of our Lord Jesus Christ, who according to his great mercy caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead, to an incorruptible and undefiled inheritance that doesn’t fade away, reserved in Heaven for you, who by the power of God are guarded through faith for a salvation ready to be revealed in the last time."
     },
     {
       "id": "60.2.9",
@@ -2070,9 +2050,9 @@ var DATA = {
       "text": "He himself bore our sins in his body on the tree, that we, having died to sins, might live to righteousness. You were healed by his wounds."
     },
     {
-      "id": "60.3.15",
-      "ref": "1 Peter 3:15",
-      "text": "But sanctify the Lord God in your hearts. Always be ready to give an answer to everyone who asks you a reason concerning the hope that is in you, with humility and fear,"
+      "id": "60.3.15-16",
+      "ref": "1 Peter 3:15-16",
+      "text": "But sanctify the Lord God in your hearts. Always be ready to give an answer to everyone who asks you a reason concerning the hope that is in you, with humility and fear, having a good conscience. Thus, while you are spoken against as evildoers, they may be disappointed who curse your good way of life in Christ."
     },
     {
       "id": "60.4.8",
@@ -2100,9 +2080,9 @@ var DATA = {
       "text": "But may the God of all grace, who called you to his eternal glory by Christ Jesus, after you have suffered a little while, perfect, establish, strengthen, and settle you."
     },
     {
-      "id": "61.1.3",
-      "ref": "2 Peter 1:3",
-      "text": "seeing that his divine power has granted to us all things that pertain to life and godliness, through the knowledge of him who called us by his own glory and virtue,"
+      "id": "61.1.3-4",
+      "ref": "2 Peter 1:3-4",
+      "text": "seeing that his divine power has granted to us all things that pertain to life and godliness, through the knowledge of him who called us by his own glory and virtue, by which he has granted to us his precious and exceedingly great promises; that through these you may become partakers of the divine nature, having escaped from the corruption that is in the world by lust."
     },
     {
       "id": "61.3.9",
