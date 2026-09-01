@@ -135,10 +135,12 @@ The Losungen are free of charge for non-commercial use, but they are **not free
 content** — paid software and commercial sites are excluded, which is
 incompatible with this program's GPL licence. So the data is never shipped here.
 Download the year file yourself from <https://www.losungen.de/digital/>, where
-you accept the terms, and import it:
+you accept the terms. Then import it — either from the widget's settings, which
+have an **Import year file…** button once the source is set to the Losungen, or
+from a terminal:
 
 ```sh
-make losungen FILE=~/Downloads/Losungen_2026.zip
+make losungen FILE=~/Downloads/Losung_2026_XML.zip
 ```
 
 That writes `~/.local/share/bible-verse-widget/losungen-<year>.json`, which both

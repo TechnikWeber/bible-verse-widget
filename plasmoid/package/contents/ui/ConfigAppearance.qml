@@ -1,9 +1,11 @@
+import QtCore
 import QtQuick
 import QtQuick.Controls as Controls
 import QtQuick.Dialogs as Dialogs
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 import org.kde.kcmutils as KCM
+import org.kde.plasma.plasma5support as P5Support
 
 KCM.SimpleKCM {
     id: page
@@ -32,20 +34,50 @@ KCM.SimpleKCM {
             ]
             textRole: "label"
             valueRole: "value"
+            currentIndex: Math.max(0, indexOfValue(cfg_source))
             onActivated: cfg_source = currentValue
-            Component.onCompleted: currentIndex = indexOfValue(cfg_source)
         }
 
-        Controls.Label {
-            Kirigami.FormData.label: ""
+        ColumnLayout {
+            Kirigami.FormData.label: i18n("Losungen file:")
             visible: cfg_source === "losungen"
-            Layout.maximumWidth: Kirigami.Units.gridUnit * 20
-            wrapMode: Text.WordWrap
-            font: Kirigami.Theme.smallFont
-            text: i18n("The Losungen are free for non-commercial use only, so they "
-                     + "are not shipped with this widget. Download the year file "
-                     + "from losungen.de and import it with "
-                     + "tools/import_losungen.py.")
+            Layout.maximumWidth: Kirigami.Units.gridUnit * 24
+            spacing: Kirigami.Units.smallSpacing
+
+            Controls.Label {
+                Layout.fillWidth: true
+                wrapMode: Text.WordWrap
+                font: Kirigami.Theme.smallFont
+                text: i18n("The Losungen are free for non-commercial use only, so "
+                         + "they are not shipped with this widget. Download the year "
+                         + "file from losungen.de, then import it here. Repeat once "
+                         + "a year.")
+            }
+
+            RowLayout {
+                Controls.Button {
+                    icon.name: "document-import"
+                    text: i18n("Import year file…")
+                    enabled: !importer.running
+                    onClicked: fileDialog.open()
+                }
+
+                Controls.Button {
+                    icon.name: "internet-web-browser"
+                    text: i18n("Open losungen.de")
+                    onClicked: Qt.openUrlExternally("https://www.losungen.de/digital/")
+                }
+            }
+
+            Controls.Label {
+                Layout.fillWidth: true
+                visible: text !== ""
+                wrapMode: Text.WordWrap
+                font: Kirigami.Theme.smallFont
+                color: importer.failed ? Kirigami.Theme.negativeTextColor
+                                       : Kirigami.Theme.positiveTextColor
+                text: importer.message
+            }
         }
 
         Controls.ComboBox {
@@ -59,8 +91,8 @@ KCM.SimpleKCM {
             ]
             textRole: "label"
             valueRole: "value"
+            currentIndex: Math.max(0, indexOfValue(cfg_language))
             onActivated: cfg_language = currentValue
-            Component.onCompleted: currentIndex = indexOfValue(cfg_language)
         }
 
         Controls.CheckBox {
@@ -80,8 +112,8 @@ KCM.SimpleKCM {
             ]
             textRole: "label"
             valueRole: "value"
+            currentIndex: Math.max(0, indexOfValue(cfg_fontSizeMode))
             onActivated: cfg_fontSizeMode = currentValue
-            Component.onCompleted: currentIndex = indexOfValue(cfg_fontSizeMode)
         }
 
         Controls.SpinBox {
@@ -124,8 +156,8 @@ KCM.SimpleKCM {
             ]
             textRole: "label"
             valueRole: "value"
+            currentIndex: Math.max(0, indexOfValue(cfg_alignment))
             onActivated: cfg_alignment = currentValue
-            Component.onCompleted: currentIndex = indexOfValue(cfg_alignment)
         }
 
         Controls.ComboBox {
@@ -137,8 +169,8 @@ KCM.SimpleKCM {
             ]
             textRole: "label"
             valueRole: "value"
+            currentIndex: Math.max(0, indexOfValue(cfg_backgroundMode))
             onActivated: cfg_backgroundMode = currentValue
-            Component.onCompleted: currentIndex = indexOfValue(cfg_backgroundMode)
         }
 
         RowLayout {
@@ -163,6 +195,51 @@ KCM.SimpleKCM {
                     radius: 2
                 }
             }
+        }
+    }
+
+    Dialogs.FileDialog {
+        id: fileDialog
+        title: i18n("Select the Losungen year file")
+        currentFolder: StandardPaths.writableLocation(StandardPaths.DownloadLocation)
+        nameFilters: [
+            i18n("Losungen file (*.zip *.xml)"),
+            i18n("All files (*)")
+        ]
+        onAccepted: importer.run(selectedFile)
+    }
+
+    /* Runs the importer that ships inside this package. A plasmoid has no other
+     * way to touch the file system, and the importer is a plain script so that
+     * it can also be used from a terminal. */
+    P5Support.DataSource {
+        id: importer
+
+        property bool running: false
+        property bool failed: false
+        property string message: ""
+
+        engine: "executable"
+        connectedSources: []
+
+        function run(fileUrl) {
+            var path = fileUrl.toString().replace(/^file:\/\//, "");
+            var script = Qt.resolvedUrl("../code/import_losungen.py")
+                .toString().replace(/^file:\/\//, "");
+            running = true;
+            failed = false;
+            message = i18n("Importing…");
+            connectSource('python3 "' + script + '" "' + decodeURIComponent(path) + '"');
+        }
+
+        onNewData: function (name, data) {
+            disconnectSource(name);
+            running = false;
+            failed = data["exit code"] !== 0;
+            var output = (data["stderr"] || data["stdout"] || "").trim();
+            message = failed
+                ? i18n("Import failed: %1", output.split("\n").pop())
+                : i18n("Imported. %1", output.split("\n")[0].trim());
         }
     }
 

@@ -13,6 +13,24 @@
         },
         "tooltip": "The Losungen are free for non-commercial use only and are not shipped with this desklet. Download the year file from losungen.de and import it with tools/import_losungen.py."
     },
+    "losungen-file": {
+        "type": "filechooser",
+        "default": "",
+        "description": "Losungen year file",
+        "tooltip": "The ZIP or XML you downloaded from losungen.de.",
+        "dependency": "source=losungen"
+    },
+    "losungen-import": {
+        "type": "button",
+        "description": "Import the selected file",
+        "callback": "onImportLosungen",
+        "dependency": "source=losungen"
+    },
+    "losungen-status": {
+        "type": "label",
+        "description": "The Losungen are free for non-commercial use only and are not shipped with this desklet. Download the year file from losungen.de, select it above and import it. Repeat once a year.",
+        "dependency": "source=losungen"
+    },
     "language": {
         "type": "combobox",
         "default": "auto",

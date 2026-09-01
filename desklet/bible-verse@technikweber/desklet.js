@@ -28,6 +28,7 @@ const Pango = imports.gi.Pango;
 const St = imports.gi.St;
 
 const Gettext = imports.gettext;
+const Main = imports.ui.main;
 const Mainloop = imports.mainloop;
 
 const UUID = "bible-verse@technikweber";
@@ -90,6 +91,7 @@ BibleVerseDesklet.prototype = {
         this.settings = new Settings.DeskletSettings(this, UUID, deskletId);
         const redraw = {
             "source": "source",
+            "losungen-file": "losungen_file",
             "language": "language",
             "show-reference": "show_reference",
             "width": "desklet_width",
@@ -338,6 +340,36 @@ BibleVerseDesklet.prototype = {
         }
         St.Clipboard.get_default().set_text(St.ClipboardType.CLIPBOARD, this._plainText);
         return Clutter.EVENT_STOP;
+    },
+
+    /* Settings button: runs the importer that ships inside this desklet. */
+    onImportLosungen: function () {
+        const file = (this.losungen_file || "").replace(/^file:\/\//, "");
+        if (!file) {
+            this._notifyImport(_("Select the downloaded Losungen file first."));
+            return;
+        }
+        const script = DESKLET_DIR + "/import_losungen.py";
+        try {
+            const [ok, out, err, status] = GLib.spawn_sync(
+                null, ["python3", script, decodeURIComponent(file)], null,
+                GLib.SpawnFlags.SEARCH_PATH, null);
+            const message = decode(err).trim() || decode(out).trim();
+            if (!ok || status !== 0) {
+                throw new Error(message || "exit status " + status);
+            }
+            this._losungen = null;      /* force a re-read */
+            this._losungenYear = 0;
+            this._refresh();
+            this._notifyImport(message.split("\n")[0].trim());
+        } catch (error) {
+            global.logError("[" + UUID + "] " + error);
+            this._notifyImport(_("Import failed: ") + error.message);
+        }
+    },
+
+    _notifyImport: function (text) {
+        Main.notify(_("Bible Verse"), text);
     },
 
     on_desklet_removed: function () {

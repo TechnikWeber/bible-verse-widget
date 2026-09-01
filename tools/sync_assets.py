@@ -31,6 +31,7 @@ TARGETS = [
 
 
 PLASMOID_UI = ROOT / "plasmoid" / "package" / "contents" / "ui"
+PLASMOID_CODE = ROOT / "plasmoid" / "package" / "contents" / "code"
 DESKLET_DIR = ROOT / "desklet" / DESKLET_UUID
 
 
@@ -53,9 +54,14 @@ def qml_module(source: Path) -> str:
 def contents() -> list[tuple[Path, bytes]]:
     """Every generated file and the bytes it must contain."""
     selection = (ROOT / "shared" / "selection.js").read_bytes()
+    # The importer ships inside both packages so that the "import Losungen"
+    # button works from an installed widget, with no checkout present.
+    importer = (ROOT / "tools" / "import_losungen.py").read_bytes()
     result = [
         (PLASMOID_UI / "selection.js", selection),
         (DESKLET_DIR / "selection.js", selection),
+        (PLASMOID_CODE / "import_losungen.py", importer),
+        (DESKLET_DIR / "import_losungen.py", importer),
     ]
     for source in verse_files():
         lang = source.stem

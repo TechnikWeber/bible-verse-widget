@@ -143,11 +143,14 @@ als Antwort darauf auswählt.
 Die Losungen sind für nicht-kommerzielle Nutzung kostenfrei, aber **kein freier
 Inhalt** — kostenpflichtige Software und kommerzielle Seiten sind ausgeschlossen,
 was mit der GPL dieses Programms unvereinbar ist. Die Daten liegen deshalb nicht
-hier. Lade die Jahresdatei selbst unter <https://www.losungen.de/digital/>
-herunter, wo du die Nutzungsbedingungen akzeptierst, und importiere sie:
+hier. Lade die Jahresdatei selbst unter <https://www.losungen.de/digital/> herunter,
+wo du die Nutzungsbedingungen akzeptierst. Importieren kannst du sie dann
+entweder in den Einstellungen des Widgets — dort gibt es einen Knopf
+**Jahresdatei einspielen…**, sobald die Quelle auf die Losungen steht — oder im
+Terminal:
 
 ```sh
-make losungen FILE=~/Downloads/Losungen_2026.zip
+make losungen FILE=~/Downloads/Losung_2026_XML.zip
 ```
 
 Das schreibt `~/.local/share/bible-verse-widget/losungen-<Jahr>.json`, das beide
