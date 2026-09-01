@@ -36,7 +36,16 @@ Frontend wäre also später günstig zu ergänzen.
 make install-plasmoid
 ```
 
-Dann Rechtsklick auf den Desktop → *Widgets hinzufügen…* → **Bibelvers**.
+Dann Rechtsklick auf den Desktop → *Bearbeitungsmodus* → oben in der Leiste
+*Miniprogramme hinzufügen oder verwalten …* → **Bibelvers**.
+
+Plasma 6 hat das hinter den Bearbeitungsmodus verschoben; im Rechtsklickmenü
+der Arbeitsfläche gibt es keinen Eintrag *Widgets hinzufügen…* mehr. Und KDE
+nennt Widgets auf Deutsch *Miniprogramme*. Wer die Menüs überspringen möchte:
+
+```sh
+qdbus6 org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.toggleWidgetExplorer
+```
 
 ### Cinnamon
 

@@ -34,7 +34,15 @@ shared, so adding a third frontend later is cheap.
 make install-plasmoid
 ```
 
-Then right-click the desktop → *Add Widgets…* → **Bible Verse**.
+Then right-click the desktop → *Enter Edit Mode* → *Add or Manage Widgets…* in
+the toolbar at the top → **Bible Verse**.
+
+Plasma 6 moved this behind edit mode; there is no *Add Widgets…* entry in the
+desktop context menu any more. If you would rather skip the menus:
+
+```sh
+qdbus6 org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.toggleWidgetExplorer
+```
 
 ### Cinnamon
 
