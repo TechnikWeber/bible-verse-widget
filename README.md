@@ -159,6 +159,6 @@ make dist     # build the store packages
 Generated files are committed, because the KDE Store and cinnamon-spices
 distribute self-contained packages. `make check` fails if they are stale.
 
-## Licence
+## License
 
 [GPL-3.0-or-later](LICENSE). The Bible texts are in the public domain.
