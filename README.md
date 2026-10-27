@@ -1,5 +1,3 @@
-**English** · [Deutsch](README.de.md)
-
 # Bible Verse Widget
 
 A Bible verse for every day, sitting directly on your desktop — no window to
