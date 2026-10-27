@@ -1,5 +1,13 @@
 # Bible Verse Widget
 
+<p>
+  <img alt="Status: stable" src="https://img.shields.io/badge/status-stable-brightgreen">
+  <a href="https://github.com/TechnikWeber/bible-verse-widget/actions/workflows/ci.yml"><img alt="tests" src="https://img.shields.io/github/actions/workflow/status/TechnikWeber/bible-verse-widget/ci.yml?branch=main&label=tests"></a>
+  <img alt="Platform: KDE Plasma | Cinnamon" src="https://img.shields.io/badge/platform-KDE%20Plasma%20%7C%20Cinnamon-blue">
+  <img alt="Verses: Deutsch, English, Español" src="https://img.shields.io/badge/verses-Deutsch%20%7C%20English%20%7C%20Espa%C3%B1ol-informational">
+  <a href="LICENSE"><img alt="License: GPL-3.0-or-later" src="https://img.shields.io/badge/license-GPL--3.0--or--later-green"></a>
+</p>
+
 A Bible verse for every day, sitting directly on your desktop — no window to
 open, no account, no network.
 
