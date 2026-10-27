@@ -127,18 +127,13 @@ def load_getbible(cfg: dict) -> tuple[dict, dict]:
 
 
 def german_book_names() -> dict[int, str]:
-    """Book names from the Schlachter text — one small request per book."""
-    cached = CACHE / "book-names-de.json"
-    if cached.exists():
-        return {int(k): v for k, v in json.loads(cached.read_text("utf-8")).items()}
-    print("  fetching German book names", file=sys.stderr)
-    names = {}
-    for book_id in range(1, 67):
-        url = f"{GETBIBLE}/schlachter/{book_id}/1.json"
-        names[book_id] = json.loads(fetch(url, timeout=30))["book_name"]
-    cached.parent.mkdir(parents=True, exist_ok=True)
-    cached.write_text(json.dumps(names, ensure_ascii=False, indent=2), "utf-8")
-    return names
+    """German book names (Schlachter style: "1. Mose", "Psalm" ...), kept in the repo.
+
+    They used to be fetched from getbible.net, which in October 2026 started to
+    return Latin names ("Genesis") for the German texts.
+    """
+    names = json.loads((ROOT / "tools" / "book-names-de.json").read_text("utf-8"))
+    return {int(k): v for k, v in names.items()}
 
 
 def parse_references(english_names: dict[int, str]) -> list[tuple[int, int, int, int]]:
