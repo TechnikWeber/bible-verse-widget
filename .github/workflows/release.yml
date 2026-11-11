@@ -1,0 +1,42 @@
+# On a version tag: run the checks, build the KDE .plasmoid and the Cinnamon desklet zip,
+# and publish both with SHA256SUMS as a release. The tag must match the version in both
+# metadata.json files.
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Tag matches the widget version
+        run: |
+          v=${GITHUB_REF_NAME#v}
+          grep -q "\"Version\": \"$v\"" plasmoid/package/metadata.json
+          grep -q "\"version\": \"$v\"" desklet/*/metadata.json
+      - run: make check
+      - run: make dist
+      - name: Checksums
+        working-directory: dist
+        run: sha256sum * > SHA256SUMS && cat SHA256SUMS
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" dist/* --title "$GITHUB_REF_NAME" \
+            --notes "**KDE Plasma 6:** download \`com.technikweber.bibleverse.plasmoid\`, then Edit Mode › Add or Manage Widgets… › Get New Widgets… › Install Widget From Local File…
+          **Cinnamon:** download \`bible-verse@technikweber.zip\` and unpack it into \`~/.local/share/cinnamon/desklets/\`, then System Settings › Desklets › Bible Verse › Add to desktop.
+
+          See the [README](https://github.com/TechnikWeber/bible-verse-widget#readme) for what it does."
