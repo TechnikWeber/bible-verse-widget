@@ -2,12 +2,20 @@
 
 <p>
   <img alt="Status: stable" src="https://img.shields.io/badge/status-stable-brightgreen">
-  <a href="https://github.com/TechnikWeber/bible-verse-widget/releases/latest"><img alt="Download" src="https://img.shields.io/github/v/release/TechnikWeber/bible-verse-widget?label=download&color=2ea44f"></a>
+  <a href="https://github.com/TechnikWeber/bible-verse-widget/releases/latest"><img alt="Download" src="https://img.shields.io/github/v/release/TechnikWeber/bible-verse-widget?include_prereleases&label=download&color=2ea44f"></a>
   <a href="https://github.com/TechnikWeber/bible-verse-widget/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/TechnikWeber/bible-verse-widget/total?color=blue"></a>
+  <a href="https://github.com/TechnikWeber/bible-verse-widget/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/TechnikWeber/bible-verse-widget?style=flat&color=yellow"></a>
   <a href="https://github.com/TechnikWeber/bible-verse-widget/actions/workflows/ci.yml"><img alt="tests" src="https://img.shields.io/github/actions/workflow/status/TechnikWeber/bible-verse-widget/ci.yml?branch=main&label=tests"></a>
   <img alt="Platform: KDE Plasma | Cinnamon" src="https://img.shields.io/badge/platform-KDE%20Plasma%20%7C%20Cinnamon-blue">
   <img alt="Verses: Deutsch, English, Español" src="https://img.shields.io/badge/verses-Deutsch%20%7C%20English%20%7C%20Espa%C3%B1ol-informational">
   <a href="LICENSE"><img alt="License: GPL-3.0-or-later" src="https://img.shields.io/badge/license-GPL--3.0--or--later-green"></a>
+</p>
+
+<p>
+  <a href="https://github.com/TechnikWeber/bible-verse-widget/releases/latest"><b>Download</b></a> &nbsp;·&nbsp;
+  <a href="#install"><b>Install</b></a> &nbsp;·&nbsp;
+  <a href="https://technikweber.github.io/2026/bibelvers-widget/"><b>Blog post (German)</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/TechnikWeber/bible-verse-widget/releases"><b>Releases</b></a>
 </p>
 
 A Bible verse for every day, sitting directly on your desktop — no window to
